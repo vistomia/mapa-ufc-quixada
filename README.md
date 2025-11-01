@@ -17,7 +17,12 @@ https://vistomia.github.io/mapa-ufc-quixada/
 - [x] Camada de prédios de serviços
 - [ ] Adicionar sistema de primeiro/segundo andar
 - [ ] Mapear campus inteiro
-- [ ] Adicionar camada de salas de aula
+- [x] [ ] Mapear B1
+- [ ] [ ] Mapear B2
+- [ ] [ ] Mapear B3
+- [ ] [ ] Mapear B4
+- [ ] [ ] Mapear ADM
+- [x] Adicionar camada de salas de aula
 - [ ] Adicionar camada de laboratórios
 - [ ] Adicionar alocação de salas - PDF
 - [ ] Adicionar alocação de gabinetes
