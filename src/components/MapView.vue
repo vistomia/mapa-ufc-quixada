@@ -7,13 +7,14 @@
          <LayerBuild />
          <LayerServiceBuildings />
          <LayerAcademicBuildings />
+         <LayerRoomsB1 />
       </svg>
 
       <div id="app-info" class="coordinates app-info">
          <h1>
-            >
             {{ conteudo.build }}
          </h1>
+         <p>{{ conteudo.description }}</p>
          X: {{ mouseCoords.x.toFixed(2) }},
          Y: {{ mouseCoords.y.toFixed(2) }}
       </div>
@@ -26,11 +27,11 @@ import LayerDetails from './map/LayerDetails.vue';
 import LayerDefinitions from './map/LayerDefinitions.vue';
 import LayerAcademicBuildings from './map/LayerAcademicBuildings.vue';
 import LayerServiceBuildings from './map/LayerServiceBuildings.vue';
+import LayerRoomsB1 from './map/LayerRoomsB1.vue';
 
 // Elemento SVG para obter suas dimensões na tela
 const svgElement = ref(null);
 
-// O viewBox é o "coração" do nosso sistema.
 // É uma câmera virtual sobre o SVG.
 // [x, y, largura, altura]
 const viewBox = reactive({
@@ -47,7 +48,7 @@ const viewBoxString = computed(() => {
 
 // Coordenadas do mouse dentro do sistema do SVG
 const mouseCoords = reactive({ x: 0, y: 0 });
-const conteudo = reactive({ build: '' });
+const conteudo = reactive({ build: '', description: ''});
 
 // Estado do dragging
 const isDragging = ref(false);
@@ -110,6 +111,24 @@ function handleMouseDown(event) {
 let color = 'red'
 let labela = ''
 
+const data = {
+   'ADM': 'Térreo: Restaurante Universitário\n Pavimento Superior: ADM',
+   'B1': 'Descrição do bloco 1',
+   'B2': 'Descrição do bloco 2',
+   'B3': 'Descrição do bloco 3',
+   'B4': 'Descrição do bloco 4',
+   'PETSI': 'O PET-SI é um Programa de Educação Tutorial (PET), um dos programas especiais do Ministério da Educação (MEC), realizado na Universidade Federal do Ceará campus de Quixadá. O programa visa auxiliar na melhoria do ensino de graduação, realizando atividades extracurriculares que envolvam pesquisa, ensino e extensão.',
+   'PET': 'Grupo PET TI Conexões de Saberes. Desde 2010 desenvolvendo atividades de ensino, pesquisa e extensão na UFC Campus Quixadá.',
+   'NULL': 'Local desconhecido e restrito',
+   'SECRETARIA_ACADEMICA': 'Descrição da Secretaria Acadêmica\nHorarios1,Horarios2,Horarios3',
+   'B1SALA1': 'Sala de aula 1',
+   'B1SALA2': 'Sala de aula 2',
+   'B1SALA3': 'Sala de aula 3',
+   'B1SALA4': 'Sala de aula 4',
+}
+function get_description(label) {
+   return data[label] || 'Description not found';
+}
 // Função para finalizar o dragging
 function handleMouseUp(event) {
    let label = event.target.attributes.getNamedItem('inkscape:label')
@@ -122,6 +141,7 @@ function handleMouseUp(event) {
    if (label && isClick) {
       document.getElementById('app-info').style.display = 'block';
       conteudo.build = label.value;
+      conteudo.description = get_description(label.value);
       if (event.target.tagName !== 'svg') {
          if (labela) {
             labela.style.fill = color
@@ -141,8 +161,6 @@ function handleMouseUp(event) {
    document.removeEventListener('mousemove', handleDocumentMouseMove);
    document.removeEventListener('mouseup', handleMouseUp);
 }
-
-
 
 // Função para lidar com movimento do mouse durante dragging (no documento)
 function handleDocumentMouseMove(event) {
@@ -168,6 +186,9 @@ function handleDocumentMouseMove(event) {
 
 // Função para atualizar as coordenadas do mouse
 function handleMouseMove(event) {
+   if (event.target.attributes.getNamedItem('inkscape:label')) {
+      event.target.style.cursor = 'pointer';
+   }
    if (!svgElement.value) return;
    const point = getSvgCoordinates(event);
    mouseCoords.x = point.x;
@@ -250,15 +271,17 @@ function saturateColor(color, amount) {
 </script>
 
 <style scoped>
+body {
+   overflow: hidden;
+}
+
 .map-container {
    width: 100%;
-   max-width: 100%;
 }
 
 .map-svg {
    width: 100%;
    height: 100%;
-   aspect-ratio: 1 / 1;
    background-color: #f0f0f0;
 }
 
@@ -281,7 +304,7 @@ function saturateColor(color, amount) {
    width: 25%;
    height: 100%;
    background-color: white;
-   padding: 0;
+   padding: 20px;
    border-radius: 8px;
    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }

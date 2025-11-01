@@ -1,0 +1,9 @@
+[20:48:03 2025-09-30] FETCHING Version 2.42.0
+[20:48:04 2025-09-30] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.42.0/spicetify-2.42.0-linux-amd64.tar.gz
+[20:48:05 2025-09-30] EXTRACTING /home/vistomia/.spicetify/spicetify.tar.gz
+[20:48:05 2025-09-30] SETTING EXECUTABLE PERMISSIONS TO /home/vistomia/.spicetify/spicetify
+[20:48:05 2025-09-30] REMOVING /home/vistomia/.spicetify/spicetify.tar.gz
+[20:48:05 2025-09-30] spicetify path already set in /home/vistomia/.bashrc, continuing...
+[20:48:05 2025-09-30] spicetify path already set in /home/vistomia/.bash_profile, continuing...
+[20:48:05 2025-09-30] spicetify v2.42.0 was installed successfully to /home/vistomia/.spicetify
+[20:48:05 2025-09-30] Run 'spicetify --help' to get started
