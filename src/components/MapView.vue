@@ -11,12 +11,21 @@
       </svg>
 
       <div id="app-info" class="coordinates app-info">
-         <h1>
+         <div class="search">
+            <input type="text" placeholder="Search..." />
+            <button @click="performSearch">Search</button>
+         </div>
+         <div class="app-img">
+            <img decoding="async" src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwl3eMklx06n1-G6_NmVou6boaKj-O4mxi3JARwCk7Pw_srMSYULHP5NaafILTeVVsvW2Zg-BTfcUe_9daEcboFgpsoQW7_FHUvLiXp925f9qhBjjBd4t01p0k_UKAh106sUGn7=w408-h544-k-no" style="position: absolute; top: 50%; left: 50%; width: 508px; height: 644px; transform: translateY(-50%) translateX(-50%);">
+         </div>
+         <h1 class="app-title">
             {{ conteudo.build }}
          </h1>
          <p>{{ conteudo.description }}</p>
-         X: {{ mouseCoords.x.toFixed(2) }},
-         Y: {{ mouseCoords.y.toFixed(2) }}
+         <p class="coords">
+            X: {{ mouseCoords.x.toFixed(2) }}
+            Y: {{ mouseCoords.y.toFixed(2) }}
+         </p>
       </div>
    </div>
 </template>
@@ -125,10 +134,40 @@ const data = {
    'B1SALA2': 'Sala de aula 2',
    'B1SALA3': 'Sala de aula 3',
    'B1SALA4': 'Sala de aula 4',
+   'DML': 'Depósito de material de limpeza'
 }
+
+const title = {
+   'ADM': 'ADM',
+   'SECRETARIA_ACADEMICA': 'Secretaria Acadêmica',
+   'B1': 'Bloco 1',
+   'B2': 'Bloco 2',
+   'B3': 'Bloco 3',
+   'B4': 'Bloco 4',
+   'PETSI': 'PET-SI',
+   'PET': 'PET TI',
+   'NULL': 'Desconhecido',
+   'COORDENADORIA_DE_COMUNICAO': 'Coordenadoria de Comunicação',
+   'COORDENADORIA_DA_SECRETARIA_ACADEMICA': 'Coordenadoria da Secretaria Acadêmica',
+   'TELEMATICA': 'Telemática',
+   'SECRETARIA_POS_GRADUACAO': 'Secretaria de Pós-Graduação',
+   'B1SALA4': 'Bloco 1 - Sala de aula 4',
+   'B1SALA3': 'Bloco 1 - Sala de aula 3',
+   'B1SALA2': 'Bloco 1 - Sala de aula 2',
+   'B1SALA1': 'Bloco 1 - Sala de aula 1',
+   'BANHEIROM1': 'Banheiro Masculino',
+   'BANHEIROF2': 'Banheiro Feminino',
+   'DML': 'DML'
+}
+
 function get_description(label) {
    return data[label] || 'Description not found';
 }
+
+function get_title(label) {
+   return title[label] || 'ID>'+label;
+}
+
 // Função para finalizar o dragging
 function handleMouseUp(event) {
    let label = event.target.attributes.getNamedItem('inkscape:label')
@@ -140,7 +179,7 @@ function handleMouseUp(event) {
 
    if (label && isClick) {
       document.getElementById('app-info').style.display = 'block';
-      conteudo.build = label.value;
+      conteudo.build = get_title(label.value);
       conteudo.description = get_description(label.value);
       if (event.target.tagName !== 'svg') {
          if (labela) {
@@ -297,20 +336,70 @@ body {
    /* Impede que o texto intercepte eventos do mouse */
 }
 
+.app-img {
+   position: relative;
+   min-width: 100%;
+   height: 200px;
+   display: block; 
+   overflow: hidden;
+}
+
+.app-title {
+   font-family: Roboto,Arial,sans-serif;
+   font-size: 13px;
+   font-size: 1.375rem;
+   font-weight: 400;
+   letter-spacing: 0rem;
+   line-height: 1.75rem;
+   padding: 16px 24px;
+}
+
 .app-info {
    position: absolute;
    top: 0;
    left: 0;
-   width: 25%;
+   width: 35%;
    height: 100%;
    background-color: white;
-   padding: 20px;
-   border-radius: 8px;
-   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 1px 3px rgba(60,64,67,0.3),0 2px 8px 2px rgba(60,64,67,0.15);
+   display:none;
+}
+
+.coords {
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   margin: 0;
+   padding: 5px 10px;
+   background-color: rgba(0, 0, 0, 0.7);
+   color: white;
+   border-radius: 5px;
+   font-size: 12px;
+}
+
+.search {
+   position: inherit;
+   padding-left: 60px;
+   z-index: 1;
+}
+
+.search input {
+   padding: 10px;
+   all: unset;
+   border-radius: 100px;
+   width: 100%;
+   background-color: white;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+   margin-top: 0.4rem;
+}
+
+p {
+   padding: 0px 24px;
 }
 
 body {
    margin: 0;
    padding: 0;
+   overflow: hidden;
 }
 </style>
