@@ -4,39 +4,71 @@
          @mousedown="handleMouseDown" class="map-svg" ref="svgElement">
          <LayerDefinitions />
          <LayerDetails />
-         <LayerBuild />
-         <LayerServiceBuildings />
-         <LayerAcademicBuildings />
-         <LayerRoomsB1 />
+         <LayerBlocos />
+         <LayerVista />
+         <LayerSalasAC />
+         <LayerSalasB1 />
+         <LayerSalasRU />
+         <LayerSalasGuarita />
+          <LayerInfo style="pointer-events: none;" />
       </svg>
 
-      <div id="app-info" class="coordinates app-info">
-         <div class="search">
-            <input type="text" placeholder="Search..." />
-            <button @click="performSearch">Search</button>
-         </div>
-         <div class="app-img">
-            <img decoding="async" src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwl3eMklx06n1-G6_NmVou6boaKj-O4mxi3JARwCk7Pw_srMSYULHP5NaafILTeVVsvW2Zg-BTfcUe_9daEcboFgpsoQW7_FHUvLiXp925f9qhBjjBd4t01p0k_UKAh106sUGn7=w408-h544-k-no" style="position: absolute; top: 50%; left: 50%; width: 508px; height: 644px; transform: translateY(-50%) translateX(-50%);">
-         </div>
-         <h1 class="app-title">
-            {{ conteudo.build }}
-         </h1>
-         <p>{{ conteudo.description }}</p>
-         <p class="coords">
-            X: {{ mouseCoords.x.toFixed(2) }}
-            Y: {{ mouseCoords.y.toFixed(2) }}
-         </p>
+      <CardInfo :conteudo="conteudo"></CardInfo>
+   </div>
+   <div class="map-time-control">
+
+   
+   <div class="control-row">
+      <select v-model="selectedDay" class="day-select">
+         <option :value="0">Domingo</option>
+         <option :value="1">Segunda-feira</option>
+         <option :value="2">Terça-feira</option>
+         <option :value="3">Quarta-feira</option>
+         <option :value="4">Quinta-feira</option>
+         <option :value="5">Sexta-feira</option>
+         <option :value="6">Sábado</option>
+      </select>
+   </div>
+
+   <div class="slider-wrapper">
+      <div class="time-display">
+         <span class="time-label">Horário</span>
+         <span class="time-value">{{ formatTime(selectedTimeMinutes) }}</span>
+      </div>
+      
+      <input 
+         type="range" 
+         min="0" 
+         max="1439" 
+         step="15" 
+         v-model.number="selectedTimeMinutes" 
+         class="time-slider" 
+         :style="{ '--val': `${(selectedTimeMinutes / 1439) * 100}%` }"
+      />
+      <div class="slider-marks">
+         <span>00:00</span>
+         <span>12:00</span>
+         <span>23:59</span>
       </div>
    </div>
+</div>
 </template>
 
 <script setup>
-import { ref, reactive, computed } from 'vue';
-import LayerDetails from './map/LayerDetails.vue';
-import LayerDefinitions from './map/LayerDefinitions.vue';
-import LayerAcademicBuildings from './map/LayerAcademicBuildings.vue';
-import LayerServiceBuildings from './map/LayerServiceBuildings.vue';
-import LayerRoomsB1 from './map/LayerRoomsB1.vue';
+import { ref, reactive, computed, onMounted, watch} from 'vue';
+import LayerDetails from './map_parsed/LayerDetails.vue';
+import LayerDefinitions from './map_parsed/LayerDefinitions.vue';
+import LayerSalasAC from './map_parsed/LayerSalasAC.vue';
+import LayerSalasB1 from './map_parsed/LayerSalasB1.vue';
+import LayerSalasRU from './map_parsed/LayerSalasRU.vue';
+import LayerBlocos from './map_parsed/LayerBlocos.vue';
+import LayerVista from './map_parsed/LayerVista.vue';
+import LayerInfo from './map_parsed/LayerInfo.vue';
+import LayerSalasGuarita from './map_parsed/LayerSalasGuarita.vue';
+
+import map from './map.json'
+import alocacao from './alocacao.json'
+import CardInfo from './CardInfo.vue'
 
 // Elemento SVG para obter suas dimensões na tela
 const svgElement = ref(null);
@@ -79,7 +111,7 @@ function handleWheel(event) {
    const newHeight = viewBox.height * zoomDirection;
 
    // Limita o zoom para evitar valores extremos
-   const minZoom = 100; // Tamanho mínimo do viewBox
+   const minZoom = 30; // Tamanho mínimo do viewBox
    const maxZoom = 1000; // Tamanho máximo do viewBox
    console.log(newWidth)
    if (newWidth < minZoom || newWidth > maxZoom) return;
@@ -100,10 +132,6 @@ let y = 0
 // Função para iniciar o dragging
 function handleMouseDown(event) {
    // Adiciona cor vibrante por 2 segundos
-   if (event.key == 'a') {
-      viewBox.x -= 10;
-      console.log('left')
-   }
    isDragging.value = true;
    // Usa coordenadas de tela em vez de coordenadas SVG
    lastMousePosition.x = event.clientX;
@@ -120,53 +148,110 @@ function handleMouseDown(event) {
 let color = 'red'
 let labela = ''
 
-const data = {
-   'ADM': 'Térreo: Restaurante Universitário\n Pavimento Superior: ADM',
-   'B1': 'Descrição do bloco 1',
-   'B2': 'Descrição do bloco 2',
-   'B3': 'Descrição do bloco 3',
-   'B4': 'Descrição do bloco 4',
-   'PETSI': 'O PET-SI é um Programa de Educação Tutorial (PET), um dos programas especiais do Ministério da Educação (MEC), realizado na Universidade Federal do Ceará campus de Quixadá. O programa visa auxiliar na melhoria do ensino de graduação, realizando atividades extracurriculares que envolvam pesquisa, ensino e extensão.',
-   'PET': 'Grupo PET TI Conexões de Saberes. Desde 2010 desenvolvendo atividades de ensino, pesquisa e extensão na UFC Campus Quixadá.',
-   'NULL': 'Local desconhecido e restrito',
-   'SECRETARIA_ACADEMICA': 'Descrição da Secretaria Acadêmica\nHorarios1,Horarios2,Horarios3',
-   'B1SALA1': 'Sala de aula 1',
-   'B1SALA2': 'Sala de aula 2',
-   'B1SALA3': 'Sala de aula 3',
-   'B1SALA4': 'Sala de aula 4',
-   'DML': 'Depósito de material de limpeza'
-}
+const data = map[0]
+const title = map[1]
+const cronograma = map[2]
 
-const title = {
-   'ADM': 'ADM',
-   'SECRETARIA_ACADEMICA': 'Secretaria Acadêmica',
-   'B1': 'Bloco 1',
-   'B2': 'Bloco 2',
-   'B3': 'Bloco 3',
-   'B4': 'Bloco 4',
-   'PETSI': 'PET-SI',
-   'PET': 'PET TI',
-   'NULL': 'Desconhecido',
-   'COORDENADORIA_DE_COMUNICAO': 'Coordenadoria de Comunicação',
-   'COORDENADORIA_DA_SECRETARIA_ACADEMICA': 'Coordenadoria da Secretaria Acadêmica',
-   'TELEMATICA': 'Telemática',
-   'SECRETARIA_POS_GRADUACAO': 'Secretaria de Pós-Graduação',
-   'B1SALA4': 'Bloco 1 - Sala de aula 4',
-   'B1SALA3': 'Bloco 1 - Sala de aula 3',
-   'B1SALA2': 'Bloco 1 - Sala de aula 2',
-   'B1SALA1': 'Bloco 1 - Sala de aula 1',
-   'BANHEIROM1': 'Banheiro Masculino',
-   'BANHEIROF2': 'Banheiro Feminino',
-   'DML': 'DML'
-}
+console.log(data)
 
 function get_description(label) {
-   return data[label] || 'Description not found';
+   return data[label] || 'Descrição não encontrada';
 }
 
-function get_title(label) {
-   return title[label] || 'ID>'+label;
+function get_cronograma(label) {
+   const sala = cronograma.salas[label];
+   if (!sala) return null;
+   
+   const disciplinas = cronograma.disciplinas;
+   const mapaTempo = cronograma.mapa_recorrencia;
+   
+   let resultado = `<strong>${sala.nome}</strong>\n`;
+   resultado += `Lugares: ${sala.lugares}\n`;
+   resultado += `Projetor: ${sala.tem_projetor ? 'Sim' : 'Não'}\n`;
+   resultado += `Ar-condicionado: ${sala['ar-condicionado-estado']}\n\n`;
+   resultado += '<strong>Horários:</strong>\n';
+   
+   const dias = ['segunda', 'terça', 'quarta', 'quinta', 'sexta'];
+   
+   dias.forEach(dia => {
+      if (sala.horarios_indexados[dia]) {
+         resultado += `\n<strong>${dia.charAt(0).toUpperCase() + dia.slice(1)}:</strong>\n`;
+         Object.entries(sala.horarios_indexados[dia]).forEach(([inicio, info]) => {
+            const disciplina = disciplinas[info.d_id];
+            const horaInicio = mapaTempo[inicio] || inicio;
+            const horaFim = mapaTempo[info.fim] || info.fim;
+            resultado += `${horaInicio} - ${horaFim}: ${disciplina.nome} (${disciplina.professor})\n`;
+         });
+      }
+   });
+   
+   return resultado;
 }
+
+
+
+function get_title(label) {
+   return title[label] || 'ID: '+label;
+}
+
+// Função para atualizar o texto dos elementos SVG com seus nomes
+function updateSvgLabels() {
+   if (!svgElement.value) return;
+
+   function getCurrentClass(salaId) {
+      const sala = alocacao[salaId];
+      if (!sala) return null;
+
+      const now = simulatedDate.value;
+
+      const currentHour = now.getHours();
+      const currentMinutes = now.getMinutes();
+      const currentTime = currentHour + currentMinutes / 60;
+      const dayOfWeek = now.getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+      const dayIndex = dayOfWeek
+      
+      if (!sala.grade_horaria) return null;
+      
+      for (const timeSlot of sala.grade_horaria) {
+         const [startStr, endStr] = timeSlot.horario.split(' - ');
+         const [startHour, startMin] = startStr.split(':').map(Number);
+         const [endHour, endMin] = endStr.split(':').map(Number);
+         
+         const startTime = startHour + startMin / 60;
+         const endTime = endHour + endMin / 60;
+         
+         if (currentTime >= startTime && currentTime < endTime) {
+            const classInfo = timeSlot.semana[dayIndex];
+            if (classInfo) return classInfo.sigla;
+         }
+      }
+      return "";
+   }
+
+
+   const salaNames = {
+      'B1S1': 'B1-01\n' + getCurrentClass('B1SALA1'),
+      'B1S2': 'B1-02\n' + getCurrentClass('B1SALA2'),
+      'B1S3': 'B1-03\n' + getCurrentClass('B1SALA3'),
+      'B1S4': 'B1-04\n' + getCurrentClass('B1SALA4'),
+   };
+   
+   const textElements = svgElement.value.querySelectorAll('text[inkscape\\:label]');
+   textElements.forEach(element => {
+      const label = element.getAttribute('inkscape:label');
+      if (label && salaNames[label]) {
+         const tspan = element.querySelector('tspan');
+         if (tspan) {
+            tspan.textContent = salaNames[label];
+         }
+      }
+   });
+}
+
+// Chama a função após o componente ser montado
+onMounted(() => {
+   updateSvgLabels();
+});
 
 // Função para finalizar o dragging
 function handleMouseUp(event) {
@@ -180,7 +265,8 @@ function handleMouseUp(event) {
    if (label && isClick) {
       document.getElementById('app-info').style.display = 'block';
       conteudo.build = get_title(label.value);
-      conteudo.description = get_description(label.value);
+      const cronogramaData = get_cronograma(label.value);
+      conteudo.description = cronogramaData || get_description(label.value);
       if (event.target.tagName !== 'svg') {
          if (labela) {
             labela.style.fill = color
@@ -307,6 +393,49 @@ function saturateColor(color, amount) {
       }
    return color; // Return original color if parsing fails
 }
+
+
+// --- NOVO: Lógica de Controle de Tempo ---
+const nowInitial = new Date();
+const selectedDay = ref(nowInitial.getDay());
+// Converte a hora atual para minutos totais do dia (ex: 14:30 = 14 * 60 + 30 = 870)
+const selectedTimeMinutes = ref(nowInitial.getHours() * 60 + nowInitial.getMinutes());
+const simulatedDate = ref(new Date());
+
+// Atualiza a simulatedDate sempre que o slider ou o select mudarem
+watch([selectedDay, selectedTimeMinutes], () => {
+   const newDate = new Date();
+   
+   // Ajusta o dia da semana relativo à semana atual
+   const currentDay = newDate.getDay();
+   const diff = selectedDay.value - currentDay;
+   newDate.setDate(newDate.getDate() + diff);
+
+   // Ajusta a hora baseada no slider
+   const hours = Math.floor(selectedTimeMinutes.value / 60);
+   const mins = selectedTimeMinutes.value % 60;
+   newDate.setHours(hours, mins, 0, 0);
+
+   simulatedDate.value = newDate;
+   
+   // Refaz os labels do mapa com o novo horário!
+   updateSvgLabels();
+});
+
+// Formata os minutos de volta para HH:MM para exibição na tela
+function formatTime(minutes) {
+   const h = Math.floor(minutes / 60).toString().padStart(2, '0');
+   const m = (minutes % 60).toString().padStart(2, '0');
+   return `${h}:${m}`;
+}
+
+/* Reseta para o relógio real do computador do usuário
+function resetToRealTime() {
+   const now = new Date();
+   selectedDay.value = now.getDay();
+   selectedTimeMinutes.value = now.getHours() * 60 + now.getMinutes();
+}
+*/
 </script>
 
 <style scoped>
@@ -326,43 +455,11 @@ body {
 
 .map-label {
    font-size: 50px;
-   /* O tamanho da fonte é relativo ao viewBox */
    font-family: sans-serif;
    fill: white;
    text-anchor: middle;
-   /* Centraliza o texto */
    dominant-baseline: middle;
    pointer-events: none;
-   /* Impede que o texto intercepte eventos do mouse */
-}
-
-.app-img {
-   position: relative;
-   min-width: 100%;
-   height: 200px;
-   display: block; 
-   overflow: hidden;
-}
-
-.app-title {
-   font-family: Roboto,Arial,sans-serif;
-   font-size: 13px;
-   font-size: 1.375rem;
-   font-weight: 400;
-   letter-spacing: 0rem;
-   line-height: 1.75rem;
-   padding: 16px 24px;
-}
-
-.app-info {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 35%;
-   height: 100%;
-   background-color: white;
-   box-shadow: 0 1px 3px rgba(60,64,67,0.3),0 2px 8px 2px rgba(60,64,67,0.15);
-   display:none;
 }
 
 .coords {
@@ -377,22 +474,6 @@ body {
    font-size: 12px;
 }
 
-.search {
-   position: inherit;
-   padding-left: 60px;
-   z-index: 1;
-}
-
-.search input {
-   padding: 10px;
-   all: unset;
-   border-radius: 100px;
-   width: 100%;
-   background-color: white;
-   box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
-   margin-top: 0.4rem;
-}
-
 p {
    padding: 0px 24px;
 }
@@ -401,5 +482,173 @@ body {
    margin: 0;
    padding: 0;
    overflow: hidden;
+}
+
+/* Container flutuante sobre o mapa */
+.map-time-control {
+    position: absolute;
+    bottom: 40px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 1000; 
+    
+    width: 90%;
+    max-width: 380px;
+    background: rgba(255, 255, 255, 0.85); 
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);
+    
+    padding: 20px 24px;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Espaçamento uniforme entre as linhas */
+}
+
+/* Cabeçalho */
+.time-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 12px;
+}
+
+.time-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.reset-btn {
+    background: #f1f5f9;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.2s, transform 0.1s;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.reset-btn:hover {
+    background: #e2e8f0;
+}
+
+.reset-btn:active {
+    transform: scale(0.95);
+}
+
+/* Seletor de Dias */
+.day-select {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #334155;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    transition: border-color 0.2s;
+    appearance: none; /* Remove a seta padrão em alguns navegadores */
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23475569%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px top 50%;
+    background-size: 10px auto;
+}
+
+.day-select:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* Área do Slider */
+.time-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.time-label {
+    font-size: 15px;
+    color: #475569;
+    font-weight: 500;
+}
+
+.time-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+    background: #f1f5f9;
+    padding: 4px 12px;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+}
+
+.slider-wrapper {
+    width: 100%;
+}
+
+/* Slider Bar */
+.time-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    outline: none;
+    margin: 10px 0;
+    background: linear-gradient(to right, #3b82f6 var(--val), #cbd5e1 var(--val));
+}
+
+/* Bolinha do Slider - Webkit */
+.time-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 4px solid #3b82f6;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease;
+}
+
+.time-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.15);
+}
+
+/* Bolinha do Slider - Firefox */
+.time-slider::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 4px solid #3b82f6;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease;
+}
+
+.time-slider::-moz-range-thumb:hover {
+    transform: scale(1.15);
+}
+
+/* Marcações abaixo da barra */
+.slider-marks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #64748b;
 }
 </style>

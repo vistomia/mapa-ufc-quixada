@@ -230,17 +230,3 @@
             </clipPath>
          </defs>
 </template>
-
-<script>
-export default {
-  name: 'LayerDefinitions',
-  data() {
-    return {
-      
-    };
-  },
-  methods: {
-    
-  }
-};
-</script>

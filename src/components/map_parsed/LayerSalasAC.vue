@@ -1,0 +1,9 @@
+<template>
+  <!-- Content for layer SalasAC -->
+<g inkscape:groupmode="layer" id="layer2" inkscape:label="SalasAC" inkscape:highlight-color="#ebb348">
+    <rect style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ae7a44;fill-opacity:1;fill-rule:evenodd;stroke-width:0.941331;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" id="rect5" width="5.2294855" height="5.2707591" x="187.63727" y="259.78345" inkscape:label="CA"/>
+    <rect style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ae7a44;fill-opacity:1;fill-rule:evenodd;stroke-width:0.982859;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" id="rect6" width="5.2570815" height="5.9493804" x="187.6441" y="265.21625" inkscape:label="ATLETICA"/>
+    <rect style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#ae7a44;fill-opacity:1;fill-rule:evenodd;stroke-width:0.974656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" id="rect2" width="14.439" height="7.4906688" x="193.55408" y="276.35403" inkscape:label="WC"/>
+    <rect style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#ae7a44;fill-opacity:1;fill-rule:evenodd;stroke-width:0.998566;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" id="rect18" width="21.359495" height="7.541925" x="208.42323" y="276.35403" inkscape:label="CANTINA"/>
+</g>
+</template>

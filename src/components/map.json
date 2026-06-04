@@ -1,0 +1,86 @@
+[
+{
+    "Bloco Administrativo": {
+      "description": "Térreo: Restaurante Universitário\n Pavimento Superior: ADM",
+      "photo": "url",
+      "type":"build"
+    },
+    "B1": "Descrição do bloco 1",
+    "B2": "Descrição do bloco 2",
+    "B3": "Descrição do bloco 3",
+    "B4": "Descrição do bloco 4",
+    "PETSI": "O PET-SI é um Programa de Educação Tutorial (PET), um dos programas especiais do Ministério da Educação (MEC), realizado na Universidade Federal do Ceará campus de Quixadá. O programa visa auxiliar na melhoria do ensino de graduação, realizando atividades extracurriculares que envolvam pesquisa, ensino e extensão.",
+    "PET": "Grupo PET TI Conexões de Saberes. Desde 2010 desenvolvendo atividades de ensino, pesquisa e extensão na UFC Campus Quixadá.",
+    "NULL": "Local desconhecido e restrito",
+    "SECRETARIA_ACADEMICA": "Descrição da Secretaria Acadêmica\nHorarios1,Horarios2,Horarios3",
+    "B1SALA1": "Sala de aula 1",
+    "B1SALA2": "Sala de aula 2",
+    "B1SALA3": "Sala de aula 3",
+    "B1SALA4": "Sala de aula 4",
+    "DML": "Depósito de material de limpeza",
+    "RU": "Descricao"
+ }
+ ,
+ {
+    "ADM": "Bloco Administrativo",
+    "SECRETARIA_ACADEMICA": "Secretaria Acadêmica",
+    "B1": "Bloco 1",
+    "B2": "Bloco 2",
+    "B3": "Bloco 3",
+    "B4": "Bloco 4",
+    "PETSI": "PET-SI",
+    "PET": "PET TI",
+    "NULL": "Desconhecido",
+    "COORDENADORIA_DE_COMUNICAO": "Coordenadoria de Comunicação",
+    "COORDENADORIA_DA_SECRETARIA_ACADEMICA": "Coordenadoria da Secretaria Acadêmica",
+    "TELEMATICA": "Telemática",
+    "SECRETARIA_POS_GRADUACAO": "Secretaria de Pós-Graduação",
+    "B1SALA4": "Bloco 1 - Sala de aula 4",
+    "B1SALA3": "Bloco 1 - Sala de aula 3",
+    "B1SALA2": "Bloco 1 - Sala de aula 2",
+    "B1SALA1": "Bloco 1 - Sala de aula 1",
+    "BANHEIROM1": "Banheiro Masculino",
+    "BANHEIROF2": "Banheiro Feminino",
+    "DML": "DML"
+ },
+ {
+   "disciplinas": {
+     "IHC": { "nome": "Interação Humano-Computador", "professor": "Ingrid" },
+     "SEG": { "nome": "Segurança", "professor": "Michel" },
+     "UX": { "nome": "User Experience", "professor": "Leonara" },
+     "DEV": { "nome": "Desenvolvimento de Software para Persistência", "professor": "Regis"},
+     "PROB": { "nome": "Probabilidade e Estatística", "professor": "André Braga"},
+     "REDES": { "nome": "Redes de Computadores", "professor": "Arthur Callado"},
+     "EMPRE": { "nome": "Empreendendorismo", "professor": "Paulo Armando"}
+   },
+   "salas": {
+     "B1SALA1": {
+         "nome": "Sala 1",
+         "lugares": 55,
+         "tem_projetor": true,
+         "ar-condicionado-estado": "quebrado",
+         "horarios_indexados": {
+           "segunda": {
+             "480":  { "d_id": "IHC", "fim": 600 },
+             "810":  { "d_id": "SEG", "fim": 930 },
+             "930":  { "d_id": "UX",  "fim": 1050 }
+           },
+           "terça": {
+             "480":  { "d_id": "IHC", "fim": 600 },
+             "810":  { "d_id": "SEG", "fim": 930 },
+             "930":  { "d_id": "UX",  "fim": 1050 }
+           },
+           "quarta": {
+           "480":  { "d_id": "DEV", "fim": 600 },
+             "930":  { "d_id": "EMPRE",  "fim": 1050 }
+           }
+         }
+       }
+     },
+   "mapa_recorrencia": {
+     "480": "08:00",
+     "810": "13:30",
+     "930": "15:30"
+   }
+ }
+]

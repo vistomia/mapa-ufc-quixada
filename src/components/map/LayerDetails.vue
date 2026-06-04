@@ -1422,17 +1422,3 @@
        sodipodi:nodetypes="cc" />
     </g>
 </template>
-
-<script>
-export default {
-    name: 'LayerDetails',
-    data() {
-        return {
-
-        };
-    },
-    methods: {
-
-    }
-};
-</script>

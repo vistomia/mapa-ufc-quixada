@@ -138,9 +138,3 @@
        inkscape:label="PETSI" />
   </g>
 </template>
-
-<script>
-export default {
-  name: 'LayerAcademicBuildings',
-};
-</script>

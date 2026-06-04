@@ -69,9 +69,3 @@
        inkscape:label="B1" />
   </g>
 </template>
-
-<script>
-export default {
-  name: 'LayerAcademicBuildings',
-};
-</script>

@@ -38,17 +38,3 @@
        inkscape:label="ADM" />
     </g>
 </template>
-
-<script>
-export default {
-  name: 'LayerBuild',
-  data() {
-    return {
-      
-    };
-  },
-  methods: {
-    
-  }
-};
-</script>

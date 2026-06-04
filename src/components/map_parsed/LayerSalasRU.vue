@@ -1,0 +1,10 @@
+<template>
+  <!-- Content for layer SalasRU -->
+<g inkscape:groupmode="layer" id="layer1" inkscape:label="SalasRU" inkscape:highlight-color="#f446de">
+    <rect style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#dc447b;fill-opacity:1;fill-rule:evenodd;stroke-width:0.994396;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" id="rect1" width="9.326622" height="9.846199" x="91.47261" y="259.64484" inkscape:label="SALA_NUTRICIONISTA"/>
+    <rect style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#dc447b;fill-opacity:1;fill-rule:evenodd;stroke-width:1.0075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" id="rect3" width="6.1120086" height="9.4324589" x="158.21062" y="259.66382" inkscape:label="RECEPCAO"/>
+    <rect style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#dc447b;fill-opacity:1;fill-rule:evenodd;stroke-width:0.977678;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" id="rect7" width="11.442726" height="11.721632" x="158.7796" y="277.67587" inkscape:label="WC"/>
+    <rect style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#dc447b;fill-opacity:1;fill-rule:evenodd;stroke-width:4.096;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1" id="rect4" width="52.721146" height="29.786757" x="101.31848" y="259.61075" ry="0" inkscape:label="RU"/>
+    <path style="fill:#b15e7c;fill-opacity:1" d="m 86.859092,289.00621 -0.09738,-10.80394 H 82.76931 v -9.73757 h 8.31868 l -0.0018,1.42805 9.76939,0.12411 0.0245,18.9893 z" id="path4" sodipodi:nodetypes="ccccccccc" inkscape:label="NULL"/>
+</g>
+</template>

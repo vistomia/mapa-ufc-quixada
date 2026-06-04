@@ -1,0 +1,514 @@
+{
+  "B1SALA1": {
+    "local": "BLOCO 1 - SALA 1",
+    "informacoes_adicionais": "55 lugares (somente um ar-condicionado funciona - 20/02/26)",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          {
+            "disciplina": "GESTÃO DA INOVAÇÃO",
+            "sigla": "GTI",
+            "professor": "Brenno"
+          },
+          {
+            "disciplina": "GESTÃO DA INOVAÇÃO",
+            "sigla": "GTI",
+            "professor": "Brenno"
+          },
+          null,
+          {
+            "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 02A",
+            "sigla": "Calculo I",
+            "professor": "Joel"
+          },
+          {
+            "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 02A",
+            "sigla": "Calculo I",
+            "professor": "Joel"
+          },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          {
+            "disciplina": "SI 5 - LÓGICA PARA COMPUTAÇÃO 01A",
+            "sigla": "Lógica",
+            "professor": "Samy"
+          },
+          {
+            "disciplina": "SI 5 - LÓGICA PARA COMPUTAÇÃO 01A",
+            "sigla": "Lógica",
+            "professor": "Samy"
+          },
+          null
+        ]
+      },
+      {
+        "horario": "12:00 - 13:30",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          {
+            "disciplina": "ANÁLISE E PROJETO DE SISTEMAS 02A",
+            "sigla": "APS",
+            "professor": "Marcos Oliveira"
+          },
+          {
+            "disciplina": "ANÁLISE E PROJETO DE SISTEMAS 02A",
+            "sigla": "APS",
+            "professor": "Marcos Oliveira"
+          },
+          {
+            "disciplina": "MATEMÁTICA DISCRETA",
+            "sigla": "Discreta",
+            "professor": "Samy"
+          },
+          {
+            "disciplina": "MATEMÁTICA DISCRETA",
+            "sigla": "Discreta",
+            "professor": "Samy"
+          },
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          {
+            "disciplina": "COMPUTAÇÃO EM NUVEM 01A",
+            "sigla": "Nuvem",
+            "professor": "Emanuel"
+          },
+          {
+            "disciplina": "ESTRUTURA DE DADOS 05A",
+            "sigla": "ED",
+            "professor": "Arthur Araruna"
+          },
+          null,
+          {
+            "disciplina": "DD 3 - INTERAÇÃO HUMANO-COMPUTADOR 03A",
+            "sigla": "IHC",
+            "professor": "Ingrid"
+          },
+          {
+            "disciplina": "DD 3 - INTERAÇÃO HUMANO-COMPUTADOR 03A",
+            "sigla": "IHC",
+            "professor": "Ingrid"
+          },
+          null
+        ]
+      },
+      {
+        "horario": "18:00 - 20:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "20:00 - 22:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "B1SALA2": {
+    "local": "BLOCO 1 - SALA 2",
+    "informacoes_adicionais": "55 lugares (somente um ar-condicionado funciona - 20/02/26)",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          {
+            "disciplina": "FOTOGRAFIA",
+            "sigla": "Fotografia",
+            "professor": "Diana Medina"
+          },
+          {
+            "disciplina": "FOTOGRAFIA",
+            "sigla": "Fotografia",
+            "professor": "Diana Medina"
+          },
+          {
+            "disciplina": "Sistemas Multiagentes",
+            "sigla": "SMA",
+            "professor": "Marcos Oliveira"
+          },
+          {
+            "disciplina": "COMPILADORES",
+            "sigla": "Compiladores",
+            "professor": "Lucas Ismaily"
+          },
+          {
+            "disciplina": "COMPILADORES",
+            "sigla": "Compiladores",
+            "professor": "Lucas Ismaily"
+          },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          {
+            "disciplina": "Sistemas Multiagentes",
+            "sigla": "SMA",
+            "professor": "Marcos Oliveira"
+          },
+          {
+            "disciplina": "SI 5 - GESTÃO DA TECNOLOGIA DA INFORMAÇÃO",
+            "sigla": "GTI",
+            "professor": "Brenno"
+          },
+          {
+            "disciplina": "SI 5 - GESTÃO DA TECNOLOGIA DA INFORMAÇÃO",
+            "sigla": "GTI",
+            "professor": "Brenno"
+          },
+          {
+            "disciplina": "ERGONOMIA",
+            "sigla": "Ergonomia",
+            "professor": "Rochelle"
+          },
+          {
+            "disciplina": "ERGONOMIA",
+            "sigla": "Ergonomia",
+            "professor": "Rochelle"
+          },
+          null
+        ]
+      },
+      {
+        "horario": "12:00 - 13:30",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          {
+            "disciplina": "DESENVOLVIMENTO DE SOFTWARE PARA PERSISTÊNCIA",
+            "sigla": "Persistência",
+            "professor": "Régis"
+          },
+          {
+            "disciplina": "DESENVOLVIMENTO DE SOFTWARE PARA PERSISTÊNCIA",
+            "sigla": "Persistência",
+            "professor": "Régis"
+          },
+          {
+            "disciplina": "ES 7 - PROJETO DE PESQUISA CIENTÍFICA E TECNOLÓGICA 02A",
+            "sigla": "PPCT",
+            "professor": "Marcos Oliveira"
+          },
+          {
+            "disciplina": "TÓPICOS AVANÇADOS EM BANCO DE DADOS",
+            "sigla": "TABD",
+            "professor": "Lívia"
+          },
+          {
+            "disciplina": "DD 3 - SOCIEDADE, CULTURA E TECNOLOGIAS 01",
+            "sigla": "Sociedade",
+            "professor": "Valdemir"
+          },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          {
+            "disciplina": "ES 5 - PROJETO E ANÁLISE DE ALGORITMOS",
+            "sigla": "PAA",
+            "professor": "Atílio"
+          },
+          {
+            "disciplina": "ES 5 - PROJETO E ANÁLISE DE ALGORITMOS",
+            "sigla": "PAA",
+            "professor": "Atílio"
+          },
+          {
+            "disciplina": "DD 3 - SOCIEDADE, CULTURA E TECNOLOGIAS 01",
+            "sigla": "Sociedade",
+            "professor": "Valdemir"
+          },
+          {
+            "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 01A",
+            "sigla": "Calculo I",
+            "professor": "André"
+          },
+          {
+            "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 01A",
+            "sigla": "Calculo I",
+            "professor": "André"
+          },
+          null
+        ]
+      },
+      {
+        "horario": "18:00 - 20:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "20:00 - 22:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "B1SALA3": {
+    "local": "BLOCO 1 - SALA 3",
+    "informacoes_adicionais": "55 lugares - nenhum dos ares-condicionados funcionam (20/02/2026)",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "12:00 - 13:30",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          {
+            "disciplina": "APRENDIZADO DE MÁQUINA EMBARCADO",
+            "sigla": "AME",
+            "professor": "Jeandro"
+          },
+          {
+            "disciplina": "APRENDIZADO DE MÁQUINA EMBARCADO",
+            "sigla": "AME",
+            "professor": "Jeandro"
+          },
+          {
+            "disciplina": "monitoria matemática básica-filho",
+            "sigla": "Monitoria",
+            "professor": null
+          },
+          {
+            "disciplina": "monitoria matemática básica-filho",
+            "sigla": "Monitoria",
+            "professor": null
+          },
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "18:00 - 20:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "20:00 - 22:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "B1SALA4": {
+    "local": "BLOCO 1 - SALA 4",
+    "informacoes_adicionais": "50 lugares - nenhum dos ares-condicionados funcionam (20/02/2026)",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "12:00 - 13:30",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "18:00 - 20:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "horario": "20:00 - 22:00",
+        "semana": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  }
+}
