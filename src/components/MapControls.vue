@@ -2,13 +2,11 @@
    <div class="map-time-control">
       <div class="control-row">
          <select v-model="selectedDay" class="day-select">
-            <option :value="0">Domingo</option>
             <option :value="1">Segunda-feira</option>
             <option :value="2">Terça-feira</option>
             <option :value="3">Quarta-feira</option>
             <option :value="4">Quinta-feira</option>
             <option :value="5">Sexta-feira</option>
-            <option :value="6">Sábado</option>
          </select>
       </div>
 
@@ -21,16 +19,16 @@
          <input 
             type="range" 
             min="420" 
-            max="1380"
+            max="1145"
             step="15" 
             v-model.number="selectedTimeMinutes" 
             class="time-slider" 
-            :style="{ '--val': `${((selectedTimeMinutes - 420) / 960) * 100}%` }"
+            :style="{ '--val': `${((selectedTimeMinutes - 420) / (1145-420)) * 100}%` }"
          />
          <div class="slider-marks">
             <span>07:10</span>
             <span>12:00</span>
-            <span>19:15</span>
+            <span>19:00</span>
          </div>
       </div>
    </div>
@@ -72,7 +70,7 @@ watch([selectedDay, selectedTimeMinutes], () => {
 /* Container flutuante sobre o mapa */
 .map-time-control {
     position: absolute;
-    bottom: 40px; 
+    bottom: 0px; 
     left: 50%;
     transform: translateX(-50%); 
     z-index: 1000; 
@@ -84,8 +82,8 @@ watch([selectedDay, selectedTimeMinutes], () => {
     -webkit-backdrop-filter: blur(12px);
     
     padding: 20px 24px;
-    border-radius: 16px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(255, 255, 255, 0.4);
     font-family: 'Inter', 'Segoe UI', sans-serif;
     display: flex;

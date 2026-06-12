@@ -67,7 +67,7 @@ function handleElementClick({ label }) {
   emit('update-info', {
     build: displayName,
     description: description,
-    img: mapData.value[0][label]?.photo || 'https://via.placeholder.com/500x600?text=' + label
+    img: mapData.value[0][label]?.photo || 'https://i.ytimg.com/vi/lHKajh0XyUE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGE4gZSgyMA8=&rs=AOn4CLApVXxQq5IVWY4hOw1zwHuDSYzTsg'
   });
 }
 
