@@ -1,5 +1,6 @@
 <template>
     <div id="app-info" class="coordinates app-info">
+      <button class="close-btn" @click="$emit('close')">&times;</button>
       <AppSearch></AppSearch>
       <div class="app-img">
         <img 
@@ -11,13 +12,13 @@
       <h1 class="app-title">
         {{ conteudo.build }}
       </h1>
-      <p>{{ conteudo.description }}</p>
+      <pre class="app-description">{{ conteudo.description }}</pre>
     </div>
   </template>
   
   <script setup>
-    import { defineProps} from 'vue'  
-  import AppSearch from './AppSearch.vue' // Lembre-se de importar o componente AppSearch se ele for local
+    import { defineProps, defineEmits } from 'vue'  
+  import AppSearch from './AppSearch.vue' 
   
   defineProps({
     conteudo: {
@@ -30,6 +31,8 @@
       })
     }
   })
+
+  defineEmits(['close']);
   
   </script>
 
@@ -43,9 +46,30 @@
    height: 100%;
    background-color: white;
    box-shadow: 0 1px 3px rgba(60,64,67,0.3),0 2px 8px 2px rgba(60,64,67,0.15);
-   display:none;
+   z-index: 1000;
 }
 
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.close-btn:hover {
+  background: #f0f0f0;
+}
 
 .app-img {
    position: relative;
@@ -57,12 +81,20 @@
 
 .app-title {
    font-family: Roboto,Arial,sans-serif;
-   font-size: 13px;
    font-size: 1.375rem;
    font-weight: 400;
    letter-spacing: 0rem;
    line-height: 1.75rem;
-   padding: 16px 24px;
+   padding: 16px 24px 8px 24px;
+   margin: 0;
+}
+
+.app-description {
+   padding: 0 24px;
+   white-space: pre-wrap;
+   font-family: inherit;
+   font-size: 1rem;
+   color: #555;
 }
 
 </style>
