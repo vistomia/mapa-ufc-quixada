@@ -18,7 +18,7 @@
   
   <script setup>
     import { defineProps, defineEmits } from 'vue'  
-  import AppSearch from './AppSearch.vue' 
+    import AppSearch from './AppSearch.vue' 
   
   defineProps({
     conteudo: {
@@ -47,6 +47,16 @@
    background-color: white;
    box-shadow: 0 1px 3px rgba(60,64,67,0.3),0 2px 8px 2px rgba(60,64,67,0.15);
    z-index: 1000;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.3s ease;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateX(-100%);
 }
 
 .close-btn {

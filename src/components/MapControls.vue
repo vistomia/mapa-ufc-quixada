@@ -20,17 +20,17 @@
          
          <input 
             type="range" 
-            min="0" 
-            max="1439" 
+            min="420" 
+            max="1380"
             step="15" 
             v-model.number="selectedTimeMinutes" 
             class="time-slider" 
-            :style="{ '--val': `${(selectedTimeMinutes / 1439) * 100}%` }"
+            :style="{ '--val': `${((selectedTimeMinutes - 420) / 960) * 100}%` }"
          />
          <div class="slider-marks">
-            <span>00:00</span>
+            <span>07:10</span>
             <span>12:00</span>
-            <span>23:59</span>
+            <span>19:15</span>
          </div>
       </div>
    </div>

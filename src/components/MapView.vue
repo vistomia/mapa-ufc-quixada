@@ -7,7 +7,9 @@
          @empty-click="handleEmptyClick"
          @mouse-move="handleMouseMove"
       />
-      <MapInfoPanel v-if="showInfo" :conteudo="conteudo" @close="showInfo = false"></MapInfoPanel>
+      <Transition name="slide">
+         <MapInfoPanel v-if="showInfo" :conteudo="conteudo" @close="showInfo = false"></MapInfoPanel>
+      </Transition>
    </div>
 
    <MapControls @change="handleTimeChange" />
