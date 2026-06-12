@@ -1,5 +1,5 @@
 {
-  "B1SALA1": {
+  "B1S1": {
     "local": "BLOCO 1 - SALA 1",
     "informacoes_adicionais": "55 lugares (somente um ar-condicionado funciona - 20/02/26)",
     "grade_horaria": [
@@ -145,7 +145,7 @@
       }
     ]
   },
-  "B1SALA2": {
+  "B1S2": {
     "local": "BLOCO 1 - SALA 2",
     "informacoes_adicionais": "55 lugares (somente um ar-condicionado funciona - 20/02/26)",
     "grade_horaria": [
@@ -315,7 +315,7 @@
       }
     ]
   },
-  "B1SALA3": {
+  "B1S3": {
     "local": "BLOCO 1 - SALA 3",
     "informacoes_adicionais": "55 lugares - nenhum dos ares-condicionados funcionam (20/02/2026)",
     "grade_horaria": [
@@ -421,7 +421,7 @@
       }
     ]
   },
-  "B1SALA4": {
+  "B1S4": {
     "local": "BLOCO 1 - SALA 4",
     "informacoes_adicionais": "50 lugares - nenhum dos ares-condicionados funcionam (20/02/2026)",
     "grade_horaria": [
