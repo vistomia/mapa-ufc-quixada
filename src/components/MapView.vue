@@ -54,7 +54,6 @@ body {
 
 .map-container {
    width: 100%;
-   user-select: none;
 }
 
 .map-svg {

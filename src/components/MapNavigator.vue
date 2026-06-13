@@ -141,6 +141,7 @@ defineExpose({
 }
 
 text {
+  user-select: none;
   pointer-events: none;
 }
 </style>
