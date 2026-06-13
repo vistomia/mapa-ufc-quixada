@@ -47,11 +47,10 @@ function handleElementClick({ label }) {
 
   let description = typeof basicInfo === 'string' ? basicInfo : (basicInfo.description || '');
   const alocacaoInfo = alocacao.value[label];
-  console.log(label)
+
   if (alocacaoInfo) {
-    description += `\n\nLocal: ${alocacaoInfo.local}`;
     if (alocacaoInfo.informacoes_adicionais) {
-      description += `\nInfo: ${alocacaoInfo.informacoes_adicionais}`;
+      description += `\n${alocacaoInfo.informacoes_adicionais}`;
     }
 
     const currentSlot = getCurrentSlot(alocacaoInfo)

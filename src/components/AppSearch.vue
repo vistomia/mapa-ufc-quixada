@@ -26,7 +26,7 @@
     z-index: 3;
     display: flex;
     justify-content: center;
-    margin-top: 1em;
+    margin-top: 1.5em;
     margin-left: 4em;
 }
 

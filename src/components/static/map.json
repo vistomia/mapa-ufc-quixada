@@ -12,8 +12,8 @@
     "PETSI": "O PET-SI é um Programa de Educação Tutorial (PET), um dos programas especiais do Ministério da Educação (MEC), realizado na Universidade Federal do Ceará campus de Quixadá. O programa visa auxiliar na melhoria do ensino de graduação, realizando atividades extracurriculares que envolvam pesquisa, ensino e extensão.",
     "PET": "Grupo PET TI Conexões de Saberes. Desde 2010 desenvolvendo atividades de ensino, pesquisa e extensão na UFC Campus Quixadá.",
     "NULL": "Local desconhecido e restrito",
-    "SECRETARIA_ACADEMICA": "Descrição da Secretaria Acadêmica\nHorarios1,Horarios2,Horarios3",
-    "B1SALA1": "Sala de aula 1",
+    "SECRETARIA_ACADEMICA": "Período letivo: De segunda à sexta-feira, de 7h30 as 20h30.\nRecesso escolar: De segunda à sexta-feira, de 8h as 17h.\nhttps://www.quixada.ufc.br/secretaria-academica/",
+    "B1S1": "Sala de aula 1",
     "B1SALA2": "Sala de aula 2",
     "B1SALA3": "Sala de aula 3",
     "B1SALA4": "Sala de aula 4",
@@ -35,13 +35,16 @@
     "COORDENADORIA_DA_SECRETARIA_ACADEMICA": "Coordenadoria da Secretaria Acadêmica",
     "TELEMATICA": "Telemática",
     "SECRETARIA_POS_GRADUACAO": "Secretaria de Pós-Graduação",
-    "B1SALA4": "Bloco 1 - Sala de aula 4",
-    "B1SALA3": "Bloco 1 - Sala de aula 3",
-    "B1SALA2": "Bloco 1 - Sala de aula 2",
-    "B1SALA1": "Bloco 1 - Sala de aula 1",
+    "B1S4": "Bloco 1 - Sala de aula 4",
+    "B1S3": "Bloco 1 - Sala de aula 3",
+    "B1S2": "Bloco 1 - Sala de aula 2",
+    "B1S1": "Bloco 1 - Sala de aula 1",
     "BANHEIROM1": "Banheiro Masculino",
     "BANHEIROF2": "Banheiro Feminino",
-    "DML": "DML"
+    "DML": "Depósito de Materiais de Limpeza",
+    "RU": "Restaurante Universitário",
+    "WC": "Banheiro",
+    "CA": "Centro Acadêmico"
  },
  {
    "disciplinas": {
