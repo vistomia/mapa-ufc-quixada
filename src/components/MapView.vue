@@ -10,6 +10,7 @@
       <Transition name="slide">
          <MapInfoPanel v-if="showInfo" :conteudo="conteudo" @close="showInfo = false"></MapInfoPanel>
       </Transition>
+      <AppSearch class="t"></AppSearch>
    </div>
 
    <MapControls @change="handleTimeChange" />
@@ -21,6 +22,7 @@ import { ref } from 'vue';
 import MapInfoPanel from './MapInfoPanel.vue'
 import MapManager from './MapManager.vue';
 import MapControls from './MapControls.vue';
+import AppSearch from './AppSearch.vue'
 
 const simulatedDate = ref(new Date());
 const showInfo = ref(false);
@@ -52,6 +54,7 @@ body {
 
 .map-container {
    width: 100%;
+   user-select: none;
 }
 
 .map-svg {
@@ -79,6 +82,12 @@ body {
    color: white;
    border-radius: 5px;
    font-size: 12px;
+}
+
+.t {
+   position: absolute;
+   top: 0;
+   left: 0;
 }
 
 p {

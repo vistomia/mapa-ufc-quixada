@@ -139,4 +139,8 @@ defineExpose({
   height: 100%;
   background-color: #f0f0f0;
 }
+
+text {
+  pointer-events: none;
+}
 </style>

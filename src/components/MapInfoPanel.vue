@@ -1,7 +1,6 @@
 <template>
     <div id="app-info" class="coordinates app-info">
       <button class="close-btn" @click="$emit('close')">&times;</button>
-      <AppSearch></AppSearch>
       <div class="app-img">
         <img 
           decoding="async" 
@@ -17,8 +16,7 @@
   </template>
   
   <script setup>
-    import { defineProps, defineEmits } from 'vue'  
-    import AppSearch from './AppSearch.vue' 
+    import { defineProps, defineEmits } from 'vue'
   
   defineProps({
     conteudo: {
@@ -46,7 +44,7 @@
    height: 100%;
    background-color: white;
    box-shadow: 0 1px 3px rgba(60,64,67,0.3),0 2px 8px 2px rgba(60,64,67,0.15);
-   z-index: 1000;
+   z-index: 1;
 }
 
 .slide-enter-active,

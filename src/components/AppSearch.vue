@@ -22,11 +22,12 @@
 .search {
     position: inherit;
     padding: auto;
-    width: 100%;
-    z-index: 1;
+    width: fit-content;
+    z-index: 3;
     display: flex;
     justify-content: center;
     margin-top: 1em;
+    margin-left: 4em;
 }
 
 .search input {
