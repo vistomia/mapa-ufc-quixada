@@ -133,7 +133,7 @@ defineExpose({
 });
 </script>
 
-<style scoped>
+<style>
 .map-navigator-svg {
   width: 100%;
   height: 100%;
