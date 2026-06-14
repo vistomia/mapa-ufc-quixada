@@ -13,7 +13,7 @@
       <AppSearch class="t"></AppSearch>
    </div>
 
-   <MapControls @change="handleTimeChange" />
+   <MapControls @change="handleTimeChange" @change-floor="handleChangeFloor" />
 </template>
 
 <script setup>
@@ -26,6 +26,7 @@ import AppSearch from './AppSearch.vue'
 
 const simulatedDate = ref(new Date());
 const showInfo = ref(false);
+const mapManager = ref(null);
 const conteudo = ref({
    img: '',
    build: '',
@@ -43,6 +44,14 @@ function handleUpdateInfo(info) {
 
 function handleEmptyClick() {
    showInfo.value = false;
+}
+
+function handleMouseMove() {
+   // console.log(point);
+}
+
+function handleChangeFloor() {
+   mapManager.value?.changeFloor();
 }
 
 </script>

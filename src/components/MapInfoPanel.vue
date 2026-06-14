@@ -59,7 +59,10 @@
       default: () => ({
         img: 'https://i.ytimg.com/vi/lHKajh0XyUE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGE4gZSgyMA8=&rs=AOn4CLApVXxQq5IVWY4hOw1zwHuDSYzTsg',
         build: '',
-        description: ''
+        description: '',
+        links: [],
+        schedule: {},
+        menu: {},
       })
     }
   })

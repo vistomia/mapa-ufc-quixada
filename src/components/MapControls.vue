@@ -8,6 +8,9 @@
             <option :value="4">Quinta-feira</option>
             <option :value="5">Sexta-feira</option>
          </select>
+         <button @click="$emit('change-floor')" class="floor-button">
+            Andar
+         </button>
       </div>
 
       <div class="slider-wrapper">
@@ -37,7 +40,7 @@
 <script setup>
 import { ref, watch, defineEmits } from 'vue';
 
-const emit = defineEmits(['change']);
+const emit = defineEmits(['change', 'change-floor']);
 
 const nowInitial = new Date();
 const selectedDay = ref(nowInitial.getDay());
@@ -92,8 +95,13 @@ watch([selectedDay, selectedTimeMinutes], () => {
 }
 
 /* Seletor de Dias */
+.control-row {
+    display: flex;
+    gap: 8px;
+}
+
 .day-select {
-    width: 100%;
+    flex: 1;
     padding: 10px 12px;
     border-radius: 8px;
     border: 1px solid #cbd5e1;
@@ -109,6 +117,23 @@ watch([selectedDay, selectedTimeMinutes], () => {
     background-repeat: no-repeat;
     background-position: right 12px top 50%;
     background-size: 10px auto;
+}
+
+.floor-button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #334155;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+.floor-button:hover {
+    background-color: #f1f5f9;
+    border-color: #94a3b8;
 }
 
 .day-select:focus {

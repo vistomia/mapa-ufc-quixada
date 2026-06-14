@@ -1,10 +1,10 @@
 <template>
   <MapNavigator ref="mapNavigator" @element-click="handleElementClick" @empty-click="$emit('empty-click', $event)"
-    @mouse-move="$emit('mouse-move', $event)" />
+    @mouse-move="$emit('mouse-move', $event)" @change-floor="changeFloor"/>
 </template>
 
 <script setup>
-import { ref, defineProps, defineEmits, watch } from 'vue';
+import { ref, defineProps, defineEmits, defineExpose, watch, onMounted } from 'vue';
 import MapNavigator from './MapNavigator.vue';
 import mapDataRaw from './static/map.json';
 import alocacaoData from './static/alocacao.json';
@@ -98,5 +98,32 @@ function changeInfosByDate(newDate) {
     child.firstElementChild.textContent = teste.get(id)
   }
 }
+
+const isFloorC = ref(false);
+
+function updateLayers() {
+  const layers = document.querySelectorAll('g[inkscape\\:groupmode="layer"]');
+  layers.forEach(layer => {
+    const label = layer.getAttribute('inkscape:label') || '';
+    if (label.endsWith('T')) {
+      layer.style.display = isFloorC.value ? 'none' : 'inline';
+    } else if (label.endsWith('C')) {
+      layer.style.display = isFloorC.value ? 'inline' : 'none';
+    }
+  });
+}
+
+function changeFloor() {
+  isFloorC.value = !isFloorC.value;
+  updateLayers();
+}
+
+onMounted(() => {
+  updateLayers();
+});
+
+defineExpose({
+  changeFloor
+});
 
 </script>
