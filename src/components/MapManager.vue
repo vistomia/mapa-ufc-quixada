@@ -28,17 +28,18 @@ function getCurrentSlot(alocacaoInfo) {
   const dayIndex = date.getDay();
   const currentTime = date.getHours() * 60 + date.getMinutes();
 
-  const currentSlot = alocacaoInfo.grade_horaria?.find(slot => {
+  const slot = alocacaoInfo.grade_horaria?.find(slot => {
     const [startStr, endStr] = slot.horario.split(' - ');
     if (!startStr || !endStr) return false;
     const [startH, startM] = startStr.split(':').map(Number);
     const [endH, endM] = endStr.split(':').map(Number);
     const startTime = startH * 60 + startM;
     const endTime = endH * 60 + endM;
-    return currentTime >= startTime && currentTime < endTime && slot.semana[dayIndex];
+    
+    return currentTime >= startTime && currentTime < endTime;
   });
 
-  return currentSlot
+  return slot ? slot.semana[dayIndex] : null;
 }
 
 function handleElementClick({ label }) {
@@ -66,6 +67,7 @@ function handleElementClick({ label }) {
   emit('update-info', {
     build: displayName,
     description: description,
+    alocacaoInfo: alocacaoInfo,
     img: mapData.value[0][label]?.photo || 'https://i.ytimg.com/vi/lHKajh0XyUE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGE4gZSgyMA8=&rs=AOn4CLApVXxQq5IVWY4hOw1zwHuDSYzTsg'
   });
 }
@@ -97,11 +99,17 @@ function changeInfosByDate(newDate) {
     let id = child.getAttribute("inkscape:label")
     child.firstElementChild.textContent = teste.get(id)
   }
+  group = document.getElementById("g41")
+  for (let child of group.childNodes) {
+    let id = child.getAttribute("inkscape:label")
+    child.firstElementChild.textContent = teste.get(id)
+  }
 }
 
 const isFloorC = ref(false);
 
 function updateLayers() {
+  changeInfosByDate(props.simulatedDate)
   const layers = document.querySelectorAll('g[inkscape\\:groupmode="layer"]');
   layers.forEach(layer => {
     const label = layer.getAttribute('inkscape:label') || '';

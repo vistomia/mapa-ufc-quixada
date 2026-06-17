@@ -8,7 +8,7 @@
          @mouse-move="handleMouseMove"
       />
       <Transition name="slide">
-         <MapInfoPanel v-if="showInfo" :conteudo="conteudo" @close="showInfo = false"></MapInfoPanel>
+         <MapInfoPanel v-if="showInfo" :conteudo="conteudo" :simulatedDate="simulatedDate" @close="showInfo = false"></MapInfoPanel>
       </Transition>
       <AppSearch class="t"></AppSearch>
    </div>

@@ -7,59 +7,20 @@
         "horario": "08:00 - 10:00",
         "semana": [
           null,
-          {
-            "disciplina": "GESTÃO DA INOVAÇÃO",
-            "sigla": "GTI",
-            "professor": "Brenno"
-          },
-          {
-            "disciplina": "GESTÃO DA INOVAÇÃO",
-            "sigla": "GTI",
-            "professor": "Brenno"
-          },
+          { "disciplina": "GESTÃO DA INOVAÇÃO", "sigla": "GTI", "professor": "Brenno" },
+          { "disciplina": "GESTÃO DA INOVAÇÃO", "sigla": "GTI", "professor": "Brenno" },
           null,
-          {
-            "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 02A",
-            "sigla": "Calculo I",
-            "professor": "Joel"
-          },
-          {
-            "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 02A",
-            "sigla": "Calculo I",
-            "professor": "Joel"
-          },
+          { "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 02A", "sigla": "Calculo I", "professor": "Joel" },
+          { "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 02A", "sigla": "Calculo I", "professor": "Joel" },
           null
         ]
       },
       {
         "horario": "10:00 - 12:00",
         "semana": [
-          null,
-          null,
-          null,
-          null,
-          {
-            "disciplina": "SI 5 - LÓGICA PARA COMPUTAÇÃO 01A",
-            "sigla": "Lógica",
-            "professor": "Samy"
-          },
-          {
-            "disciplina": "SI 5 - LÓGICA PARA COMPUTAÇÃO 01A",
-            "sigla": "Lógica",
-            "professor": "Samy"
-          },
-          null
-        ]
-      },
-      {
-        "horario": "12:00 - 13:30",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          null, null, null, null,
+          { "disciplina": "SI 5 - LÓGICA PARA COMPUTAÇÃO 01A", "sigla": "Lógica", "professor": "Samy" },
+          { "disciplina": "SI 5 - LÓGICA PARA COMPUTAÇÃO 01A", "sigla": "Lógica", "professor": "Samy" },
           null
         ]
       },
@@ -67,79 +28,22 @@
         "horario": "13:30 - 15:30",
         "semana": [
           null,
-          {
-            "disciplina": "ANÁLISE E PROJETO DE SISTEMAS 02A",
-            "sigla": "APS",
-            "professor": "Marcos Oliveira"
-          },
-          {
-            "disciplina": "ANÁLISE E PROJETO DE SISTEMAS 02A",
-            "sigla": "APS",
-            "professor": "Marcos Oliveira"
-          },
-          {
-            "disciplina": "MATEMÁTICA DISCRETA",
-            "sigla": "Discreta",
-            "professor": "Samy"
-          },
-          {
-            "disciplina": "MATEMÁTICA DISCRETA",
-            "sigla": "Discreta",
-            "professor": "Samy"
-          },
-          null,
-          null
+          { "disciplina": "ANÁLISE E PROJETO DE SISTEMAS 02A", "sigla": "APS", "professor": "Marcos Oliveira" },
+          { "disciplina": "ANÁLISE E PROJETO DE SISTEMAS 02A", "sigla": "APS", "professor": "Marcos Oliveira" },
+          { "disciplina": "MATEMÁTICA DISCRETA", "sigla": "Discreta", "professor": "Samy" },
+          { "disciplina": "MATEMÁTICA DISCRETA", "sigla": "Discreta", "professor": "Samy" },
+          null, null
         ]
       },
       {
         "horario": "15:30 - 17:30",
         "semana": [
           null,
-          {
-            "disciplina": "COMPUTAÇÃO EM NUVEM 01A",
-            "sigla": "Nuvem",
-            "professor": "Emanuel"
-          },
-          {
-            "disciplina": "ESTRUTURA DE DADOS 05A",
-            "sigla": "ED",
-            "professor": "Arthur Araruna"
-          },
+          { "disciplina": "COMPUTAÇÃO EM NUVEM 01A", "sigla": "Nuvem", "professor": "Emanuel" },
+          { "disciplina": "ESTRUTURA DE DADOS 05A", "sigla": "ED", "professor": "Arthur Araruna" },
           null,
-          {
-            "disciplina": "DD 3 - INTERAÇÃO HUMANO-COMPUTADOR 03A",
-            "sigla": "IHC",
-            "professor": "Ingrid"
-          },
-          {
-            "disciplina": "DD 3 - INTERAÇÃO HUMANO-COMPUTADOR 03A",
-            "sigla": "IHC",
-            "professor": "Ingrid"
-          },
-          null
-        ]
-      },
-      {
-        "horario": "18:00 - 20:00",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      {
-        "horario": "20:00 - 22:00",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          { "disciplina": "DD 3 - INTERAÇÃO HUMANO-COMPUTADOR 03A", "sigla": "IHC", "professor": "Ingrid" },
+          { "disciplina": "DD 3 - INTERAÇÃO HUMANO-COMPUTADOR 03A", "sigla": "IHC", "professor": "Ingrid" },
           null
         ]
       }
@@ -153,31 +57,11 @@
         "horario": "08:00 - 10:00",
         "semana": [
           null,
-          {
-            "disciplina": "FOTOGRAFIA",
-            "sigla": "Fotografia",
-            "professor": "Diana Medina"
-          },
-          {
-            "disciplina": "FOTOGRAFIA",
-            "sigla": "Fotografia",
-            "professor": "Diana Medina"
-          },
-          {
-            "disciplina": "Sistemas Multiagentes",
-            "sigla": "SMA",
-            "professor": "Marcos Oliveira"
-          },
-          {
-            "disciplina": "COMPILADORES",
-            "sigla": "Compiladores",
-            "professor": "Lucas Ismaily"
-          },
-          {
-            "disciplina": "COMPILADORES",
-            "sigla": "Compiladores",
-            "professor": "Lucas Ismaily"
-          },
+          { "disciplina": "FOTOGRAFIA", "sigla": "Fotografia", "professor": "Diana Medina" },
+          { "disciplina": "FOTOGRAFIA", "sigla": "Fotografia", "professor": "Diana Medina" },
+          { "disciplina": "Sistemas Multiagentes", "sigla": "SMA", "professor": "Marcos Oliveira" },
+          { "disciplina": "COMPILADORES", "sigla": "Compiladores", "professor": "Lucas Ismaily" },
+          { "disciplina": "COMPILADORES", "sigla": "Compiladores", "professor": "Lucas Ismaily" },
           null
         ]
       },
@@ -185,43 +69,11 @@
         "horario": "10:00 - 12:00",
         "semana": [
           null,
-          {
-            "disciplina": "Sistemas Multiagentes",
-            "sigla": "SMA",
-            "professor": "Marcos Oliveira"
-          },
-          {
-            "disciplina": "SI 5 - GESTÃO DA TECNOLOGIA DA INFORMAÇÃO",
-            "sigla": "GTI",
-            "professor": "Brenno"
-          },
-          {
-            "disciplina": "SI 5 - GESTÃO DA TECNOLOGIA DA INFORMAÇÃO",
-            "sigla": "GTI",
-            "professor": "Brenno"
-          },
-          {
-            "disciplina": "ERGONOMIA",
-            "sigla": "Ergonomia",
-            "professor": "Rochelle"
-          },
-          {
-            "disciplina": "ERGONOMIA",
-            "sigla": "Ergonomia",
-            "professor": "Rochelle"
-          },
-          null
-        ]
-      },
-      {
-        "horario": "12:00 - 13:30",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          { "disciplina": "Sistemas Multiagentes", "sigla": "SMA", "professor": "Marcos Oliveira" },
+          { "disciplina": "SI 5 - GESTÃO DA TECNOLOGIA DA INFORMAÇÃO", "sigla": "GTI", "professor": "Brenno" },
+          { "disciplina": "SI 5 - GESTÃO DA TECNOLOGIA DA INFORMAÇÃO", "sigla": "GTI", "professor": "Brenno" },
+          { "disciplina": "ERGONOMIA", "sigla": "Ergonomia", "professor": "Rochelle" },
+          { "disciplina": "ERGONOMIA", "sigla": "Ergonomia", "professor": "Rochelle" },
           null
         ]
       },
@@ -229,31 +81,11 @@
         "horario": "13:30 - 15:30",
         "semana": [
           null,
-          {
-            "disciplina": "DESENVOLVIMENTO DE SOFTWARE PARA PERSISTÊNCIA",
-            "sigla": "Persistência",
-            "professor": "Régis"
-          },
-          {
-            "disciplina": "DESENVOLVIMENTO DE SOFTWARE PARA PERSISTÊNCIA",
-            "sigla": "Persistência",
-            "professor": "Régis"
-          },
-          {
-            "disciplina": "ES 7 - PROJETO DE PESQUISA CIENTÍFICA E TECNOLÓGICA 02A",
-            "sigla": "PPCT",
-            "professor": "Marcos Oliveira"
-          },
-          {
-            "disciplina": "TÓPICOS AVANÇADOS EM BANCO DE DADOS",
-            "sigla": "TABD",
-            "professor": "Lívia"
-          },
-          {
-            "disciplina": "DD 3 - SOCIEDADE, CULTURA E TECNOLOGIAS 01",
-            "sigla": "Sociedade",
-            "professor": "Valdemir"
-          },
+          { "disciplina": "DESENVOLVIMENTO DE SOFTWARE PARA PERSISTÊNCIA", "sigla": "Persistência", "professor": "Régis" },
+          { "disciplina": "DESENVOLVIMENTO DE SOFTWARE PARA PERSISTÊNCIA", "sigla": "Persistência", "professor": "Régis" },
+          { "disciplina": "ES 7 - PROJETO DE PESQUISA CIENTÍFICA E TECNOLÓGICA 02A", "sigla": "PPCT", "professor": "Marcos Oliveira" },
+          { "disciplina": "TÓPICOS AVANÇADOS EM BANCO DE DADOS", "sigla": "TABD", "professor": "Lívia" },
+          { "disciplina": "DD 3 - SOCIEDADE, CULTURA E TECNOLOGIAS 01", "sigla": "Sociedade", "professor": "Valdemir" },
           null
         ]
       },
@@ -261,55 +93,11 @@
         "horario": "15:30 - 17:30",
         "semana": [
           null,
-          {
-            "disciplina": "ES 5 - PROJETO E ANÁLISE DE ALGORITMOS",
-            "sigla": "PAA",
-            "professor": "Atílio"
-          },
-          {
-            "disciplina": "ES 5 - PROJETO E ANÁLISE DE ALGORITMOS",
-            "sigla": "PAA",
-            "professor": "Atílio"
-          },
-          {
-            "disciplina": "DD 3 - SOCIEDADE, CULTURA E TECNOLOGIAS 01",
-            "sigla": "Sociedade",
-            "professor": "Valdemir"
-          },
-          {
-            "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 01A",
-            "sigla": "Calculo I",
-            "professor": "André"
-          },
-          {
-            "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 01A",
-            "sigla": "Calculo I",
-            "professor": "André"
-          },
-          null
-        ]
-      },
-      {
-        "horario": "18:00 - 20:00",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      {
-        "horario": "20:00 - 22:00",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          { "disciplina": "ES 5 - PROJETO E ANÁLISE DE ALGORITMOS", "sigla": "PAA", "professor": "Atílio" },
+          { "disciplina": "ES 5 - PROJETO E ANÁLISE DE ALGORITMOS", "sigla": "PAA", "professor": "Atílio" },
+          { "disciplina": "DD 3 - SOCIEDADE, CULTURA E TECNOLOGIAS 01", "sigla": "Sociedade", "professor": "Valdemir" },
+          { "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 01A", "sigla": "Calculo I", "professor": "André" },
+          { "disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I 01A", "sigla": "Calculo I", "professor": "André" },
           null
         ]
       }
@@ -321,103 +109,26 @@
     "grade_horaria": [
       {
         "horario": "08:00 - 10:00",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
+        "semana": [null, null, null, null, null, null, null]
       },
       {
         "horario": "10:00 - 12:00",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      {
-        "horario": "12:00 - 13:30",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
+        "semana": [null, null, null, null, null, null, null]
       },
       {
         "horario": "13:30 - 15:30",
         "semana": [
           null,
-          {
-            "disciplina": "APRENDIZADO DE MÁQUINA EMBARCADO",
-            "sigla": "AME",
-            "professor": "Jeandro"
-          },
-          {
-            "disciplina": "APRENDIZADO DE MÁQUINA EMBARCADO",
-            "sigla": "AME",
-            "professor": "Jeandro"
-          },
-          {
-            "disciplina": "monitoria matemática básica-filho",
-            "sigla": "Monitoria",
-            "professor": null
-          },
-          {
-            "disciplina": "monitoria matemática básica-filho",
-            "sigla": "Monitoria",
-            "professor": null
-          },
-          null,
-          null
+          { "disciplina": "APRENDIZADO DE MÁQUINA EMBARCADO", "sigla": "AME", "professor": "Jeandro" },
+          { "disciplina": "APRENDIZADO DE MÁQUINA EMBARCADO", "sigla": "AME", "professor": "Jeandro" },
+          { "disciplina": "monitoria matemática básica-filho", "sigla": "Monitoria", "professor": null },
+          { "disciplina": "monitoria matemática básica-filho", "sigla": "Monitoria", "professor": null },
+          null, null
         ]
       },
       {
         "horario": "15:30 - 17:30",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      {
-        "horario": "18:00 - 20:00",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      {
-        "horario": "20:00 - 22:00",
-        "semana": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
+        "semana": [null, null, null, null, null, null, null]
       }
     ]
   },
@@ -427,10 +138,152 @@
     "grade_horaria": [
       {
         "horario": "08:00 - 10:00",
+        "semana": [null, null, null, null, null, null, null]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [null, null, null, null, null, null, null]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [null, null, null, null, null, null, null]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [null, null, null, null, null, null, null]
+      }
+    ]
+  },
+  "B2S1": {
+    "local": "BLOCO 2 - SALA 1",
+    "informacoes_adicionais": "55 lugares (nenhum dos ares-condicionados funcionam (20/02/2026))",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [null, null, null, null, null, null, null]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [null, null, null, null, null, null, null]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [null, null, null, {"disciplina":"Monitoria de Matemática Básica e Discreta", "sigla":"Monitoria", "professor":"claracruz.fac12@alu.ufc.br"}, {"disciplina":"Monitoria de Matemática Básica e Discreta", "sigla":"Monitoria", "professor":"claracruz.fac12@alu.ufc.br"}, null, null]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [null, null, null, null, null, null, null]
+      }
+    ]
+  },
+  "B2S2": {
+    "local": "BLOCO 2 - SALA 2",
+    "informacoes_adicionais": "55 lugares (nenhum dos ares-condicionados funcionam (20/02/2026))",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
         "semana": [
           null,
+          { "disciplina": "RC 5- VIRTUALIZAÇÃO E REDES DEFINIDAS POR SOFTWARE", "sigla": "RC5", "professor": "Michel" },
+          { "disciplina": "RC 5- VIRTUALIZAÇÃO E REDES DEFINIDAS POR SOFTWARE", "sigla": "RC5", "professor": "Michel" },
+          { "disciplina": "RC 3 Segurança da Informação", "sigla": "RC3", "professor": "Michel" },
+          { "disciplina": "CC 5-INTELIGÊNCIA ARTIFICIAL", "sigla": "CC5", "professor": "Samy" },
+          { "disciplina": "CC 5 - INTELIGÊNCIA ARTIFICIAL", "sigla": "CC5", "professor": "Samy" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "RC 3 - Segurança da Informação", "sigla": "RC3", "professor": "Michel" },
+          { "disciplina": "RC 3-Laboratório em Inf. de Redes", "sigla": "RC3", "professor": "João Marcelo" },
+          { "disciplina": "RC 3-Laboratório em Inf. de Redes", "sigla": "RC3", "professor": "João Marcelo" },
+          { "disciplina": "RC 1-REDES DE COMPUTADORES I", "sigla": "RC1", "professor": "Arthur Callado" },
+          { "disciplina": "RC 1-REDES DE COMPUTADORES I", "sigla": "RC1", "professor": "Arthur Callado" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "MANUTENÇÃO DE SOFTWARE", "sigla": "Manut", "professor": "Carla" },
+          { "disciplina": "MANUTENÇÃO DE SOFTWARE", "sigla": "Manut", "professor": "Carla" },
+          { "disciplina": "EC 5-ANÁLISE DE CIRCUITOS", "sigla": "EC5", "professor": "Paulo Armando" },
+          { "disciplina": "EC 5-ANÁLISE DE CIRCUITOS", "sigla": "EC5", "professor": "Paulo Armando" },
+          { "disciplina": "IA 1-PRÉ-CÁLCULO 04A", "sigla": "Pré-Calc", "professor": "André" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "COMPUTAÇÃO EM NUVEM 02A", "sigla": "Nuvem", "professor": "João Marcelo" },
+          { "disciplina": "COMPUTAÇÃO EM NUVEM 02A", "sigla": "Nuvem", "professor": "João Marcelo" },
+          null,
+          { "disciplina": "EXPERIMENTAÇÃO EM ENGENHARIA DE SOFTWARE", "sigla": "EES", "professor": "Rainara" },
+          { "disciplina": "EXPERIMENTAÇÃO EM ENGENHARIA DE SOFTWARE", "sigla": "EES", "professor": "Rainara" },
+          null
+        ]
+      }
+    ]
+  },
+  "B2S3": {
+    "local": "BLOCO 2 - SALA 2",
+    "informacoes_adicionais": "55 lugares",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [null, null, null, null, null, null, null]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "Monitoria de matemática", "sigla": "Monitoria", "professor": "Bolsista Emerson / Prof. Filho" },
           null,
           null,
+          { "disciplina": "EC 3- TÉCNICAS DE PROGRAMAÇÃO PARA SISTEMAS EMBARCADOS I", "sigla": "EC3", "professor": "Helder" },
+          { "disciplina": "Monitoria de matemática", "sigla": "Monitoria", "professor": "Bolsista Emerson / Prof. Filho" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "DD 1- INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 01A", "sigla": "DD1", "professor": "David Sena" },
+          null,
+          { "disciplina": "EC 3-CIRCUITOS DIGITAIS 01A 02A", "sigla": "EC3", "professor": "Rodolfo" },
+          null,
+          { "disciplina": "ENGENHARIA SEMIÓTICA", "sigla": "EngSem", "professor": "Ingrid" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null, null, null,
+          { "disciplina": "ENGENHARIA SEMIÓTICA", "sigla": "EngSem", "professor": "Ingrid" },
+          { "disciplina": "EC 5-ELETRICIDADE E MAGNETISMO", "sigla": "Eletro/CalcII", "professor": "Joel" },
+          { "disciplina": "EC 5-ELETRICIDADE E MAGNETISMO", "sigla": "Eletro/CalcII", "professor": "Joel" },
+          null
+        ]
+      }
+    ]
+  },
+  "B2S4": {
+    "local": "BLOCO 2 - SALA 4",
+    "informacoes_adicionais": "30 lugares",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          { "disciplina": "Monitoria de desenvolvimento web e mobile", "sigla": "Monitoria", "professor": "Prof. Sidartha" },
+          { "disciplina": "Monitoria de desenvolvimento web e mobile", "sigla": "Monitoria", "professor": "Prof. Sidartha" },
           null,
           null,
           null,
@@ -441,12 +294,11 @@
         "horario": "10:00 - 12:00",
         "semana": [
           null,
+          { "disciplina": "Monitoria de desenvolvimento web e mobile", "sigla": "Monitoria", "professor": "Prof. Sidartha" },
           null,
-          null,
-          null,
-          null,
-          null,
-          null
+          { "disciplina": "Monitoria de desenvolvimento web e mobile", "sigla": "Monitoria", "professor": "Prof. Sidartha" },
+          { "disciplina": "Monitoria de desenvolvimento web e mobile", "sigla": "Monitoria", "professor": "Prof. Sidartha" },
+          null, null
         ]
       },
       {
@@ -454,7 +306,7 @@
         "semana": [
           null,
           null,
-          null,
+          { "disciplina": "Monitoria de desenvolvimento web e mobile", "sigla": "Monitoria", "professor": "Prof. Sidartha" },
           null,
           null,
           null,
@@ -465,11 +317,63 @@
         "horario": "13:30 - 15:30",
         "semana": [
           null,
+          { "disciplina": "DD 1- INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 01A", "sigla": "DD1", "professor": "David Sena" },
           null,
+          { "disciplina": "EC 3-CIRCUITOS DIGITAIS 01A 02A", "sigla": "EC3", "professor": "Rodolfo" },
           null,
+          { "disciplina": "ENGENHARIA SEMIÓTICA", "sigla": "EngSem", "professor": "Ingrid" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null, null, null,
+          { "disciplina": "ENGENHARIA SEMIÓTICA", "sigla": "EngSem", "professor": "Ingrid" },
+          { "disciplina": "EC 5-ELETRICIDADE E MAGNETISMO / EC 3 CÁLCULO DIFERENCIAL E INTEGRAL II", "sigla": "Eletro/CalcII", "professor": "Joel / Helder" },
+          { "disciplina": "EC 5-ELETRICIDADE E MAGNETISMO / EC 3-CÁLCULO DIFERENCIAL E INTEGRAL II", "sigla": "Eletro/CalcII", "professor": "Joel / Helder" },
+          null
+        ]
+      }
+    ]
+  },
+  "B3S1": {
+    "local": "BLOCO 3- SALA 1",
+    "informacoes_adicionais": "52 lugares (somente um ar-condicionado funciona - 20/02/26)",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
           null,
+          { "disciplina": "RC 1-MATEMÁTICA BÁSICA 03", "sigla": "MatBas", "professor": "Aragão" },
+          { "disciplina": "RC 1-MATEMÁTICA BÁSICA 03", "sigla": "MatBas", "professor": "Aragão" },
+          { "disciplina": "CC 1-INTRODUÇÃO À CIÊNCIA DA COMPUTAÇÃO", "sigla": "ICC", "professor": "Diana Braga" },
+          { "disciplina": "SI 5-AUDITORIA E SEGURANÇA DE SISTEMAS DE INFORMAÇÃO", "sigla": "Auditoria", "professor": "Roberto Cabral" },
+          { "disciplina": "SI 5-AUDITORIA E SEGURANÇA DE SISTEMAS DE INFORMAÇÃO", "sigla": "Auditoria", "professor": "Roberto Cabral" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
           null,
+          { "disciplina": "RC 1 - INFORMÁTICA E ORGANIZAÇÃO DE COMPUTADORES", "sigla": "IOC", "professor": "Carlos Igor" },
+          { "disciplina": "RC 1-INFORMÁTICA E ORGANIZAÇÃO DE COMPUTADORES", "sigla": "IOC", "professor": "Carlos Igor" },
+          { "disciplina": "RC 1-ÉTICA, DIREITO E LEGISLAÇÃO 02A", "sigla": "Etica", "professor": "Wesley" },
+          { "disciplina": "USER EXPERIENCE (UX)", "sigla": "UX", "professor": "Leonara" },
+          { "disciplina": "USER EXPERIENCE (UX)", "sigla": "UX", "professor": "Leonara" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
           null,
+          { "disciplina": "IA 1 - MATEMÁTICA BÁSICA 06", "sigla": "MatBas", "professor": "Criston" },
+          { "disciplina": "IA 1- MATEMÁTICA BÁSICA 06", "sigla": "MatBas", "professor": "Críston" },
+          { "disciplina": "IA 1-INTRODUÇÃO À INTELIGÊNCIA ARTIFICIAL", "sigla": "IntroIA", "professor": "Viviane" },
+          { "disciplina": "IA 1-INTRODUÇÃO À INTELIGÊNCIA ARTIFICIAL", "sigla": "IntroIA", "professor": "Viviane" },
+          { "disciplina": "ES 5 - VERIFICAÇÃO E VALIDAÇÃO", "sigla": "V&V", "professor": "Paulyne" },
           null
         ]
       },
@@ -477,38 +381,1019 @@
         "horario": "15:30 - 17:30",
         "semana": [
           null,
+          { "disciplina": "PROBABILIDADE E ESTATÍSTICA 01A", "sigla": "Prob", "professor": "Aragão" },
+          { "disciplina": "PROBABILIDADE E ESTATÍSTICA 01A", "sigla": "Prob", "professor": "Aragão" },
+          { "disciplina": "ES 5 - VERIFICAÇÃO E VALIDAÇÃO", "sigla": "V&V", "professor": "Paulyne" },
+          { "disciplina": "IA 1 - SOCIEDADE, CULTURA E TECNOLOGIAS 02", "sigla": "SCT", "professor": "Valdemir" },
+          { "disciplina": "IA 1 - SOCIEDADE, CULTURA E TECNOLOGIAS 02", "sigla": "SCT", "professor": "Valdemir" },
+          null
+        ]
+      }
+    ]
+  },
+  "B3S2": {
+    "local": "BLOCO 3 - SALA 2",
+    "informacoes_adicionais": "52 lugares",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
           null,
-          null,
-          null,
-          null,
-          null,
+          { "disciplina": "CC 5-REDES DE COMPUTADORES 01A", "sigla": "Redes", "professor": "João Marcelo" },
+          { "disciplina": "CC 5-REDES DE COMPUTADORES 01A", "sigla": "Redes", "professor": "João Marcelo" },
+          { "disciplina": "SI 3-GESTÃO DE PROCESSOS DE NEGÓCIOS", "sigla": "GPN", "professor": "Brenno" },
+          { "disciplina": "EMPREENDEDORISMO 02A", "sigla": "Empreend", "professor": "Wesley" },
+          { "disciplina": "EMPREENDEDORISMO 02A", "sigla": "Empreend", "professor": "Wesley" },
           null
         ]
       },
       {
-        "horario": "18:00 - 20:00",
+        "horario": "10:00 - 12:00",
         "semana": [
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          { "disciplina": "SI 3 - GESTÃO DE PROCESSOS DE NEGÓCIOS", "sigla": "GPN", "professor": "Brenno" },
+          { "disciplina": "SI 7-PROJETO DE PESQUISA CIENTÍFICA E TECNOLÓGICA 01A", "sigla": "PPCT", "professor": "Carla" },
+          { "disciplina": "PROJETO TÉCNICO-CIENTÍFICO EM DESIGN DIGITAL 01A", "sigla": "ProjDesign", "professor": "Marcos Devaner" },
+          { "disciplina": "SI 3-SISTEMAS OPERACIONAIS 01A", "sigla": "SO", "professor": "Pedro Botelho" },
+          { "disciplina": "SI 3-SISTEMAS OPERACIONAIS 01A", "sigla": "SO", "professor": "Pedro Botelho" },
           null
         ]
       },
       {
-        "horario": "20:00 - 22:00",
+        "horario": "13:30 - 15:30",
         "semana": [
           null,
+          { "disciplina": "EC 5-ENGENHARIA DE SOFTWARE 02A", "sigla": "ES", "professor": "Marcelo Martins" },
+          { "disciplina": "EC 5-ENGENHARIA DE SOFTWARE 02A", "sigla": "ES", "professor": "Marcelo Martins" },
+          { "disciplina": "DD 3-SEMIÓTICA", "sigla": "Semiotica", "professor": "Rochelle" },
+          { "disciplina": "DD 3-SEMIÓTICA", "sigla": "Semiotica", "professor": "Rochelle" },
+          { "disciplina": "EC 3- PROBABILIDADE E ESTATÍSTICA 03A", "sigla": "Prob", "professor": "Elvis" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
           null,
+          { "disciplina": "DD 1-HISTÓRIA DA ARTE", "sigla": "HistArte", "professor": "Paulo Victor" },
+          { "disciplina": "DD 1-HISTÓRIA DA ARTE", "sigla": "HistArte", "professor": "Paulo Victor" },
+          { "disciplina": "EC 3- PROBABILIDADE E ESTATÍSTICA", "sigla": "Prob", "professor": "Elvis" },
+          { "disciplina": "ES 5- EMPREENDEDORISMO", "sigla": "Empreend", "professor": "Wesley" },
+          { "disciplina": "ES 5- EMPREENDEDORISMO", "sigla": "Empreend", "professor": "Wesley" },
+          null
+        ]
+      }
+    ]
+  },
+  "B3S3": {
+    "local": "BLOCO 3- SALA 3",
+    "informacoes_adicionais": "30 lugares",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null, null,
+          { "disciplina": "Monitoria de FBD", "sigla": "Mon/PPCT", "professor": "Victor" },
+          { "disciplina": "PROJETO TÉCNICO-CIENTÍFICO EM DESIGN DIGITAL 02A", "sigla": "ProjDesign", "professor": "Marcos Devaner" },
+          { "disciplina": "ES 5-PROJETO INTEGRADO EM ENGENHARIA DE SOFTWARE II 01A", "sigla": "PI-ES", "professor": "Leonara / Joel" },
+          { "disciplina": "ES 5-PROJETO INTEGRADO EM ENGENHARIA DE SOFTWARE II 02A", "sigla": "PI-ES", "professor": "Leonara / Joel" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null, null,
+          { "disciplina": "CC 7-PROJETO DE PESQUISA CIENTÍFICA", "sigla": "Mon/PPCT", "professor": "Marcos Devaner" },
           null,
+          { "disciplina": "ONDAS E ANTENAS", "sigla": "Ondas", "professor": "Joel" },
+          { "disciplina": "ONDAS E ANTENAS", "sigla": "Ondas", "professor": "Joel" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
           null,
+          { "disciplina": "DD 5-Processos de Criação 02", "sigla": "Criacao", "professor": "Diana Medina" },
+          { "disciplina": "DD 5-Processos de Criação 02", "sigla": "Criacao", "professor": "Diana Medina" },
+          { "disciplina": "EC 9-PROJETO DE PESQUISA CIENTÍFICA E TECNOLÓGICA 05A", "sigla": "PPCT", "professor": "Carla" },
+          null,
+          { "disciplina": "Processamento Digital de Sinais", "sigla": "PDS", "professor": "Rodolfo" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "DD 5-Processos de Criação 01", "sigla": "Criacao", "professor": "Diana Medina" },
+          { "disciplina": "DD 5-Processos de Criação 01", "sigla": "Criacao", "professor": "Diana Medina" },
+          { "disciplina": "Processamento Digital de Sinais", "sigla": "PDS", "professor": "Rodolfo" },
           null,
           null,
           null
         ]
       }
     ]
-  }
+  },
+  "B3S4": {
+    "local": "BLOCO 3- SALA 4",
+    "informacoes_adicionais": "30 lugares",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [null, null, null, null, null, null, null]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "Monitoria de matemática", "sigla": "Monitoria", "professor": "calebesucupira" },
+          null,
+          { "disciplina": "Monitoria de matemática", "sigla": "Monitoria", "professor": "calebesucupira" },
+          null, null, null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null, null, null,
+          { "disciplina": "RC 5-PROJETO DE PESQUISA CIENTÍFICA E TECNOLÓGICA 03A", "sigla": "PPCT", "professor": "Enyo" },
+          null, null, null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "SEMINÁRIOS", "sigla": "Seminarios", "professor": "Marcelo Martins" },
+          { "disciplina": "SEMINÁRIOS", "sigla": "Seminarios", "professor": "Marcelo Martins" },
+          null, null, null, null
+        ]
+      }
+    ]
+  },
+  "B3SALADESENHO": {
+    "local": "BLOCO 3 - SALA DE DESENHO",
+    "informacoes_adicionais": "",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [null, null, null, null, null, null, null]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null, null,
+          { "disciplina": "TÓPICOS ESPECIAIS EM DESIGN", "sigla": "TED", "professor": "Paulo Victor" },
+          { "disciplina": "TÓPICOS ESPECIAIS EM DESIGN", "sigla": "TED", "professor": "Paulo Victor" },
+          null, null, null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null, null, null,
+          { "disciplina": "PROTOTIPAÇÃO RÁPIDA", "sigla": "Prototip", "professor": "José Neto" },
+          { "disciplina": "PROTOTIPAÇÃO RÁPIDA", "sigla": "Prototip", "professor": "José Neto" },
+          { "disciplina": "DESENHO I 1A", "sigla": "Desenho", "professor": "José Neto" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null, null, null,
+          { "disciplina": "DESENHO I 1A", "sigla": "Desenho", "professor": "José Neto" },
+          { "disciplina": "DESENHO I 2A", "sigla": "Desenho", "professor": "José Neto" },
+          { "disciplina": "DESENHO I 2A", "sigla": "Desenho", "professor": "José Neto" },
+          null
+        ]
+      }
+    ]
+  },
+  "B4S1": {
+    "local": "BLOCO 4 - SALA 1",
+    "informacoes_adicionais": "55 lugares",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          { "disciplina": "CC 3 - PROGRAMAÇÃO FUNCIONAL", "sigla": "ProgFunc", "professor": "Ricardo Reis" },
+          { "disciplina": "CC 3 - PROGRAMAÇÃO FUNCIONAL", "sigla": "ProgFunc", "professor": "Ricardo Reis" },
+          { "disciplina": "CC 5 - MATEMÁTICA COMPUTACIONAL", "sigla": "MatComp", "professor": "Ricardo Reis" },
+          { "disciplina": "CC 3 - SISTEMAS OPERACIONAIS 03A", "sigla": "SO", "professor": "Pedro Botelho" },
+          { "disciplina": "CC 3 - SISTEMAS OPERACIONAIS 03A", "sigla": "SO", "professor": "Pedro Botelho" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "CC 5-MATEMÁTICA COMPUTACIONAL", "sigla": "MatComp", "professor": "Ricardo Reis" },
+          { "disciplina": "ÁLGEBRA LINEAR", "sigla": "AlgLin", "professor": "Ricardo Reis" },
+          { "disciplina": "ÁLGEBRA LINEAR", "sigla": "AlgLin", "professor": "Ricardo Reis" },
+          { "disciplina": "CC 3- PROBABILIDADE E ESTATÍSTICA 02A", "sigla": "Prob", "professor": "Elvis" },
+          { "disciplina": "CC 3- PROBABILIDADE E ESTATÍSTICA 02A", "sigla": "Prob", "professor": "Elvis" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "ES 1 MATEMÁTICA BÁSICA 02", "sigla": "MatBas", "professor": "Aragão" },
+          { "disciplina": "ES 1- MATEMÁTICA BÁSICA 02", "sigla": "MatBas", "professor": "Aragão" },
+          { "disciplina": "ES 1-INTERAÇÃO HUMANO-COMPUTADOR 01A", "sigla": "IHC", "professor": "Rainara" },
+          { "disciplina": "ES 1-INTERAÇÃO HUMANO-COMPUTADOR 01A", "sigla": "IHC", "professor": "Rainara" },
+          { "disciplina": "ES 1 - ÉTICA, DIREITO E LEGISLAÇÃO 01A", "sigla": "Etica", "professor": "Wesley" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "ES 1-INTRODUÇÃO À ENGENHARIA DE SOFTWARE", "sigla": "IntroES", "professor": "Jeferson Kenedy" },
+          { "disciplina": "ES 1-INTRODUÇÃO À ENGENHARIA DE SOFTWARE", "sigla": "IntroES", "professor": "Jeferson Kenedy" },
+          { "disciplina": "EC 1-PRÉ-CÁLCULO 03A", "sigla": "PreCalc", "professor": "André" },
+          { "disciplina": "EC 1-INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO", "sigla": "IntroEC", "professor": "Pedro Botelho" },
+          { "disciplina": "Eletrônica Fundamental II", "sigla": "Eletronica", "professor": "Elvis" },
+          null
+        ]
+      }
+    ]
+  },
+  "B4S2": {
+    "local": "BLOCO 4- SALA 2",
+    "informacoes_adicionais": "55 lugares",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          { "disciplina": "SI 5-ENGENHARIA DE SOFTWARE 01A", "sigla": "ES", "professor": "Diana Braga" },
+          { "disciplina": "SI 5-ENGENHARIA DE SOFTWARE 01A", "sigla": "ES", "professor": "Diana Braga" },
+          null,
+          { "disciplina": "SI 1-INTRODUÇÃO A SISTEMAS DE INFORMAÇÃO", "sigla": "ISI", "professor": "Diana Braga" },
+          { "disciplina": "SI 1-INTRODUÇÃO A SISTEMAS DE INFORMAÇÃO", "sigla": "ISI", "professor": "Diana Braga" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "SI 1-PRÉ-CÁLCULO 01A", "sigla": "PreCalc", "professor": "Aragão" },
+          { "disciplina": "SI 1-MATEMÁTICA BÁSICA 01", "sigla": "MatBas", "professor": "Filho" },
+          { "disciplina": "SI 1-MATEMÁTICA BÁSICA 01", "sigla": "MatBas", "professor": "Filho" },
+          { "disciplina": "SI 1-INTRODUÇÃO A ADMINISTRAÇÃO", "sigla": "IntroAdm", "professor": "Wesley" },
+          { "disciplina": "SI 1-INTRODUÇÃO A ADMINISTRAÇÃO", "sigla": "IntroAdm", "professor": "Wesley" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "EC 1- MATEMÁTICA BÁSICA 05", "sigla": "MatBas", "professor": "Filho" },
+          { "disciplina": "EC 1- MATEMÁTICA BÁSICA 05", "sigla": "MatBas", "professor": "Filho" },
+          { "disciplina": "DD 1-PSICOLOGIA E PERCEPÇÃO", "sigla": "Psic", "professor": "Valdemir" },
+          { "disciplina": "DD 1-PSICOLOGIA E PERCEPÇÃO", "sigla": "Psic", "professor": "Valdemir" },
+          { "disciplina": "DD 5 - ÉTICA E LEGISLAÇÃO", "sigla": "Etica", "professor": "Rochelle" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "EC 3-SISTEMAS OPERACIONAIS 04A", "sigla": "SO", "professor": "Jeandro" },
+          { "disciplina": "EC 3-SISTEMAS OPERACIONAIS 04A", "sigla": "SO", "professor": "Jeandro" },
+          { "disciplina": "DD 5-ÉTICA E LEGISLAÇÃO", "sigla": "Etica", "professor": "Rochelle" },
+          { "disciplina": "DD 5-PROJETO INTEGRADO III", "sigla": "PIDD3", "professor": "Leonara" },
+          { "disciplina": "DD 5-PROJETO INTEGRADO III", "sigla": "PIDD3", "professor": "Leonara" },
+          null
+        ]
+      }
+    ]
+  },
+  "B4S3": {
+    "local": "BLOCO 4 - SALA 3",
+    "informacoes_adicionais": "55 lugares somente um ar-condicionado funcionando (08/09/2025)",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          { "disciplina": "CC 1- PRÉ-CÁLCULO 02A", "sigla": "PreCalc", "professor": "Carlos Igor" },
+          { "disciplina": "CC 1-ÉTICA, DIREITO E LEGISLAÇÃO 03A", "sigla": "Etica", "professor": "Paulo de Tarso" },
+          { "disciplina": "CC 3-ESTRUTURA DE DADOS AVANÇADA", "sigla": "EDA", "professor": "Atílio" },
+          { "disciplina": "CC 1-MATEMÁTICA BÁSICA 04", "sigla": "MatBas", "professor": "Paulo Henrique" },
+          { "disciplina": "CC 1-MATEMÁTICA BÁSICA 04", "sigla": "MatBas", "professor": "Paulo Henrique" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "CC 3-ESTRUTURA DE DADOS AVANÇADA", "sigla": "EDA", "professor": "Atilio" },
+          { "disciplina": "CC 3-LÓGICA PARA COMPUTAÇÃO 02A", "sigla": "Logica", "professor": "Paulo de Tarso" },
+          { "disciplina": "CC 3-LÓGICA PARA COMPUTAÇÃO 02A", "sigla": "Logica", "professor": "Paulo de Tarso" },
+          { "disciplina": "CC 1-INTERAÇÃO HUMANO-COMPUTADOR 02A", "sigla": "IHC", "professor": "Ingrid" },
+          { "disciplina": "CC 1-INTERAÇÃO HUMANO-COMPUTADOR 02A", "sigla": "IHC", "professor": "Ingrid" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "EC 7 Sistemas Distribuídos 01A", "sigla": "SisDist", "professor": "Rafael" },
+          { "disciplina": "ES 3- ANÁLISE E PROJETO DE SISTEMAS 03A", "sigla": "APS", "professor": "Emanuel" },
+          { "disciplina": "ES 3-SISTEMAS OPERACIONAIS 02A", "sigla": "SO", "professor": "Pedro Botelho" },
+          { "disciplina": "ES 3-SISTEMAS OPERACIONAIS 02A", "sigla": "SO", "professor": "Pedro Botelho" },
+          { "disciplina": "ES 3-REQUISITOS DE SOFTWARE", "sigla": "ReqSoft", "professor": "Rainara" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "LINGUAGENS FORMAIS E AUTOMATOS", "sigla": "LFA", "professor": "Filho" },
+          { "disciplina": "LINGUAGENS FORMAIS E AUTOMATOS", "sigla": "LFA", "professor": "Filho" },
+          { "disciplina": "ES 3-REQUISITOS DE SOFTWARE", "sigla": "ReqSoft", "professor": "Rainara" },
+          { "disciplina": "ES 3-LINGUAGENS DE PROGRAMAÇÃO", "sigla": "LingProg", "professor": "Lucas Ismaily" },
+          { "disciplina": "ES 3-LINGUAGENS DE PROGRAMAÇÃO", "sigla": "LingProg", "professor": "Lucas Ismaily" },
+          null
+        ]
+      }
+    ]
+  },
+  "B4S4": {
+    "local": "BLOCO 4 - SALA 4",
+    "informacoes_adicionais": "30 lugares",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null, null, null, null,
+          { "disciplina": "ESTRUTURA DE DADOS 03A", "sigla": "ED", "professor": "Wagner" },
+          null, null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null, null,
+          { "disciplina": "RC 5-REDES MÓVEIS E SEM FIO", "sigla": "RedesMoveis", "professor": "Alisson" },
+          { "disciplina": "RC 5-REDES MÓVEIS E SEM FIO", "sigla": "RedesMoveis", "professor": "Alisson" },
+          { "disciplina": "TEORIA DOS GRAFOS", "sigla": "Grafos", "professor": "Lucas Ismaily" },
+          { "disciplina": "TEORIA DOS GRAFOS", "sigla": "Grafos", "professor": "Lucas Ismaily" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "DD 3-PROJETO INTEGRADO I 02A", "sigla": "Proj", "professor": "Marcos Devaner" },
+          { "disciplina": "DD 3-PROJETO INTEGRADO I 02A", "sigla": "Proj", "professor": "Marcos Devaner" },
+          { "disciplina": "ARQUITETURA DE COMPUTADORES", "sigla": "Arq", "professor": "Cristiano" },
+          { "disciplina": "ARQUITETURA DE COMPUTADORES", "sigla": "Arq", "professor": "Cristiano" },
+          { "disciplina": "EC 5-PROJETO INTEGRADO EM ENGENHARIA DE COMPUTAÇÃO I", "sigla": "PI-EC", "professor": "Cristiano" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "DD 3-PROJETO INTEGRADO I 01A", "sigla": "Proj", "professor": "Marcos Devaner" },
+          { "disciplina": "DD 3-PROJETO INTEGRADO I 01A", "sigla": "Proj", "professor": "Marcos Devaner" },
+          { "disciplina": "EC 5-PROJETO INTEGRADO EM ENGENHARIA DE COMPUTAÇÃO I", "sigla": "PI-EC", "professor": "Cristiano" },
+          { "disciplina": "VISÃO COMPUTACIONAL", "sigla": "Visao", "professor": "Cristiano" },
+          { "disciplina": "VISÃO COMPUTACIONAL", "sigla": "Visao", "professor": "Cristiano" },
+          null
+        ]
+      }
+    ]
+  },
+  "B4LABPOS": {
+    "local": "BLOCO 4 - SALA DE SEMINÁRIOS (PAVIMENTO SUPERIOR)",
+    "informacoes_adicionais": "30 lugares",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null, null, null, null,
+          { "disciplina": "HISTÓRIA DO DESIGN", "sigla": "HistDesign", "professor": "Rochelle" },
+          { "disciplina": "HISTÓRIA DO DESIGN", "sigla": "HistDesign", "professor": "Rochelle" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "Mestrado - SEMINÁRIOS EM COMPUTAÇÃO", "sigla": "Seminarios", "professor": "Carla" },
+          { "disciplina": "Avaliação da Interação Humano-Computador", "sigla": "AvaliacaoIHC", "professor": "Marcelo Martins" },
+          { "disciplina": "Avaliação da Interação Humano-Computador", "sigla": "AvaliacaoIHC", "professor": "Marcelo Martins" },
+          null, null, null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "Mestrado - PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO", "sigla": "Parad", "professor": "Atílio" },
+          { "disciplina": "Mestrado - PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO", "sigla": "Parad", "professor": "Atílio" },
+          { "disciplina": "Mestrado - BANCO DE DADOS", "sigla": "BD", "professor": "Régis" },
+          { "disciplina": "Mestrado - METODOLOGIA DE PESQUISA", "sigla": "Metod", "professor": "Enyo" },
+          { "disciplina": "Mestrado - METODOLOGIA DE PESQUISA", "sigla": "Metod", "professor": "Enyo" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "Mestrado - BANCO DE DADOS", "sigla": "Parad/BD", "professor": "Régis" },
+          { "disciplina": "Mestrado - INTELIGÊNCIA ARTIFICIAL", "sigla": "IA", "professor": "Marcos Oliveira" },
+          { "disciplina": "Mestrado - INTELIGÊNCIA ARTIFICIAL", "sigla": "IA", "professor": "Marcos Oliveira" },
+          { "disciplina": "Mestrado - REDES DE COMPUTADORES", "sigla": "Redes", "professor": "Arthur Callado" },
+          { "disciplina": "Mestrado - REDES DE COMPUTADORES", "sigla": "Redes", "professor": "Arthur Callado" },
+          null
+        ]
+      }
+    ]
+  },
+  "B4LABARQ": {
+    "local": "BLOCO 4 - Laboratório de Arquitetura",
+    "informacoes_adicionais": "30 lugares (sem ar-condicionado - atualizado dia 05/03/2026)",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null, null, null,
+          { "disciplina": "SI 5- DESENVOLVIMENTO DE SOFTWARE PARA WEB 01A", "sigla": "Web", "professor": "Jefferson" },
+          null, null, null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null, null,
+          { "disciplina": "Robótica II", "sigla": "Robotica", "professor": "Thiago" },
+          { "disciplina": "EC 5- Microcontroladores", "sigla": "Micro", "professor": "Rodolfo" },
+          null, null, null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "EC 3- ORGANIZAÇÃO DE COMPUTADORES / EC 5-SISTEMAS DIGITAIS", "sigla": "Org/SisDig", "professor": "Thiago" },
+          { "disciplina": "EC 3- ORGANIZAÇÃO DE COMPUTADORES / EC 5-SISTEMAS DIGITAIS", "sigla": "Org/SisDig", "professor": "Thiago" },
+          { "disciplina": "EC 7-Sistemas de Tempo-Real", "sigla": "STR", "professor": "André" },
+          { "disciplina": "EC 7-Sistemas de Tempo-Real", "sigla": "STR", "professor": "André" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "EC 5-SISTEMAS DIGITAIS", "sigla": "SisDig", "professor": "Thiago" },
+          { "disciplina": "EC 5-SISTEMAS DIGITAIS", "sigla": "SisDig", "professor": "Thiago" },
+          null,
+          null,
+          { "disciplina": "EC 1-INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO", "sigla": "IntroEC", "professor": "Pedro Botelho" },
+          null
+        ]
+      }
+    ]
+  },
+  "B4LABROBOTICA": {
+    "local": "BLOCO 4 - LABORATÓRIO DE ELETRÔNICA",
+    "informacoes_adicionais": "30 lugares (somente um ar-condicionado funciona - 20/02/26)",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null, null, null, null, null,
+          { "disciplina": "EC 3 - TÉCNICAS DE PROGRAMAÇÃO PARA SISTEMAS EMBARCADOS I 01A", "sigla": "Emb", "professor": "Helder" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null, null,
+          { "disciplina": "Robótica II", "sigla": "Robotica", "professor": "Thiago" },
+          { "disciplina": "Robótica II", "sigla": "Robotica", "professor": "Thiago" },
+          null,
+          { "disciplina": "EC 3- TÉCNICAS DE PROGRAMAÇÃO PARA SISTEMAS EMBARCADOS 102A", "sigla": "Emb", "professor": "Helder" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "EC 3- ORGANIZAÇÃO DE COMPUTADORES", "sigla": "Org", "professor": "Thiago" },
+          { "disciplina": "EC 3- ORGANIZAÇÃO DE COMPUTADORES", "sigla": "Org", "professor": "Thiago" },
+          null,
+          null,
+          { "disciplina": "EC 7-Sistemas de Automação e Controle", "sigla": "Automacao", "professor": "Paulo Armando" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "EC 5-SISTEMAS DIGITAIS", "sigla": "SisDig", "professor": "Thiago" },
+          { "disciplina": "EC 5-SISTEMAS DIGITAIS", "sigla": "SisDig", "professor": "Thiago" },
+          { "disciplina": "EC 7-Sistemas de Automação e Controle", "sigla": "Automacao", "professor": "Paulo Armando" },
+          { "disciplina": "Eletrônica Fundamental II", "sigla": "Eletronica", "professor": "Elvis" },
+          { "disciplina": "EC 1-INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO", "sigla": "IntroEC", "professor": "Pedro Botelho" },
+          null
+        ]
+      }
+    ]
+  },
+  "B1LAB1": {
+    "local": "Bloco 1 - LABORATÓRIO I",
+    "informacoes_adicionais": "LIVRE PARA UTILIZAÇÃO PELOS ALUNOS - Não têm projetor. (somente um ar-condicionado funciona - 20/02/26)",
+    "grade_horaria": [
+      { "horario": "08:00 - 10:00", "semana": [null, null, null, null, null, null, null] },
+      { "horario": "10:00 - 12:00", "semana": [null, null, null, null, null, null, null] },
+      { "horario": "13:30 - 15:30", "semana": [null, null, null, null, null, null, null] },
+      { "horario": "15:30 - 17:30", "semana": [null, null, null, null, null, null, null] }
+    ]
+  },
+  "B1LAB2": {
+    "local": "Bloco 1 - LABORATÓRIO 2",
+    "informacoes_adicionais": "55 cadeiras - 25 computadores",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          { "disciplina": "SI 3 - ANÁLISE E PROJETO DE SISTEMAS", "sigla": "APS", "professor": "Emanuel" },
+          { "disciplina": "SI 3-ANÁLISE E PROJETO DE SISTEMAS", "sigla": "APS", "professor": "Emanuel" },
+          { "disciplina": "DESENVOLVIMENTO DE SOFTWARE PARA WEB 02A", "sigla": "Web", "professor": "Bruno" },
+          { "disciplina": "SI-FUNDAMENTOS DE BANCO DE DADOS 01A", "sigla": "FBD", "professor": "Lívia" },
+          { "disciplina": "SI-FUNDAMENTOS DE BANCO DE DADOS 01A", "sigla": "FBD", "professor": "Lívia" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "DESENVOLVIMENTO DE SOFTWARE PARA WEB 02A", "sigla": "Web", "professor": "Bruno" },
+          { "disciplina": "DESENVOLVIMENTO DE SOFTWARE PARA DISPOSITIVOS MÓVEIS", "sigla": "Disp", "professor": "Bruno" },
+          { "disciplina": "DESENVOLVIMENTO DE SOFTWARE PARA DISPOSITIVOS MÓVEIS", "sigla": "Disp", "professor": "Bruno" },
+          { "disciplina": "RC-FUNDAMENTOS DE BANCO DE DADOS 05A", "sigla": "FBD", "professor": "Lívia" },
+          { "disciplina": "RC-FUNDAMENTOS DE BANCO DE DADOS 05A", "sigla": "FBD", "professor": "Lívia" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "DD 3-MODELAGEM TRIDIMENSIONAL 01A", "sigla": "Modelagem", "professor": "João Vilnei" },
+          { "disciplina": "DD 3-MODELAGEM TRIDIMENSIONAL 01A", "sigla": "Modelagem", "professor": "João Vilnei" },
+          { "disciplina": "Introdução ao Desenvolvimento de Jogos 02A", "sigla": "Jogos", "professor": "Paulyne" },
+          { "disciplina": "Introdução ao Desenvolvimento de Jogos 02A", "sigla": "Jogos", "professor": "Paulyne" },
+          { "disciplina": "TÓPICOS AVANÇADOS EM BANCO DE DADOS", "sigla": "TABD", "professor": "Livia" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "DD 3-MODELAGEM TRIDIMENSIONAL 02A", "sigla": "Modelagem", "professor": "João Vilnei" },
+          { "disciplina": "DD 3-MODELAGEM TRIDIMENSIONAL 02A", "sigla": "Modelagem", "professor": "João Vilnei" },
+          null,
+          { "disciplina": "Introdução ao Desenvolvimento de Jogos 01A", "sigla": "Jogos", "professor": "Paulyne" },
+          { "disciplina": "Introdução ao Desenvolvimento de Jogos 01A", "sigla": "Jogos", "professor": "Paulyne" },
+          null
+        ]
+      }
+    ]
+  },
+  "B1LAB3": {
+    "local": "Bloco 1 - LABORATÓRIO 3",
+    "informacoes_adicionais": "30 computadores (somente um ar-condicionado funciona - 20/02/26)",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          { "disciplina": "RC 3 - Administração de Sistemas Operacionais", "sigla": "AdmSO", "professor": "Rafael" },
+          { "disciplina": "RC 3- Administração de Sistemas Operacionais", "sigla": "AdmSO", "professor": "Rafael" },
+          { "disciplina": "RC1-FUNDAMENTOS DE PROGRAMAÇÃO 09A", "sigla": "FUP", "professor": "Claro" },
+          { "disciplina": "RC1 - FUNDAMENTOS DE PROGRAMAÇÃO 09A", "sigla": "FUP", "professor": "Claro" },
+          { "disciplina": "RC1-FUNDAMENTOS DE PROGRAMAÇÃO 09A", "sigla": "FUP", "professor": "Claro" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "SI5- DESENVOLVIMENTO DE SOFTWARE PARA WEB 01A", "sigla": "Web", "professor": "Jefferson" },
+          { "disciplina": "ESTRUTURA DE DADOS 04A", "sigla": "ED", "professor": "Arthur Araruna" },
+          { "disciplina": "ESTRUTURA DE DADOS 04A", "sigla": "ED", "professor": "Arthur Araruna" },
+          { "disciplina": "FUNDAMENTOS DE BANCO DE DADOS 03A", "sigla": "FBD", "professor": "Victor Pinheiro" },
+          { "disciplina": "FUNDAMENTOS DE BANCO DE DADOS 03A", "sigla": "FBD", "professor": "Victor Pinheiro" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "ES 3- ANÁLISE E PROJETO DE SISTEMAS 03A", "sigla": "APS", "professor": "Emanuel" },
+          { "disciplina": "EC 7 Sistemas Distribuídos 01A", "sigla": "SisDist", "professor": "Rafael" },
+          { "disciplina": "EC1-FUNDAMENTOS DE PROGRAMAÇÃO 12A", "sigla": "FUP", "professor": "Claro" },
+          { "disciplina": "EC1-FUNDAMENTOS DE PROGRAMAÇÃO 12A", "sigla": "FUP", "professor": "Claro" },
+          { "disciplina": "EC1- FUNDAMENTOS DE PROGRAMAÇÃO 12A", "sigla": "FUP", "professor": "Claro" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "ESTRUTURA DE DADOS 05A", "sigla": "ED", "professor": "Arthur Araruna" },
+          { "disciplina": "COMPUTAÇÃO EM NUVEM 01A", "sigla": "Nuvem", "professor": "Emanuel" },
+          { "disciplina": "ES 1 - FUNDAMENTOS DE PROGRAMAÇÃO 07A", "sigla": "FUP", "professor": "Claro" },
+          { "disciplina": "ES 1 - FUNDAMENTOS DE PROGRAMAÇÃO 07A", "sigla": "FUP", "professor": "Claro" },
+          { "disciplina": "ES 1 - FUNDAMENTOS DE PROGRAMAÇÃO 07A", "sigla": "FUP", "professor": "Claro" },
+          null
+        ]
+      }
+    ]
+  },
+  "B1LAB4": {
+    "local": "Bloco 1 - LABORATÓRIO 4",
+    "informacoes_adicionais": "30 computadores",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          { "disciplina": "Sl 1 - FUNDAMENTOS DE PROGRAMAÇÃO 05A", "sigla": "FUP", "professor": "Arthur Araruna" },
+          { "disciplina": "SI 1 - FUNDAMENTOS DE PROGRAMAÇÃO 05A", "sigla": "FUP", "professor": "Arthur Araruna" },
+          { "disciplina": "SI 1 - FUNDAMENTOS DE PROGRAMAÇÃO 05A", "sigla": "FUP", "professor": "Arthur Araruna" },
+          { "disciplina": "FUNDAMENTOS DE BANCO DE DADOS 02A", "sigla": "FBD", "professor": "Victor Pinheiro" },
+          { "disciplina": "FUNDAMENTOS DE BANCO DE DADOS 02A", "sigla": "FBD", "professor": "Victor Pinheiro" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "RC 5 Sistemas Distribuídos 02A", "sigla": "SisDist", "professor": "Rafael" },
+          { "disciplina": "CC 5- DESENVOLVIMENTO DE SOFTWARE PARA WEB 03A", "sigla": "Web", "professor": "Sidartha" },
+          { "disciplina": "CC 5- DESENVOLVIMENTO DE SOFTWARE PARA WEB 03A", "sigla": "Web", "professor": "Sidartha" },
+          { "disciplina": "CC 5-COMPUTAÇÃO GRÁFICA 01A", "sigla": "CompGraf", "professor": "Rubens" },
+          { "disciplina": "CC 5-COMPUTAÇÃO GRÁFICA 01A", "sigla": "CompGraf", "professor": "Rubens" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "ES 5- DESENVOLVIMENTO DE SOFTWARE PARA WEB 04A", "sigla": "Web", "professor": "Sidartha" },
+          { "disciplina": "ES 5- DESENVOLVIMENTO DE SOFTWARE PARA WEB 04A", "sigla": "Web", "professor": "Sidartha" },
+          { "disciplina": "EC 1-FUNDAMENTOS DE PROGRAMAÇÃO 11A", "sigla": "FUP", "professor": "Rubens" },
+          { "disciplina": "EC 1-FUNDAMENTOS DE PROGRAMAÇÃO 11A", "sigla": "FUP", "professor": "Rubens" },
+          { "disciplina": "EC 1- FUNDAMENTOS DE PROGRAMAÇÃO 11A", "sigla": "FUP", "professor": "Rubens" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "ESTRUTURA DE DADOS 02A", "sigla": "ED", "professor": "David Sena" },
+          { "disciplina": "ESTRUTURA DE DADOS 02A", "sigla": "ED", "professor": "David Sena" },
+          { "disciplina": "ES 1-FUNDAMENTOS DE PROGRAMAÇÃO 06A", "sigla": "FUP", "professor": "Rubens" },
+          { "disciplina": "ES 1- FUNDAMENTOS DE PROGRAMAÇÃO 06A", "sigla": "FUP", "professor": "Rubens" },
+          { "disciplina": "ES 1-FUNDAMENTOS DE PROGRAMAÇÃO 06A", "sigla": "FUP", "professor": "Rubens" },
+          null
+        ]
+      }
+    ]
+  },
+  "B2LABREDES": {
+    "local": "BLOCO 2 - LABORATÓRIO DE REDES",
+    "informacoes_adicionais": "19 computadores",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null, null, null, null,
+          { "disciplina": "RC 5- ANÁLISE DE DESEMPENHO DE REDES DE COMPUTADORES", "sigla": "Desempenho", "professor": "Arthur Callado" },
+          { "disciplina": "RC 5-ANÁLISE DE DESEMPENHO DE REDES DE COMPUTADORES", "sigla": "Desempenho", "professor": "Arthur Callado" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          null,
+          { "disciplina": "RC 3-Laboratório em Inf. de Redes", "sigla": "LabRedes", "professor": "João Marcelo" },
+          { "disciplina": "RC 3-Laboratório em Inf. de Redes", "sigla": "LabRedes", "professor": "João Marcelo" },
+          null, null, null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "TÓPICOS AVANÇADOS EM REDES DE COMPUTADORES", "sigla": "TARC", "professor": "Michel" },
+          { "disciplina": "TÓPICOS AVANÇADOS EM REDES DE COMPUTADORES", "sigla": "TARC", "professor": "Michel" },
+          null, null, null, null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [null, null, null, null, null, null, null]
+      }
+    ]
+  },
+  "B3LAB6": {
+    "local": "Bloco 3 - LABORATÓRIO 6",
+    "informacoes_adicionais": "25 computadores - 30 cadeiras - (sem ar-condicionado - atualizado em 09/04/2026)",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null, null,
+          { "disciplina": "CC 3-PROGRAMAÇÃO FUNCIONAL", "sigla": "ProgFunc", "professor": "Ricardo Reis" },
+          { "disciplina": "RC 5 Sistemas Distribuídos 02A", "sigla": "SisDist", "professor": "Rafael" },
+          null, null, null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "CC 1- FUNDAMENTOS DE PROGRAMAÇÃO 01A", "sigla": "FUP", "professor": "Fábio/David Sena" },
+          { "disciplina": "CC 1-FUNDAMENTOS DE PROGRAMAÇÃO 01A", "sigla": "FUP", "professor": "Fábio/David Sena" },
+          { "disciplina": "CC 1-FUNDAMENTOS DE PROGRAMAÇÃO 01A", "sigla": "FUP", "professor": "Fábio/David Sena" },
+          null, null, null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "DD 1-INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 02A", "sigla": "IntroProg", "professor": "Bruno Góis" },
+          { "disciplina": "DD 1-INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 02A", "sigla": "IntroProg", "professor": "Bruno Góis" },
+          { "disciplina": "DD 5 - TIPOGRAFIA 01", "sigla": "Tipo", "professor": "Tarcísio" },
+          { "disciplina": "DD 5-TIPOGRAFIA 01", "sigla": "Tipo", "professor": "Tarcísio" },
+          { "disciplina": "DD 1 - MULTIMÍDIA 01A", "sigla": "Multi", "professor": "Tarcísio" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "DD 5-PROJETO DE INTERFACES WEB 02A", "sigla": "Proj", "professor": "Jefferson Carvalho" },
+          { "disciplina": "DD 5-PROJETO DE INTERFACES WEB 02A", "sigla": "Proj", "professor": "Jefferson Carvalho" },
+          { "disciplina": "DD 1-MULTIMÍDIA 01A", "sigla": "Multi", "professor": "Tarcisio" },
+          null, null, null
+        ]
+      }
+    ]
+  },
+  "B3LAB7": {
+    "local": "BLOCO 3 - LABORATÓRIO 7",
+    "informacoes_adicionais": "25 computadores - 30 cadeiras - (somente um ar-condicionado funciona - 20/02/26)",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          { "disciplina": "REALIDADE VIRTUAL", "sigla": "RV", "professor": "João Vilnei" },
+          { "disciplina": "REALIDADE VIRTUAL", "sigla": "RV", "professor": "João Vilnei" },
+          { "disciplina": "RC 1-FUNDAMENTOS DE PROGRAMAÇÃO 08A", "sigla": "FUP", "professor": "Enyo" },
+          { "disciplina": "RC 1-FUNDAMENTOS DE PROGRAMAÇÃO 08A", "sigla": "FUP", "professor": "Enyo" },
+          { "disciplina": "RC 1-FUNDAMENTOS DE PROGRAMAÇÃO 08A", "sigla": "FUP", "professor": "Enyo" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null, null,
+          { "disciplina": "ESTRUTURA DE DADOS 01A", "sigla": "ED", "professor": "David Sena" },
+          { "disciplina": "ESTRUTURA DE DADOS 01A", "sigla": "ED", "professor": "David Sena" },
+          { "disciplina": "PROGRAMAÇÃO ORIENTADA A OBJETOS 02A", "sigla": "POO", "professor": "Wagner" },
+          { "disciplina": "PROGRAMAÇÃO ORIENTADA A OBJETOS 02A", "sigla": "POO", "professor": "Wagner" },
+          null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "ANÁLISE E PROJETO DE SISTEMAS 02A / DD 1-INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 01A", "sigla": "APS/IntroProg", "professor": "Marcos Oliveira / David Sena" },
+          { "disciplina": "DD 1-INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 01A", "sigla": "IntroProg", "professor": "David Sena" },
+          { "disciplina": "FUNDAMENTOS DE BANCO DE DADOS 04A", "sigla": "FBD", "professor": "Victor Pinheiro" },
+          { "disciplina": "FUNDAMENTOS DE BANCO DE DADOS 04A", "sigla": "FBD", "professor": "Victor Pinheiro" },
+          { "disciplina": "DD 1-MULTIMÍDIA 01A", "sigla": "Multi", "professor": "Tarcísio" },
+          null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "IA 1 - FUNDAMENTOS DE PROGRAMAÇÃO 03A", "sigla": "FUP", "professor": "Alexandre" },
+          { "disciplina": "IA 1 - FUNDAMENTOS DE PROGRAMAÇÃO 03A", "sigla": "FUP", "professor": "Alexandre" },
+          { "disciplina": "IA 1 - FUNDAMENTOS DE PROGRAMAÇÃO 03A", "sigla": "FUP", "professor": "Alexandre" },
+          { "disciplina": "DD 1 - MULTIMÍDIA 02A", "sigla": "Multi", "professor": "Tarcísio" },
+          { "disciplina": "DD 1 - MULTIMÍDIA 02A", "sigla": "Multi", "professor": "Tarcísio" },
+          null
+        ]
+      }
+    ]
+  },
+  "B4LAB5": {
+    "local": "BLOCO 4 - LABORATÓRIO DE INFORMÁTICA 5",
+    "informacoes_adicionais": "24 computadores",
+    "grade_horaria": [
+      {
+        "horario": "08:00 - 10:00",
+        "semana": [
+          null,
+          { "disciplina": "SI 1 - FUNDAMENTOS DE PROGRAMAÇÃO 04A", "sigla": "FUP", "professor": "Alexandre" },
+          { "disciplina": "SI 1 - FUNDAMENTOS DE PROGRAMAÇÃO 04A", "sigla": "FUP", "professor": "Alexandre" },
+          { "disciplina": "SI 1 - FUNDAMENTOS DE PROGRAMAÇÃO 04A", "sigla": "FUP", "professor": "Alexandre" },
+          { "disciplina": "ESTRUTURA DE DADOS 03A", "sigla": "ED", "professor": "Wagner" },
+          { "disciplina": "ESTRUTURA DE DADOS 03A", "sigla": "ED", "professor": "Wagner" },
+          null
+        ]
+      },
+      {
+        "horario": "10:00 - 12:00",
+        "semana": [
+          null,
+          { "disciplina": "CC 1 - FUNDAMENTOS DE PROGRAMAÇÃO 02A", "sigla": "FUP", "professor": "Alexandre" },
+          { "disciplina": "CC 1 - FUNDAMENTOS DE PROGRAMAÇÃO 02A", "sigla": "FUP", "professor": "Alexandre" },
+          { "disciplina": "CC 1 - FUNDAMENTOS DE PROGRAMAÇÃO 02A", "sigla": "FUP", "professor": "Alexandre" },
+          { "disciplina": "EC 3 - CIRCUITOS DIGITAIS 01A", "sigla": "Circ", "professor": "Rodolfo" },
+          null, null
+        ]
+      },
+      {
+        "horario": "13:30 - 15:30",
+        "semana": [
+          null,
+          { "disciplina": "DD 5 - PROJETO DE INTERFACES WEB 01A", "sigla": "Proj", "professor": "Jefferson Carvalho" },
+          { "disciplina": "DD 5 - PROJETO DE INTERFACES WEB 01A", "sigla": "Proj", "professor": "Jefferson Carvalho" },
+          { "disciplina": "Preparação da OBI", "sigla": "OBI", "professor": "Prof. Paulo Henrique / Bolsista João Vitor" },
+          { "disciplina": "EC 3 - CIRCUITOS DIGITAIS 02A", "sigla": "Circ", "professor": "Rodolfo" },
+          null, null
+        ]
+      },
+      {
+        "horario": "15:30 - 17:30",
+        "semana": [
+          null,
+          { "disciplina": "IA 1- FUNDAMENTOS DE PROGRAMAÇÃO 10A", "sigla": "FUP", "professor": "Sidartha" },
+          { "disciplina": "IA 1-FUNDAMENTOS DE PROGRAMAÇÃO 10A", "sigla": "FUP", "professor": "Sidartha" },
+          { "disciplina": "IA 1-FUNDAMENTOS DE PROGRAMAÇÃO 10A", "sigla": "FUP", "professor": "Sidartha" },
+          { "disciplina": "PROGRAMAÇÃO ORIENTADA A OBJETOS 01A", "sigla": "POO", "professor": "Wagner" },
+          { "disciplina": "PROGRAMAÇÃO ORIENTADA A OBJETOS 01A", "sigla": "POO", "professor": "Wagner" },
+          null
+        ]
+      }
+    ]
+  },
+    "B2MULTIUSO": {
+      "local": "BLOCO 2 - SALÃO MULTIUSO",
+      "informacoes_adicionais": "200 lugares",
+      "grade_horaria": [
+        {
+          "horario": "08:00 - 10:00",
+          "semana": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "horario": "10:00 - 12:00",
+          "semana": [
+            null,
+            {
+              "disciplina": "Mestrado - SEMINÁRIOS EM COMPUTAÇÃO",
+              "sigla": null,
+              "professor": "Carla"
+            },
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "horario": "12:00 - 13:30",
+          "semana": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "horario": "13:30 - 15:30",
+          "semana": [
+            null,
+            {
+              "disciplina": "ANÁLISE E PROJETO DE SISTEMAS 02A",
+              "sigla": "APS",
+              "professor": "Marcos Oliveira"
+            },
+            {
+              "disciplina": "ANÁLISE E PROJETO DE SISTEMAS 02A",
+              "sigla": "APS",
+              "professor": "Marcos Oliveira"
+            },
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "horario": "15:30 - 17:30",
+          "semana": [
+            null,
+            null,
+            {
+              "disciplina": "ÉTICA, DIREITO E LEGISLAÇÃO 04A",
+              "sigla": "Ética",
+              "professor": "Paulo de Tarso"
+            },
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "horario": "18:00 - 20:00",
+          "semana": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "horario": "20:00 - 22:00",
+          "semana": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    }
 }
