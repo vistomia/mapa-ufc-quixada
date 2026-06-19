@@ -514,15 +514,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showguides="true"
-     inkscape:zoom="17.745974"
-     inkscape:cx="278.0349"
-     inkscape:cy="227.03741"
+     inkscape:zoom="20.170885"
+     inkscape:cx="328.29497"
+     inkscape:cy="186.70475"
      inkscape:window-width="1366"
      inkscape:window-height="731"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g38"
+     inkscape:current-layer="g41"
      showgrid="false"><inkscape:page
        x="0"
        y="0"
@@ -1782,7 +1782,7 @@
      inkscape:groupmode="layer"
      id="g38"
      inkscape:label="SalasB1C"
-     style="display:inline"><rect
+     style="display:none"><rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#585679;fill-opacity:1;fill-rule:evenodd;stroke-width:0.961704;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect6"
        width="5.5588074"
@@ -1901,7 +1901,7 @@
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="SalasB2C"
-     style="display:inline"><path
+     style="display:none"><path
        id="path42"
        style="display:inline;opacity:1;vector-effect:none;fill:#45418e;fill-opacity:1;fill-rule:evenodd;stroke-width:0.882788;stop-color:#000000;stop-opacity:1"
        d="m 328.05613,251.39692 3.96569,-0.0624 0.0136,-1.75479 6.86702,0.0302 0.008,8.72944 h -10.85423 z"
@@ -1991,11 +1991,11 @@
        inkscape:label="B1LAB1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan3">Atlética</tspan></text></g><g
+         id="tspan1">Atlética</tspan></text></g><g
      inkscape:groupmode="layer"
      id="g54"
      inkscape:label="SalasB3C"
-     style="display:inline"><path
+     style="display:none"><path
        id="path10"
        style="display:inline;vector-effect:none;fill:#45418e;fill-opacity:1;fill-rule:evenodd;stroke-width:0.882788;stop-color:#000000"
        d="m 272.36032,289.44832 6.00468,-0.0907 -0.0168,-1.62498 4.8585,-0.0713 0.008,8.72944 h -10.85423 z"
@@ -2084,7 +2084,7 @@
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="SalasB4C"
-     style="display:inline"><path
+     style="display:none"><path
        id="path42-3"
        style="display:inline;vector-effect:none;fill:#45418e;fill-opacity:1;fill-rule:evenodd;stroke-width:0.882788;stop-color:#000000"
        d="m 328.05615,284.97459 3.96569,0.0624 0.0136,1.75479 6.86702,-0.0302 0.008,-8.72944 h -10.85423 z"
@@ -2472,7 +2472,7 @@
        height="9.5382376"
        x="272.20273"
        y="358.02625"
-       inkscape:label="B2S4" /><rect
+       inkscape:label="B3S4" /><rect
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#45418e;fill-opacity:1;fill-rule:evenodd;stroke-width:1.02969;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
        id="rect8-3-1-6-2-7-0"
        width="11.163589"
@@ -2487,7 +2487,7 @@
        height="8.9437475"
        x="272.20273"
        y="348.90591"
-       inkscape:label="B2S3" /><rect
+       inkscape:label="B3S3" /><rect
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#45418e;fill-opacity:1;fill-rule:evenodd;stroke-width:1.18566;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
        id="rect8-3-1-6-2-3-7"
        width="11.16358"
@@ -2508,14 +2508,14 @@
        height="17.072737"
        x="272.18576"
        y="331.63531"
-       inkscape:label="B2S2" /><rect
+       inkscape:label="B3S2" /><rect
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#45418e;fill-opacity:1;fill-rule:evenodd;stroke-width:1.15976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
        id="rect8-3-1-6-2-3-9-6-1-5"
        width="11.16358"
        height="16.820972"
        x="272.20572"
        y="314.52167"
-       inkscape:label="B2S1" /><rect
+       inkscape:label="B3S1" /><rect
        style="font-variation-settings:normal;display:inline;vector-effect:none;fill:#585679;fill-opacity:1;fill-rule:evenodd;stroke-width:0.765419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
        id="rect55"
        width="5.5588074"
@@ -2702,11 +2702,11 @@
        inkscape:label="TEXT_SECRETARIA_ACADEMICA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan5">Secretaria
+         id="tspan2">Secretaria
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan6">Pós Graduação</tspan></text><path
+         id="tspan3">Pós Graduação</tspan></text><path
        style="display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:0.00313062"
        d="m 258.4201,182.48419 c -0.2428,-0.0374 -0.42886,-0.2333 -0.45414,-0.47816 -0.0126,-0.12259 0.0194,-0.25539 0.0851,-0.35235 0.007,-0.01 0.0122,-0.0185 0.0122,-0.0191 0,-4.4e-4 -0.0258,-0.0259 -0.0574,-0.0562 -0.0574,-0.0551 -0.0574,-0.0551 -0.0654,-0.0476 -0.0556,0.0515 -0.15232,0.087 -0.23722,0.087 -0.15344,-5e-5 -0.28055,-0.0812 -0.34578,-0.22081 -0.0384,-0.0822 -0.0442,-0.18461 -0.0153,-0.27163 0.0798,-0.24033 0.36162,-0.33547 0.57237,-0.19326 0.0103,0.007 0.0256,0.0188 0.034,0.0263 0.008,0.007 0.0166,0.0136 0.0183,0.0136 0.002,0 0.0289,-0.0193 0.0604,-0.0428 0.0464,-0.0346 0.0567,-0.0437 0.0544,-0.0477 -0.0183,-0.0319 -0.0322,-0.0977 -0.0302,-0.14272 0.009,-0.21131 0.22885,-0.34116 0.41718,-0.24653 0.0769,0.0387 0.1223,0.0937 0.14763,0.17921 0.0122,0.0412 0.013,0.116 0.002,0.15413 -0.0385,0.12975 -0.14575,0.21059 -0.27926,0.21059 -0.0548,0 -0.0821,-0.006 -0.12946,-0.03 -0.017,-0.008 -0.0324,-0.0154 -0.0343,-0.0154 -0.003,0 -0.10679,0.0764 -0.12825,0.0939 -10e-4,8.7e-4 0.002,0.0145 0.007,0.0299 0.0323,0.0961 0.0291,0.18839 -0.01,0.27765 -0.0105,0.0241 -0.01,0.0268 0.009,0.043 0.007,0.006 0.0302,0.0281 0.0526,0.0499 0.0556,0.0542 0.0477,0.0506 0.0727,0.0326 0.15594,-0.11275 0.33374,-0.13828 0.51585,-0.0741 0.20371,0.0718 0.34907,0.28187 0.34907,0.50442 0,0.33356 -0.29428,0.58686 -0.623,0.53623 z m 0.13618,-0.0565 c 0.22865,-0.0251 0.40849,-0.21061 0.42726,-0.44066 0.0159,-0.19504 -0.0897,-0.38388 -0.26303,-0.47055 -0.017,-0.008 -0.0318,-0.0154 -0.0329,-0.0154 -0.001,0 -0.006,-0.002 -0.0119,-0.004 -0.0645,-0.0293 -0.17747,-0.0399 -0.26009,-0.0242 -0.24611,0.0465 -0.41447,0.26743 -0.39361,0.51648 0.0227,0.2707 0.26362,0.46862 0.53426,0.43888 z m -0.34936,-0.15626 c -0.0315,-0.006 -0.0508,-0.0287 -0.0524,-0.0608 -10e-4,-0.0223 0.0209,-0.12039 0.0364,-0.16178 0.005,-0.0123 0.005,-0.0353 0.007,-0.18471 0.002,-0.19115 10e-4,-0.18649 0.026,-0.21237 0.0267,-0.0279 0.0468,-0.0297 0.31212,-0.0278 0.21455,0.002 0.21028,10e-4 0.23449,0.0229 0.0306,0.0276 0.03,0.023 0.0306,0.20787 4.4e-4,0.18303 -0.003,0.15148 0.0327,0.28663 0.0166,0.0628 0.0166,0.0628 0.0107,0.0823 -0.004,0.0141 -0.009,0.0222 -0.0169,0.0292 -0.024,0.0211 -0.004,0.0198 -0.32136,0.0203 -0.1584,2e-4 -0.29308,-4.4e-4 -0.29926,-0.002 z m 0.5843,-0.0549 c 0.01,-0.01 0.0106,-0.002 -0.007,-0.0706 -0.004,-0.0129 -0.0114,-0.0439 -0.0178,-0.0689 -0.007,-0.0255 -0.0138,-0.0471 -0.0165,-0.0493 -0.006,-0.005 -0.49068,-0.006 -0.49804,-8.8e-4 -0.003,0.002 -0.0441,0.14388 -0.0495,0.17342 -0.001,0.006 4e-4,0.0109 0.006,0.0164 0.007,0.008 0.007,0.008 0.29167,0.008 0.28448,0 0.28448,0 0.29216,-0.008 z m -0.40979,-0.0338 c 10e-4,-0.007 0.005,-0.0246 0.009,-0.0383 l 0.007,-0.025 0.0948,-8.8e-4 c 0.0948,-8.7e-4 0.0948,-8.7e-4 0.0981,0.008 0.003,0.007 0.0153,0.0633 0.0153,0.0685 0,4.4e-4 -0.0507,0.001 -0.11274,0.001 h -0.11274 z m 0.37051,-0.32649 c 0,-0.16466 -1.4e-4,-0.16595 -0.0205,-0.17686 -0.015,-0.008 -0.45367,-0.007 -0.46561,0.001 -0.0165,0.0112 -0.0162,0.009 -0.0172,0.17174 l -8.8e-4,0.15262 h 0.25216 0.25215 z m -0.47898,0.12378 c -0.006,-0.006 -0.006,-0.0104 -0.006,-0.13639 0,-0.12934 8.8e-4,-0.13949 0.0106,-0.14609 0.006,-0.004 0.43961,-0.003 0.44663,8.7e-4 0.006,0.003 0.006,0.008 0.006,0.14233 0,0.13431 -1.9e-4,0.1392 -0.006,0.14234 -0.004,0.002 -0.0802,0.003 -0.2254,0.003 -0.21518,0 -0.21947,-9e-5 -0.22562,-0.006 z m -0.50134,-0.42397 c 0.13501,-0.037 0.22217,-0.1336 0.2432,-0.26944 0.0292,-0.18845 -0.12447,-0.36473 -0.31789,-0.36473 -0.19536,0 -0.34665,0.17516 -0.31772,0.36784 0.02,0.13295 0.11961,0.23992 0.25046,0.26889 0.0301,0.007 0.11387,0.005 0.14195,-0.003 z m -0.0919,-0.11165 c -0.0422,-0.004 -0.0906,-0.0148 -0.0959,-0.0225 -0.005,-0.007 8.8e-4,-0.0883 0.007,-0.10425 0.0122,-0.0313 0.047,-0.0541 0.0838,-0.0548 0.013,-2e-4 0.0135,-4.4e-4 0.005,-0.003 -0.0638,-0.0191 -0.0638,-0.11468 -3e-5,-0.13323 0.0859,-0.025 0.12683,0.10192 0.0426,0.13199 -0.0117,0.004 -0.0117,0.004 10e-4,0.004 0.0175,1.9e-4 0.0509,0.0111 0.0606,0.0197 0.0258,0.023 0.0344,0.0483 0.0344,0.10136 0,0.0428 -0.001,0.0445 -0.0448,0.0539 -0.034,0.007 -0.0602,0.009 -0.0946,0.006 z m -0.1534,-0.0749 c -0.0356,-0.006 -0.0503,-0.0106 -0.0567,-0.0158 -0.007,-0.006 -0.006,-0.0799 8.8e-4,-0.10195 0.0109,-0.0347 0.0439,-0.0573 0.084,-0.0575 l 0.0219,-1.4e-4 -0.0172,-0.006 c -0.0404,-0.0139 -0.0582,-0.0579 -0.0389,-0.0964 0.0231,-0.0463 0.0882,-0.0508 0.1182,-0.008 0.0147,0.0209 0.0148,0.0371 4e-4,0.0565 -0.006,0.009 -0.0141,0.0221 -0.0168,0.0296 -0.004,0.0122 -0.007,0.0143 -0.0206,0.019 l -0.0156,0.005 0.0159,1.4e-4 c 0.0159,1.4e-4 0.0159,1.4e-4 0.0197,0.0171 0.002,0.009 0.008,0.0227 0.013,0.0297 0.009,0.0127 0.009,0.0127 -0.006,0.0203 -0.0353,0.018 -0.0571,0.053 -0.0571,0.0919 0,0.0266 0.004,0.0252 -0.0454,0.0164 z m 0.30437,-0.0148 c -0.003,-0.0441 -0.0233,-0.0752 -0.0587,-0.0931 -0.0162,-0.008 -0.0162,-0.008 -0.01,-0.0151 0.009,-0.009 0.0192,-0.033 0.0193,-0.0436 4e-5,-0.008 8.7e-4,-0.009 0.0134,-0.009 0.0126,-2e-4 0.0128,-4e-4 0.004,-0.003 -0.0131,-0.003 -0.0169,-0.006 -0.017,-0.0121 -5e-5,-0.0109 -0.0153,-0.0376 -0.0263,-0.0459 -0.0273,-0.0208 4e-4,-0.0679 0.0454,-0.0773 0.0879,-0.0184 0.11366,0.11412 0.0263,0.13538 -0.007,0.002 -0.004,0.002 0.0128,0.003 0.0652,8.8e-4 0.0972,0.0492 0.0902,0.13598 -0.002,0.0245 -0.002,0.0245 -0.0152,0.0302 -0.0145,0.006 -0.0374,0.0111 -0.0647,0.0139 -0.0175,0.002 -0.0175,0.002 -0.0193,-0.0193 z m 0.56405,-0.37008 c 0.0898,-0.0229 0.15895,-0.0938 0.17867,-0.18323 0.0232,-0.10528 -0.0289,-0.2164 -0.1244,-0.26522 -0.19248,-0.0984 -0.40731,0.0841 -0.33991,0.28871 0.0392,0.1191 0.16636,0.19019 0.28564,0.15974 z m -0.17083,-0.0767 c -0.0132,-0.006 -0.0167,-0.0132 -0.0167,-0.0358 0,-0.0285 0.005,-0.0493 0.0147,-0.0567 0.008,-0.006 0.0126,-0.006 0.13254,-0.006 0.0685,0 0.12677,8.8e-4 0.12949,0.002 0.007,0.003 0.007,0.0231 4.1e-4,0.0231 -0.008,0 -0.0114,0.0115 -0.0104,0.0306 8.8e-4,0.016 0.002,0.0183 0.01,0.022 0.007,0.004 0.009,0.006 0.009,0.0149 0,0.0108 0,0.0108 -0.12914,0.0107 -0.10268,-9e-5 -0.13117,-8.7e-4 -0.13906,-0.004 z m 0.20011,-0.0228 c -0.0531,-0.001 -0.0541,-0.007 -0.002,-0.008 0.022,-4.4e-4 0.003,-0.001 -0.042,-0.002 -0.0451,-4e-4 -0.0842,-0.002 -0.0869,-0.003 -0.0151,-0.006 0.003,-0.007 0.081,-0.007 0.0859,0 0.0859,0 0.0885,-0.0133 0.003,-0.0133 0.003,-0.0133 -0.0679,-0.0157 -0.0388,-0.001 -0.0875,-0.002 -0.10811,-0.002 l -0.0376,8.8e-4 -8.7e-4,0.0258 -8.8e-4,0.0258 0.10891,-4.3e-4 c 0.0599,-4e-4 0.0903,-0.001 0.0674,-0.002 z m -0.23319,-0.0965 c -0.0109,-0.006 -0.013,-0.0147 -0.011,-0.0467 0.002,-0.0292 0.007,-0.042 0.018,-0.0477 0.008,-0.004 0.2476,-0.006 0.25802,-0.002 0.007,0.003 0.007,0.0232 9e-5,0.0232 -0.006,0 -0.0139,0.0181 -0.0139,0.0313 0,0.01 0.0115,0.025 0.0186,0.025 0.002,0 0.004,0.004 0.004,0.009 0,0.008 -8.7e-4,0.009 -0.0165,0.0109 -0.0367,0.004 -0.24761,0.002 -0.25667,-0.003 z m 0.20502,-0.0225 c -0.0531,-0.001 -0.0541,-0.007 -0.002,-0.008 0.022,-4.4e-4 0.003,-0.001 -0.042,-0.002 -0.0451,-4e-4 -0.0842,-0.002 -0.0869,-0.003 -0.0151,-0.006 0.003,-0.007 0.0808,-0.007 0.0857,0 0.0857,0 0.0876,-0.007 0.006,-0.0217 0.0113,-0.0202 -0.0833,-0.0226 -0.13605,-0.004 -0.12897,-0.005 -0.13005,0.0257 l -8.7e-4,0.0258 0.10891,-4.4e-4 c 0.0599,-4e-4 0.0903,-0.001 0.0674,-0.002 z m -0.1718,-0.0856 c -0.0143,-0.004 -0.0182,-0.016 -0.0158,-0.0485 0.002,-0.03 0.007,-0.0417 0.0178,-0.0474 0.008,-0.004 0.2476,-0.006 0.25802,-0.002 0.007,0.003 0.007,0.0232 4e-4,0.0232 -0.007,0 -0.0111,0.0105 -0.011,0.0287 5e-5,0.0189 0.002,0.0227 0.0117,0.0258 0.006,0.002 0.007,0.005 0.007,0.0129 0,0.0108 0,0.0108 -0.12914,0.0105 -0.071,-1.3e-4 -0.13354,-0.002 -0.13893,-0.003 z m 0.19997,-0.024 c -0.0537,-0.001 -0.0555,-0.007 -0.002,-0.007 0.0254,0 0.0386,-0.001 0.0374,-0.003 -0.001,-0.002 -0.0334,-0.003 -0.0863,-0.003 -0.0541,0 -0.0843,-0.001 -0.0843,-0.003 0,-0.002 0.0307,-0.003 0.0859,-0.003 0.0859,0 0.0859,0 0.0885,-0.0133 l 0.003,-0.0133 -0.1046,-0.003 c -0.0575,-0.001 -0.10653,-0.002 -0.10889,-8.8e-4 -0.003,10e-4 -0.004,0.008 -0.004,0.0268 v 0.0252 l 0.10879,-4.3e-4 c 0.0598,-4.1e-4 0.0901,-0.001 0.0673,-0.002 z"
        id="path3" /><text
@@ -2719,11 +2719,11 @@
        inkscape:label="TEXT_SECRETARIA_ACADEMICA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan7">Secretaria
+         id="tspan4">Secretaria
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan8">Acadêmica</tspan></text><text
+         id="tspan5">Acadêmica</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:64.5252;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2733,12 +2733,12 @@
        inkscape:label="TEXT_SECRETARIA_ACADEMICA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan9">Coord. Secretaria<tspan
+         id="tspan6">Coord. Secretaria<tspan
    y="179.875"
-   id="tspan10"> </tspan></tspan><tspan
+   id="tspan7"> </tspan></tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan11">Acadêmica</tspan></text><text
+         id="tspan8">Acadêmica</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:64.5252;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2748,11 +2748,11 @@
        inkscape:label="TEXT_SECRETARIA_ACADEMICA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan12">Coord. da
+         id="tspan9">Coord. da
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan13">Comunicação</tspan></text><path
+         id="tspan10">Comunicação</tspan></text><path
        d="m 115.62284,268.9289 c -0.0159,-0.16264 -0.15273,-0.28562 -0.31537,-0.28562 -0.16264,0 -0.2995,0.12298 -0.31735,0.28363 l -0.27967,2.68557 c -0.0258,0.11901 -0.0377,0.24 -0.0377,0.361 0,0.91039 0.69619,1.65814 1.58675,1.73947 v 4.45082 c 0,0.35108 0.28363,0.63471 0.6347,0.63471 0.35107,0 0.6347,-0.28363 0.6347,-0.63471 v -4.45082 c 0.89056,-0.0813 1.58675,-0.82908 1.58675,-1.73947 0,-0.121 -0.0119,-0.24199 -0.0377,-0.361 l -0.28164,-2.68557 c -0.0159,-0.16065 -0.15273,-0.28363 -0.31537,-0.28363 -0.16264,0 -0.2995,0.12298 -0.31537,0.28562 l -0.26974,2.68756 c -0.0119,0.11304 -0.10711,0.20032 -0.22017,0.20032 -0.11504,0 -0.21024,-0.0873 -0.22214,-0.20231 l -0.24396,-2.68161 c -0.0139,-0.16463 -0.15075,-0.28958 -0.31537,-0.28958 -0.16463,0 -0.30148,0.12495 -0.31537,0.28958 l -0.24396,2.68161 c -0.01,0.11503 -0.10711,0.20231 -0.22214,0.20231 -0.11504,0 -0.21025,-0.0873 -0.22017,-0.20032 z m 7.61838,-0.28562 c -0.31735,0 -2.5388,0.6347 -2.5388,3.49085 v 2.22144 c 0,0.70016 0.56924,1.2694 1.2694,1.2694 h 0.6347 v 2.5388 c 0,0.35108 0.28363,0.63471 0.6347,0.63471 0.35107,0 0.6347,-0.28363 0.6347,-0.63471 v -8.88579 c 0,-0.35107 -0.28363,-0.6347 -0.6347,-0.6347 z"
        id="path1-7"
        style="display:inline;fill:#eaced3;fill-opacity:1;stroke-width:0.0198343"
@@ -2766,9 +2766,9 @@
        inkscape:label="TEXT_RU"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan15"><tspan
+         id="tspan12"><tspan
            style="font-family:'Font Awesome 6 Brands';-inkscape-font-specification:'Font Awesome 6 Brands'"
-           id="tspan14">RU</tspan></tspan></text><path
+           id="tspan11">RU</tspan></tspan></text><path
        d="m 96.240571,263.21478 c -0.06289,0 -0.114339,-0.0514 -0.114339,-0.11434 v -0.11433 c 0,-0.31586 0.255829,-0.57168 0.571685,-0.57168 h 0.114336 c 0.06288,0 0.114336,0.0514 0.114336,0.11433 v 0.11434 c 0,0.31585 -0.255829,0.57168 -0.571682,0.57168 z m -1.600713,1.2577 c 0,-0.54524 0.255114,-1.14336 0.800356,-1.14336 0.195086,0 0.426618,0.0736 0.590978,0.13792 0.134345,0.0522 0.285127,0.0522 0.41947,0 0.163645,-0.0636 0.395891,-0.13792 0.590977,-0.13792 0.545244,0 0.800358,0.59812 0.800358,1.14336 0,0.9147 -0.571683,1.60071 -1.143365,1.60071 -0.117911,0 -0.272264,-0.0472 -0.368023,-0.0808 -0.05788,-0.02 -0.120767,-0.02 -0.17865,0 -0.09576,0.0336 -0.250112,0.0808 -0.368019,0.0808 -0.571684,0 -1.143367,-0.68601 -1.143367,-1.60071 z"
        id="path1-06"
        style="display:inline;fill:#eaced3;fill-opacity:1;stroke-width:0.00714604"
@@ -2782,7 +2782,7 @@
        inkscape:label="DML"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan16">DML</tspan></text><text
+         id="tspan13">DML</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2792,7 +2792,7 @@
        inkscape:label="TELEMATICA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan17">Telemática
+         id="tspan14">Telemática
 </tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
@@ -2803,7 +2803,7 @@
        inkscape:label="PETSI"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan18">PET SI
+         id="tspan15">PET SI
 </tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
@@ -2814,7 +2814,7 @@
        inkscape:label="PETTI"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan19">PET TI
+         id="tspan16">PET TI
 </tspan></text><path
        d="m 159.7496,263.51372 v 0.19493 h 3.11882 v -0.19493 c 0,-0.21502 -0.17483,-0.38985 -0.38985,-0.38985 h -2.33912 c -0.21502,0 -0.38985,0.17483 -0.38985,0.38985 z m 0,0.48732 v 1.0721 c 0,0.21502 0.17483,0.38985 0.38985,0.38985 h 2.33912 c 0.21502,0 0.38985,-0.17483 0.38985,-0.38985 v -1.0721 z m 0.38985,0.9259 c 0,-0.081 0.0652,-0.1462 0.1462,-0.1462 h 0.29239 c 0.081,0 0.14619,0.0652 0.14619,0.1462 0,0.081 -0.0652,0.1462 -0.14619,0.1462 h -0.29239 c -0.081,0 -0.1462,-0.0652 -0.1462,-0.1462 z m 0.87717,0 c 0,-0.081 0.0652,-0.1462 0.14619,-0.1462 h 0.38986 c 0.081,0 0.14619,0.0652 0.14619,0.1462 0,0.081 -0.0652,0.1462 -0.14619,0.1462 h -0.38986 c -0.081,0 -0.14619,-0.0652 -0.14619,-0.1462 z"
        id="path1-48"
@@ -2829,7 +2829,7 @@
        inkscape:label="B1S1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan20">Sala-1</tspan></text><text
+         id="tspan17">Sala-1</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2839,9 +2839,9 @@
        inkscape:label="BIBLIOTECA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan22"> <tspan
+         id="tspan19"> <tspan
    style="font-size:4.45266px"
-   id="tspan21">BIBLIOTECA</tspan></tspan></text><text
+   id="tspan18">BIBLIOTECA</tspan></tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2851,7 +2851,7 @@
        inkscape:label="BIBLIOTECA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan23">TELEMÁTICA</tspan></text><text
+         id="tspan20">TELEMÁTICA</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:40.5466;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2861,12 +2861,12 @@
        inkscape:label="BIBLIOTECA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan24">Sala Estudos<tspan
+         id="tspan21">Sala Estudos<tspan
    y="179.875"
-   id="tspan25"> </tspan></tspan><tspan
+   id="tspan22"> </tspan></tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan26">em Grupo</tspan></text><text
+         id="tspan23">em Grupo</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:49.0452;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2876,11 +2876,11 @@
        inkscape:label="BIBLIOTECA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan27">Sala
+         id="tspan24">Sala
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan28">Atendimento</tspan></text><text
+         id="tspan25">Atendimento</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2890,7 +2890,7 @@
        inkscape:label="BIBLIOTECA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan29">Avante</tspan></text><text
+         id="tspan26">Avante</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:59.1525;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2900,7 +2900,7 @@
        inkscape:label="BIBLIOTECA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan30">Sala de Apoio</tspan></text><text
+         id="tspan27">Sala de Apoio</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:59.1525;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2910,11 +2910,11 @@
        inkscape:label="BIBLIOTECA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan31">Sala de Estudos
+         id="tspan28">Sala de Estudos
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan32">Individuais</tspan></text><text
+         id="tspan29">Individuais</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2924,7 +2924,7 @@
        inkscape:label="BIBLIOTECA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan33">Multiuso</tspan></text><text
+         id="tspan30">Multiuso</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2934,7 +2934,7 @@
        inkscape:label="B1S2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan34">Sala-2</tspan></text><text
+         id="tspan31">Sala-2</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2944,7 +2944,7 @@
        inkscape:label="B1S3"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan35">Sala-3</tspan></text><text
+         id="tspan32">Sala-3</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2954,7 +2954,7 @@
        inkscape:label="B1S4"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan36">Sala-4</tspan></text><text
+         id="tspan33">Sala-4</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2964,7 +2964,7 @@
        inkscape:label="B2S1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan37">Sala-1</tspan></text><text
+         id="tspan34">Sala-1</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2974,7 +2974,7 @@
        inkscape:label="B2S2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan38">Sala-2</tspan></text><text
+         id="tspan35">Sala-2</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2984,7 +2984,7 @@
        inkscape:label="B2S3"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan39">Sala-3</tspan></text><text
+         id="tspan36">Sala-3</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -2994,7 +2994,7 @@
        inkscape:label="B2S4"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan40">Sala-4</tspan></text><text
+         id="tspan37">Sala-4</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3004,7 +3004,7 @@
        inkscape:label="B4S1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan41">Sala-1</tspan></text><text
+         id="tspan38">Sala-1</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3014,7 +3014,7 @@
        inkscape:label="B4S2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan42">Sala-2</tspan></text><text
+         id="tspan39">Sala-2</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3024,7 +3024,7 @@
        inkscape:label="B4S3"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan43">Sala-3</tspan></text><text
+         id="tspan40">Sala-3</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3034,7 +3034,7 @@
        inkscape:label="B4S4"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan44">Sala-4</tspan></text><text
+         id="tspan41">Sala-4</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3044,7 +3044,7 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan45">Atélie</tspan></text><text
+         id="tspan42">Atélie</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3054,7 +3054,7 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan46">Telemática</tspan></text><text
+         id="tspan43">Telemática</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3064,12 +3064,12 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan47">Sala de<tspan
+         id="tspan44">Sala de<tspan
    y="179.875"
-   id="tspan48"> </tspan></tspan><tspan
+   id="tspan45"> </tspan></tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan49">Projetos</tspan></text><path
+         id="tspan46">Projetos</tspan></text><path
        id="path2"
        style="display:inline;fill:#aaa9c4;fill-opacity:1;stroke-width:0.00877699"
        d="m 278.06281,280.45083 c 0.1572,0 0.28455,-0.12736 0.28455,-0.2845 0,-0.1571 -0.12735,-0.28449 -0.28455,-0.28449 -0.15711,0 -0.28447,0.12739 -0.28447,0.28449 0,0.15714 0.12736,0.2845 0.28447,0.2845 z"
@@ -3107,7 +3107,7 @@
        inkscape:label="DML"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan50">DML</tspan></text><text
+         id="tspan47">DML</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3117,7 +3117,7 @@
        inkscape:label="DML"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan51">DML</tspan></text><path
+         id="tspan48">DML</tspan></text><path
        id="path2-3"
        style="display:inline;fill:#aaa9c4;fill-opacity:1;stroke-width:0.00877699"
        d="m 333.47853,253.67197 c 0.1572,0 0.28455,-0.12736 0.28455,-0.2845 0,-0.1571 -0.12735,-0.28449 -0.28455,-0.28449 -0.15711,0 -0.28447,0.12739 -0.28447,0.28449 0,0.15714 0.12736,0.2845 0.28447,0.2845 z"
@@ -3141,7 +3141,7 @@
        inkscape:label="DML"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan52">DML</tspan></text><text
+         id="tspan49">DML</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:40.1329;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3151,11 +3151,11 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan53">Sala de
+         id="tspan50">Sala de
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan54">Observação</tspan></text><text
+         id="tspan51">Observação</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:52.3345;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3165,11 +3165,11 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan55">Laboratório de
+         id="tspan52">Laboratório de
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan56">Usabilidade</tspan></text><text
+         id="tspan53">Usabilidade</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:74.7572;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3179,7 +3179,7 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan57">sala de projetos</tspan></text><text
+         id="tspan54">sala de projetos</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:74.7572;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3189,7 +3189,7 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan58">sala de projetos</tspan></text><text
+         id="tspan55">sala de projetos</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:74.7572;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3199,7 +3199,7 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan59">sala de projetos</tspan></text><text
+         id="tspan56">sala de projetos</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:74.7572;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3209,11 +3209,11 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan60">Sala de
+         id="tspan57">Sala de
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan61">Professores</tspan></text><text
+         id="tspan58">Professores</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:74.7572;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3223,11 +3223,11 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan62">INOVE
+         id="tspan59">INOVE
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan63">COWORKING</tspan></text></g><g
+         id="tspan60">COWORKING</tspan></text></g><g
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="InfoVariavelT"
@@ -3241,7 +3241,7 @@
        inkscape:label="B1S1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan64">AAAAAA</tspan></text><text
+         id="tspan61">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3251,7 +3251,7 @@
        inkscape:label="B1S2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan65">AAAAAA</tspan></text><text
+         id="tspan62">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3261,7 +3261,7 @@
        inkscape:label="B1S3"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan66">AAAAAA</tspan></text><text
+         id="tspan63">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3271,47 +3271,47 @@
        inkscape:label="B1S4"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan67">AAAAAA</tspan></text><text
+         id="tspan64">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
        y="179.875"
        id="text19-7"
        transform="matrix(0.29944631,0,0,0.29944631,193.71584,310.43655)"
-       inkscape:label="B2S4"><tspan
+       inkscape:label="B3S4"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan68">AAAAAA</tspan></text><text
+         id="tspan65">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
        y="179.875"
        id="text24-6"
        transform="matrix(0.29944631,0,0,0.29944631,193.71584,301.26212)"
-       inkscape:label="B2S3"><tspan
+       inkscape:label="B3S3"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan69">AAAAAA</tspan></text><text
+         id="tspan66">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
        y="179.875"
        id="text25-2"
        transform="matrix(0.29944631,0,0,0.29944631,193.71584,287.71366)"
-       inkscape:label="B2S2"><tspan
+       inkscape:label="B3S2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan70">AAAAAA</tspan></text><text
+         id="tspan67">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
        y="179.875"
        id="text26-3"
        transform="matrix(0.29944631,0,0,0.29944631,193.71584,270.0234)"
-       inkscape:label="B2S1"><tspan
+       inkscape:label="B3S1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan71">AAAAAA</tspan></text><text
+         id="tspan68">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3321,7 +3321,7 @@
        inkscape:label="B4S4"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan72">AAAAAA</tspan></text><text
+         id="tspan69">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3331,7 +3331,7 @@
        inkscape:label="B4S3"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan73">AAAAAA</tspan></text><text
+         id="tspan70">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3341,7 +3341,7 @@
        inkscape:label="B4S2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan74">AAAAAA</tspan></text><text
+         id="tspan71">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3351,7 +3351,7 @@
        inkscape:label="B4S1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan75">AAAAAA</tspan></text></g><g
+         id="tspan72">AAAAAA</tspan></text></g><g
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="InfoConstanteC"
@@ -3365,7 +3365,7 @@
        inkscape:label="B1LAB1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan76">LAB-1</tspan></text><text
+         id="tspan73">LAB-1</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3375,7 +3375,7 @@
        inkscape:label="B1LAB1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan77">Sala-1</tspan></text><text
+         id="tspan74">Sala-1</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3385,7 +3385,7 @@
        inkscape:label="B1LAB1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan78">COPA</tspan></text><text
+         id="tspan75">COPA</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3395,7 +3395,7 @@
        inkscape:label="B1LAB2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan79">LAB-2</tspan></text><text
+         id="tspan76">LAB-2</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3405,7 +3405,7 @@
        inkscape:label="B1LAB3"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan80">LAB-3</tspan></text><text
+         id="tspan77">LAB-3</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3415,7 +3415,7 @@
        inkscape:label="B1LAB4"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan81">LAB-4</tspan></text><text
+         id="tspan78">LAB-4</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3425,19 +3425,19 @@
        inkscape:label="B2S1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan82">LAB-7</tspan></text><text
+         id="tspan79">LAB-7</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
        y="179.875"
        id="text1-9-0-5-0"
        transform="matrix(0.29944631,0,0,0.29944631,193.6779,286.31814)"
-       inkscape:label="B2S2"><tspan
+       inkscape:label="B3S2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan83">Ateliê<tspan
+         id="tspan80">Ateliê<tspan
    y="179.875"
-   id="tspan84"> </tspan></tspan></text><text
+   id="tspan81"> </tspan></tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3447,12 +3447,12 @@
        inkscape:label="B2S3"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan85">Sala de<tspan
+         id="tspan82">Sala de<tspan
    y="179.875"
-   id="tspan86"> </tspan></tspan><tspan
+   id="tspan83"> </tspan></tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan87">Desenho</tspan></text><text
+         id="tspan84">Desenho</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3462,7 +3462,7 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan88">LAB-6</tspan></text><text
+         id="tspan85">LAB-6</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:45.0432;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3472,7 +3472,7 @@
        inkscape:label="ALMOXARIFADO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan89">Almoxarifado</tspan></text><text
+         id="tspan86">Almoxarifado</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:45.0432;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3482,7 +3482,7 @@
        inkscape:label="B2S2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan90">Telemática</tspan></text><text
+         id="tspan87">Telemática</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3492,7 +3492,7 @@
        inkscape:label="B4LAB5"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan91">LAB-5</tspan></text><text
+         id="tspan88">LAB-5</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:77.362;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3502,12 +3502,12 @@
        inkscape:label="B2S2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan92">Laboratório de Robótica<tspan
+         id="tspan89">Laboratório de Robótica<tspan
    y="179.875"
-   id="tspan93"> </tspan></tspan><tspan
+   id="tspan90"> </tspan></tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan94">e Sistemas pervasivos</tspan></text><text
+         id="tspan91">e Sistemas pervasivos</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:54.8639;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3517,12 +3517,12 @@
        inkscape:label="B2S2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan95">Laboratório de<tspan
+         id="tspan92">Laboratório de<tspan
    y="179.875"
-   id="tspan96"> </tspan></tspan><tspan
+   id="tspan93"> </tspan></tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan97">Pós-Graduação</tspan></text><text
+         id="tspan94">Pós-Graduação</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:68.7486;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3532,13 +3532,13 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan98">Laboratório
+         id="tspan95">Laboratório
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan99">de Arquitetura<tspan
+         id="tspan96">de Arquitetura<tspan
    y="186.54166"
-   id="tspan100"> </tspan></tspan></text><text
+   id="tspan97"> </tspan></tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:68.7486;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3548,11 +3548,11 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan101">Laboratório de
+         id="tspan98">Laboratório de
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan102">Eletrônica</tspan></text><text
+         id="tspan99">Eletrônica</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3562,7 +3562,7 @@
        inkscape:label="COPA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan103">COPA</tspan></text><text
+         id="tspan100">COPA</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3572,7 +3572,7 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan104">Gabinetes</tspan></text><path
+         id="tspan101">Gabinetes</tspan></text><path
        id="path2-0"
        style="display:inline;fill:#aaa9c4;fill-opacity:1;stroke-width:0.00877699"
        d="m 278.0658,280.45083 c 0.1572,0 0.28455,-0.12736 0.28455,-0.2845 0,-0.1571 -0.12735,-0.28449 -0.28455,-0.28449 -0.15711,0 -0.28447,0.12739 -0.28447,0.28449 0,0.15714 0.12736,0.2845 0.28447,0.2845 z"
@@ -3596,7 +3596,7 @@
        inkscape:label="DML"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan105">DML</tspan></text><text
+         id="tspan102">DML</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:74.7572;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3606,7 +3606,7 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan106">Estúdio de Imagem</tspan></text><text
+         id="tspan103">Estúdio de Imagem</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:74.7572;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3616,7 +3616,7 @@
        inkscape:label="ATELIESUJO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan107">Estúdio de Som</tspan></text><text
+         id="tspan104">Estúdio de Som</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3626,7 +3626,7 @@
        inkscape:label="B1LAB1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan108">Sala-2</tspan></text><text
+         id="tspan105">Sala-2</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3636,7 +3636,7 @@
        inkscape:label="B1LAB1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan109">Sala-3</tspan></text><text
+         id="tspan106">Sala-3</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3646,7 +3646,7 @@
        inkscape:label="B1LAB1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan110">Gabinetes</tspan></text><text
+         id="tspan107">Gabinetes</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3656,7 +3656,7 @@
        inkscape:label="B1LAB1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan111">Sala-4</tspan></text><text
+         id="tspan108">Sala-4</tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:41.8378;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3666,12 +3666,12 @@
        inkscape:label="B2LABREDES"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan112">Laboratório<tspan
+         id="tspan109">Laboratório<tspan
    y="179.875"
-   id="tspan113"> </tspan></tspan><tspan
+   id="tspan110"> </tspan></tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan114">Redes</tspan></text></g><g
+         id="tspan111">Redes</tspan></text></g><g
      inkscape:groupmode="layer"
      id="g41"
      inkscape:label="InfoVariavelC"
@@ -3685,7 +3685,7 @@
        inkscape:label="B1LAB1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan115">AAAAAA</tspan></text><text
+         id="tspan112">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3695,7 +3695,7 @@
        inkscape:label="B1LAB2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan116">AAAAAA</tspan></text><text
+         id="tspan113">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3705,7 +3705,7 @@
        inkscape:label="B1LAB3"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan117">AAAAAA</tspan></text><text
+         id="tspan114">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3715,7 +3715,7 @@
        inkscape:label="B1LAB4"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan118">AAAAAA</tspan></text><text
+         id="tspan115">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3725,7 +3725,7 @@
        inkscape:label="B2S1"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan119">AAAAAA</tspan></text><text
+         id="tspan116">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3735,7 +3735,7 @@
        inkscape:label="B2S2"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan120">AAAAAA</tspan></text><text
+         id="tspan117">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3745,7 +3745,7 @@
        inkscape:label="B2S3"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan121">AAAAAA</tspan></text><text
+         id="tspan118">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3755,7 +3755,7 @@
        inkscape:label="B2S4"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan122">AAAAAA</tspan></text><text
+         id="tspan119">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3765,7 +3765,7 @@
        inkscape:label="B2LABREDES"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan123">AAAAAA</tspan></text><text
+         id="tspan120">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3775,7 +3775,7 @@
        inkscape:label="B3LAB6"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan124">AAAAAA</tspan></text><text
+         id="tspan121">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3785,7 +3785,7 @@
        inkscape:label="B3LAB7"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan125">AAAAAA</tspan></text><text
+         id="tspan122">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3795,7 +3795,7 @@
        inkscape:label="B3SALADESENHO"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan126">AAAAAA</tspan></text><text
+         id="tspan123">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3805,7 +3805,7 @@
        inkscape:label="B4LABARQ"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan127">AAAAAA</tspan></text><text
+         id="tspan124">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3815,7 +3815,7 @@
        inkscape:label="B4LABELETRONICA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan128">AAAAAA</tspan></text><text
+         id="tspan125">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3825,7 +3825,7 @@
        inkscape:label="B4LAB5"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan129">AAAAAA</tspan></text><text
+         id="tspan126">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3835,7 +3835,7 @@
        inkscape:label="B4LABROBOTICA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan130">AAAAAA</tspan></text><text
+         id="tspan127">AAAAAA</tspan></text><text
        xml:space="preserve"
        style="font-size:4.0074px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0bfd3;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3845,7 +3845,7 @@
        inkscape:label="B4LABPOS"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan131">AAAAAA</tspan></text></g><g
+         id="tspan128">AAAAAA</tspan></text></g><g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="InfoConstante"
@@ -3893,9 +3893,9 @@
        inkscape:label="TEXT_RU"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan133"><tspan
+         id="tspan130"><tspan
            style="font-family:'Font Awesome 6 Brands';-inkscape-font-specification:'Font Awesome 6 Brands'"
-           id="tspan132">cANTINA</tspan></tspan></text><text
+           id="tspan129">cANTINA</tspan></tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#cdb9a0;fill-opacity:1;stroke-width:21.643"
        x="280.74667"
@@ -3905,11 +3905,11 @@
        inkscape:label="CA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan134">Centro
+         id="tspan131">Centro
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan135">Acadêmico
+         id="tspan132">Acadêmico
 </tspan></text><rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#668000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.946245;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect11"
@@ -3926,15 +3926,15 @@
        inkscape:label="TEXT_GUARITA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan136">ACHADOS
+         id="tspan133">ACHADOS
 </tspan><tspan
          x="280.74667"
          y="186.54166"
-         id="tspan137">E
+         id="tspan134">E
 </tspan><tspan
          x="280.74667"
          y="193.20832"
-         id="tspan138">PERDIDOS
+         id="tspan135">PERDIDOS
 </tspan></text><text
        xml:space="preserve"
        style="font-size:5.33333px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;white-space:pre;inline-size:33.0798;display:inline;fill:#c0c4a9;fill-opacity:1;stroke-width:21.643"
@@ -3945,7 +3945,7 @@
        inkscape:label="TEXT_GUARITA"><tspan
          x="280.74667"
          y="179.875"
-         id="tspan139">GUARITA
+         id="tspan136">GUARITA
 </tspan></text><rect
        style="font-variation-settings:normal;display:inline;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#c0c4a9;stroke-width:0.0695957;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
        id="rect19"

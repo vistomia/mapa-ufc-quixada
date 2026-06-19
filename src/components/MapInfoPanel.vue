@@ -55,6 +55,7 @@
    background-color: white;
    box-shadow: 0 1px 3px rgba(60,64,67,0.3),0 2px 8px 2px rgba(60,64,67,0.15);
    z-index: 1;
+  overflow-y: auto;
 }
 
 .slide-enter-active,

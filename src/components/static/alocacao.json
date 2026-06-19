@@ -184,11 +184,11 @@
         "horario": "08:00 - 10:00",
         "semana": [
           null,
-          { "disciplina": "RC 5- VIRTUALIZAÇÃO E REDES DEFINIDAS POR SOFTWARE", "sigla": "RC5", "professor": "Michel" },
-          { "disciplina": "RC 5- VIRTUALIZAÇÃO E REDES DEFINIDAS POR SOFTWARE", "sigla": "RC5", "professor": "Michel" },
-          { "disciplina": "RC 3 Segurança da Informação", "sigla": "RC3", "professor": "Michel" },
-          { "disciplina": "CC 5-INTELIGÊNCIA ARTIFICIAL", "sigla": "CC5", "professor": "Samy" },
-          { "disciplina": "CC 5 - INTELIGÊNCIA ARTIFICIAL", "sigla": "CC5", "professor": "Samy" },
+          { "disciplina": "RC 5- VIRTUALIZAÇÃO E REDES DEFINIDAS POR SOFTWARE", "sigla": "Virtualização", "professor": "Michel" },
+          { "disciplina": "RC 5- VIRTUALIZAÇÃO E REDES DEFINIDAS POR SOFTWARE", "sigla": "Virtualização", "professor": "Michel" },
+          { "disciplina": "RC 3 Segurança da Informação", "sigla": "Segurança", "professor": "Michel" },
+          { "disciplina": "CC 5-INTELIGÊNCIA ARTIFICIAL", "sigla": "IA", "professor": "Samy" },
+          { "disciplina": "CC 5 - INTELIGÊNCIA ARTIFICIAL", "sigla": "IA", "professor": "Samy" },
           null
         ]
       },
@@ -196,11 +196,11 @@
         "horario": "10:00 - 12:00",
         "semana": [
           null,
-          { "disciplina": "RC 3 - Segurança da Informação", "sigla": "RC3", "professor": "Michel" },
-          { "disciplina": "RC 3-Laboratório em Inf. de Redes", "sigla": "RC3", "professor": "João Marcelo" },
-          { "disciplina": "RC 3-Laboratório em Inf. de Redes", "sigla": "RC3", "professor": "João Marcelo" },
-          { "disciplina": "RC 1-REDES DE COMPUTADORES I", "sigla": "RC1", "professor": "Arthur Callado" },
-          { "disciplina": "RC 1-REDES DE COMPUTADORES I", "sigla": "RC1", "professor": "Arthur Callado" },
+          { "disciplina": "RC 3 - Segurança da Informação", "sigla": "Segurança", "professor": "Michel" },
+          { "disciplina": "RC 3-Laboratório em Inf. de Redes", "sigla": "Inf. de Redes", "professor": "João Marcelo" },
+          { "disciplina": "RC 3-Laboratório em Inf. de Redes", "sigla": "Inf. de Redes", "professor": "João Marcelo" },
+          { "disciplina": "RC 1-REDES DE COMPUTADORES I", "sigla": "Redes I", "professor": "Arthur Callado" },
+          { "disciplina": "RC 1-REDES DE COMPUTADORES I", "sigla": "Redes I", "professor": "Arthur Callado" },
           null
         ]
       },
@@ -210,8 +210,8 @@
           null,
           { "disciplina": "MANUTENÇÃO DE SOFTWARE", "sigla": "Manut", "professor": "Carla" },
           { "disciplina": "MANUTENÇÃO DE SOFTWARE", "sigla": "Manut", "professor": "Carla" },
-          { "disciplina": "EC 5-ANÁLISE DE CIRCUITOS", "sigla": "EC5", "professor": "Paulo Armando" },
-          { "disciplina": "EC 5-ANÁLISE DE CIRCUITOS", "sigla": "EC5", "professor": "Paulo Armando" },
+          { "disciplina": "EC 5-ANÁLISE DE CIRCUITOS", "sigla": "AC", "professor": "Paulo Armando" },
+          { "disciplina": "EC 5-ANÁLISE DE CIRCUITOS", "sigla": "AC", "professor": "Paulo Armando" },
           { "disciplina": "IA 1-PRÉ-CÁLCULO 04A", "sigla": "Pré-Calc", "professor": "André" },
           null
         ]
@@ -256,7 +256,7 @@
           null,
           { "disciplina": "DD 1- INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 01A", "sigla": "DD1", "professor": "David Sena" },
           null,
-          { "disciplina": "EC 3-CIRCUITOS DIGITAIS 01A 02A", "sigla": "EC3", "professor": "Rodolfo" },
+          { "disciplina": "EC 3-CIRCUITOS DIGITAIS 01A 02A", "sigla": "Circuitos", "professor": "Rodolfo" },
           null,
           { "disciplina": "ENGENHARIA SEMIÓTICA", "sigla": "EngSem", "professor": "Ingrid" },
           null
@@ -267,8 +267,8 @@
         "semana": [
           null, null, null,
           { "disciplina": "ENGENHARIA SEMIÓTICA", "sigla": "EngSem", "professor": "Ingrid" },
-          { "disciplina": "EC 5-ELETRICIDADE E MAGNETISMO", "sigla": "Eletro/CalcII", "professor": "Joel" },
-          { "disciplina": "EC 5-ELETRICIDADE E MAGNETISMO", "sigla": "Eletro/CalcII", "professor": "Joel" },
+          { "disciplina": "EC 5-ELETRICIDADE E MAGNETISMO", "sigla": "Eletro", "professor": "Joel" },
+          { "disciplina": "EC 5-ELETRICIDADE E MAGNETISMO", "sigla": "Eletro", "professor": "Joel" },
           null
         ]
       }
@@ -317,9 +317,9 @@
         "horario": "13:30 - 15:30",
         "semana": [
           null,
-          { "disciplina": "DD 1- INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 01A", "sigla": "DD1", "professor": "David Sena" },
+          { "disciplina": "DD 1- INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 01A", "sigla": "IntroProg", "professor": "David Sena" },
           null,
-          { "disciplina": "EC 3-CIRCUITOS DIGITAIS 01A 02A", "sigla": "EC3", "professor": "Rodolfo" },
+          { "disciplina": "EC 3-CIRCUITOS DIGITAIS 01A 02A", "sigla": "Circuitos", "professor": "Rodolfo" },
           null,
           { "disciplina": "ENGENHARIA SEMIÓTICA", "sigla": "EngSem", "professor": "Ingrid" },
           null
@@ -427,7 +427,7 @@
           { "disciplina": "EC 5-ENGENHARIA DE SOFTWARE 02A", "sigla": "ES", "professor": "Marcelo Martins" },
           { "disciplina": "DD 3-SEMIÓTICA", "sigla": "Semiotica", "professor": "Rochelle" },
           { "disciplina": "DD 3-SEMIÓTICA", "sigla": "Semiotica", "professor": "Rochelle" },
-          { "disciplina": "EC 3- PROBABILIDADE E ESTATÍSTICA 03A", "sigla": "Prob", "professor": "Elvis" },
+          { "disciplina": "EC 3- PROBABILIDADE E ESTATÍSTICA 03A", "sigla": "Probilidade", "professor": "Elvis" },
           null
         ]
       },
@@ -437,7 +437,7 @@
           null,
           { "disciplina": "DD 1-HISTÓRIA DA ARTE", "sigla": "HistArte", "professor": "Paulo Victor" },
           { "disciplina": "DD 1-HISTÓRIA DA ARTE", "sigla": "HistArte", "professor": "Paulo Victor" },
-          { "disciplina": "EC 3- PROBABILIDADE E ESTATÍSTICA", "sigla": "Prob", "professor": "Elvis" },
+          { "disciplina": "EC 3- PROBABILIDADE E ESTATÍSTICA", "sigla": "Probabilidade", "professor": "Elvis" },
           { "disciplina": "ES 5- EMPREENDEDORISMO", "sigla": "Empreend", "professor": "Wesley" },
           { "disciplina": "ES 5- EMPREENDEDORISMO", "sigla": "Empreend", "professor": "Wesley" },
           null
@@ -453,7 +453,7 @@
         "horario": "08:00 - 10:00",
         "semana": [
           null, null,
-          { "disciplina": "Monitoria de FBD", "sigla": "Mon/PPCT", "professor": "Victor" },
+          { "disciplina": "Monitoria de FBD", "sigla": "Monitoria", "professor": "Victor" },
           { "disciplina": "PROJETO TÉCNICO-CIENTÍFICO EM DESIGN DIGITAL 02A", "sigla": "ProjDesign", "professor": "Marcos Devaner" },
           { "disciplina": "ES 5-PROJETO INTEGRADO EM ENGENHARIA DE SOFTWARE II 01A", "sigla": "PI-ES", "professor": "Leonara / Joel" },
           { "disciplina": "ES 5-PROJETO INTEGRADO EM ENGENHARIA DE SOFTWARE II 02A", "sigla": "PI-ES", "professor": "Leonara / Joel" },
@@ -464,7 +464,7 @@
         "horario": "10:00 - 12:00",
         "semana": [
           null, null,
-          { "disciplina": "CC 7-PROJETO DE PESQUISA CIENTÍFICA", "sigla": "Mon/PPCT", "professor": "Marcos Devaner" },
+          { "disciplina": "CC 7-PROJETO DE PESQUISA CIENTÍFICA", "sigla": "PPCT", "professor": "Marcos Devaner" },
           null,
           { "disciplina": "ONDAS E ANTENAS", "sigla": "Ondas", "professor": "Joel" },
           { "disciplina": "ONDAS E ANTENAS", "sigla": "Ondas", "professor": "Joel" },
@@ -713,7 +713,7 @@
         "horario": "13:30 - 15:30",
         "semana": [
           null,
-          { "disciplina": "EC 7 Sistemas Distribuídos 01A", "sigla": "SisDist", "professor": "Rafael" },
+          { "disciplina": "EC 7 Sistemas Distribuídos 01A", "sigla": "SD", "professor": "Rafael" },
           { "disciplina": "ES 3- ANÁLISE E PROJETO DE SISTEMAS 03A", "sigla": "APS", "professor": "Emanuel" },
           { "disciplina": "ES 3-SISTEMAS OPERACIONAIS 02A", "sigla": "SO", "professor": "Pedro Botelho" },
           { "disciplina": "ES 3-SISTEMAS OPERACIONAIS 02A", "sigla": "SO", "professor": "Pedro Botelho" },
@@ -858,8 +858,8 @@
         "horario": "13:30 - 15:30",
         "semana": [
           null,
-          { "disciplina": "EC 3- ORGANIZAÇÃO DE COMPUTADORES / EC 5-SISTEMAS DIGITAIS", "sigla": "Org/SisDig", "professor": "Thiago" },
-          { "disciplina": "EC 3- ORGANIZAÇÃO DE COMPUTADORES / EC 5-SISTEMAS DIGITAIS", "sigla": "Org/SisDig", "professor": "Thiago" },
+          { "disciplina": "EC 3- ORGANIZAÇÃO DE COMPUTADORES", "sigla": "Org", "professor": "Thiago" },
+          { "disciplina": "EC 3- ORGANIZAÇÃO DE COMPUTADORES", "sigla": "Org", "professor": "Thiago" },
           { "disciplina": "EC 7-Sistemas de Tempo-Real", "sigla": "STR", "professor": "André" },
           { "disciplina": "EC 7-Sistemas de Tempo-Real", "sigla": "STR", "professor": "André" },
           null
@@ -1025,7 +1025,7 @@
         "semana": [
           null,
           { "disciplina": "ES 3- ANÁLISE E PROJETO DE SISTEMAS 03A", "sigla": "APS", "professor": "Emanuel" },
-          { "disciplina": "EC 7 Sistemas Distribuídos 01A", "sigla": "SisDist", "professor": "Rafael" },
+          { "disciplina": "EC 7 Sistemas Distribuídos 01A", "sigla": "SD", "professor": "Rafael" },
           { "disciplina": "EC1-FUNDAMENTOS DE PROGRAMAÇÃO 12A", "sigla": "FUP", "professor": "Claro" },
           { "disciplina": "EC1-FUNDAMENTOS DE PROGRAMAÇÃO 12A", "sigla": "FUP", "professor": "Claro" },
           { "disciplina": "EC1- FUNDAMENTOS DE PROGRAMAÇÃO 12A", "sigla": "FUP", "professor": "Claro" },
@@ -1066,7 +1066,7 @@
         "horario": "10:00 - 12:00",
         "semana": [
           null,
-          { "disciplina": "RC 5 Sistemas Distribuídos 02A", "sigla": "SisDist", "professor": "Rafael" },
+          { "disciplina": "RC 5 Sistemas Distribuídos 02A", "sigla": "SD", "professor": "Rafael" },
           { "disciplina": "CC 5- DESENVOLVIMENTO DE SOFTWARE PARA WEB 03A", "sigla": "Web", "professor": "Sidartha" },
           { "disciplina": "CC 5- DESENVOLVIMENTO DE SOFTWARE PARA WEB 03A", "sigla": "Web", "professor": "Sidartha" },
           { "disciplina": "CC 5-COMPUTAÇÃO GRÁFICA 01A", "sigla": "CompGraf", "professor": "Rubens" },
@@ -1147,7 +1147,7 @@
         "semana": [
           null, null,
           { "disciplina": "CC 3-PROGRAMAÇÃO FUNCIONAL", "sigla": "ProgFunc", "professor": "Ricardo Reis" },
-          { "disciplina": "RC 5 Sistemas Distribuídos 02A", "sigla": "SisDist", "professor": "Rafael" },
+          { "disciplina": "RC 5 Sistemas Distribuídos 02A", "sigla": "SD", "professor": "Rafael" },
           null, null, null
         ]
       },
@@ -1167,9 +1167,9 @@
           null,
           { "disciplina": "DD 1-INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 02A", "sigla": "IntroProg", "professor": "Bruno Góis" },
           { "disciplina": "DD 1-INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 02A", "sigla": "IntroProg", "professor": "Bruno Góis" },
-          { "disciplina": "DD 5 - TIPOGRAFIA 01", "sigla": "Tipo", "professor": "Tarcísio" },
-          { "disciplina": "DD 5-TIPOGRAFIA 01", "sigla": "Tipo", "professor": "Tarcísio" },
-          { "disciplina": "DD 1 - MULTIMÍDIA 01A", "sigla": "Multi", "professor": "Tarcísio" },
+          { "disciplina": "DD 5 - TIPOGRAFIA 01", "sigla": "Tipografia", "professor": "Tarcísio" },
+          { "disciplina": "DD 5-TIPOGRAFIA 01", "sigla": "Tipografia", "professor": "Tarcísio" },
+          { "disciplina": "DD 1 - MULTIMÍDIA 01A", "sigla": "Multimídia", "professor": "Tarcísio" },
           null
         ]
       },
@@ -1177,8 +1177,8 @@
         "horario": "15:30 - 17:30",
         "semana": [
           null,
-          { "disciplina": "DD 5-PROJETO DE INTERFACES WEB 02A", "sigla": "Proj", "professor": "Jefferson Carvalho" },
-          { "disciplina": "DD 5-PROJETO DE INTERFACES WEB 02A", "sigla": "Proj", "professor": "Jefferson Carvalho" },
+          { "disciplina": "DD 5-PROJETO DE INTERFACES WEB 02A", "sigla": "PIW", "professor": "Jefferson Carvalho" },
+          { "disciplina": "DD 5-PROJETO DE INTERFACES WEB 02A", "sigla": "PIW", "professor": "Jefferson Carvalho" },
           { "disciplina": "DD 1-MULTIMÍDIA 01A", "sigla": "Multi", "professor": "Tarcisio" },
           null, null, null
         ]
@@ -1220,7 +1220,7 @@
           { "disciplina": "DD 1-INTRODUÇÃO À PROGRAMAÇÃO PARA DESIGN 01A", "sigla": "IntroProg", "professor": "David Sena" },
           { "disciplina": "FUNDAMENTOS DE BANCO DE DADOS 04A", "sigla": "FBD", "professor": "Victor Pinheiro" },
           { "disciplina": "FUNDAMENTOS DE BANCO DE DADOS 04A", "sigla": "FBD", "professor": "Victor Pinheiro" },
-          { "disciplina": "DD 1-MULTIMÍDIA 01A", "sigla": "Multi", "professor": "Tarcísio" },
+          { "disciplina": "DD 1-MULTIMÍDIA 01A", "sigla": "Multimídia", "professor": "Tarcísio" },
           null
         ]
       },
@@ -1231,8 +1231,8 @@
           { "disciplina": "IA 1 - FUNDAMENTOS DE PROGRAMAÇÃO 03A", "sigla": "FUP", "professor": "Alexandre" },
           { "disciplina": "IA 1 - FUNDAMENTOS DE PROGRAMAÇÃO 03A", "sigla": "FUP", "professor": "Alexandre" },
           { "disciplina": "IA 1 - FUNDAMENTOS DE PROGRAMAÇÃO 03A", "sigla": "FUP", "professor": "Alexandre" },
-          { "disciplina": "DD 1 - MULTIMÍDIA 02A", "sigla": "Multi", "professor": "Tarcísio" },
-          { "disciplina": "DD 1 - MULTIMÍDIA 02A", "sigla": "Multi", "professor": "Tarcísio" },
+          { "disciplina": "DD 1 - MULTIMÍDIA 02A", "sigla": "Multimídia", "professor": "Tarcísio" },
+          { "disciplina": "DD 1 - MULTIMÍDIA 02A", "sigla": "Multimídia", "professor": "Tarcísio" },
           null
         ]
       }
@@ -1261,7 +1261,7 @@
           { "disciplina": "CC 1 - FUNDAMENTOS DE PROGRAMAÇÃO 02A", "sigla": "FUP", "professor": "Alexandre" },
           { "disciplina": "CC 1 - FUNDAMENTOS DE PROGRAMAÇÃO 02A", "sigla": "FUP", "professor": "Alexandre" },
           { "disciplina": "CC 1 - FUNDAMENTOS DE PROGRAMAÇÃO 02A", "sigla": "FUP", "professor": "Alexandre" },
-          { "disciplina": "EC 3 - CIRCUITOS DIGITAIS 01A", "sigla": "Circ", "professor": "Rodolfo" },
+          { "disciplina": "EC 3 - CIRCUITOS DIGITAIS 01A", "sigla": "Circuitos", "professor": "Rodolfo" },
           null, null
         ]
       },
@@ -1269,8 +1269,8 @@
         "horario": "13:30 - 15:30",
         "semana": [
           null,
-          { "disciplina": "DD 5 - PROJETO DE INTERFACES WEB 01A", "sigla": "Proj", "professor": "Jefferson Carvalho" },
-          { "disciplina": "DD 5 - PROJETO DE INTERFACES WEB 01A", "sigla": "Proj", "professor": "Jefferson Carvalho" },
+          { "disciplina": "DD 5 - PROJETO DE INTERFACES WEB 01A", "sigla": "PIW", "professor": "Jefferson Carvalho" },
+          { "disciplina": "DD 5 - PROJETO DE INTERFACES WEB 01A", "sigla": "PIW", "professor": "Jefferson Carvalho" },
           { "disciplina": "Preparação da OBI", "sigla": "OBI", "professor": "Prof. Paulo Henrique / Bolsista João Vitor" },
           { "disciplina": "EC 3 - CIRCUITOS DIGITAIS 02A", "sigla": "Circ", "professor": "Rodolfo" },
           null, null
@@ -1312,7 +1312,7 @@
             null,
             {
               "disciplina": "Mestrado - SEMINÁRIOS EM COMPUTAÇÃO",
-              "sigla": null,
+              "sigla": "Seminários",
               "professor": "Carla"
             },
             null,
