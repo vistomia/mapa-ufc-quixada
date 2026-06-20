@@ -1,6 +1,7 @@
 <template>
-  <div id="app-info" class="coordinates app-info">
+  <div class="info-panel-wrapper">
     <button class="close-btn" @click="$emit('close')">◂</button>
+    <div id="app-info" class="coordinates app-info">
       <div class="app-img">
         <img 
           decoding="async" 
@@ -16,7 +17,8 @@
       </p>
       <ScheduleInfo :alocacaoInfo="conteudo.alocacaoInfo" :initialDayIndex="simulatedDate.getDay()" :simulatedDate="simulatedDate"></ScheduleInfo>
     </div>
-  </template>
+  </div>
+</template>
   
   <script setup>
     import { defineProps, defineEmits} from 'vue'
@@ -46,16 +48,21 @@
 
 
 <style>
-.app-info {
+.info-panel-wrapper {
    position: absolute;
    top: 0;
    left: 0;
    width: 480px;
    height: 100%;
+   z-index: 1;
+}
+
+.app-info {
+   width: 100%;
+   height: 100%;
    background-color: white;
    box-shadow: 0 1px 3px rgba(60,64,67,0.3),0 2px 8px 2px rgba(60,64,67,0.15);
-   z-index: 1;
-  overflow-y: auto;
+   overflow-y: auto;
 }
 
 .slide-enter-active,
