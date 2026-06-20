@@ -20,7 +20,7 @@
         title="Filtrar por aulas acontecendo agora"
       >
         <span class="pulse-dot" v-if="onlyNow"></span>
-        🕒 Agora
+        Agora
       </button>
     </div>
 

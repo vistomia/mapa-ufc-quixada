@@ -14,7 +14,7 @@
       <p class="app-description">
         {{ conteudo.description }}
       </p>
-      <ScheduleInfo :alocacaoInfo="conteudo.alocacaoInfo" :initialDayIndex="simulatedDate.getDay()"></ScheduleInfo>
+      <ScheduleInfo :alocacaoInfo="conteudo.alocacaoInfo" :initialDayIndex="simulatedDate.getDay()" :simulatedDate="simulatedDate"></ScheduleInfo>
     </div>
   </template>
   

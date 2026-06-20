@@ -149,8 +149,8 @@ function goToRoom(label) {
     }
 
     const rootSvg = svgComponent.value?.$el || document.querySelector('svg');
-    const zoomWidth = 500;
-    const zoomHeight = 500;
+    const zoomWidth = 200;
+    const zoomHeight = 200;
 
     let targetX = bbox.x + bbox.width / 2;
     let targetY = bbox.y + bbox.height / 2;
@@ -173,7 +173,7 @@ function goToRoom(label) {
     viewBox.width = zoomWidth;
     viewBox.height = zoomHeight;
     viewBox.x = targetX - zoomWidth / 2;
-    viewBox.y = targetY - zoomHeight / 2;
+    viewBox.y = targetY - zoomHeight / 4;
 
     return true;
   } catch (e) {
