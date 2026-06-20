@@ -127,9 +127,65 @@ function getSvgCoordinates(event) {
   return { x: svgX, y: svgY };
 }
 
+function goToRoom(label) {
+  const elements = document.querySelectorAll(`[inkscape\\:label="${label}"]`);
+  let targetElement = null;
+  for (const el of elements) {
+    if (el.tagName !== 'text' && el.tagName !== 'tspan') {
+      targetElement = el;
+      break;
+    }
+  }
+  if (!targetElement && elements.length > 0) {
+    targetElement = elements[0];
+  }
+
+  if (!targetElement) return false;
+
+  try {
+    const bbox = targetElement.getBBox();
+    if (bbox.width === 0 && bbox.height === 0) {
+      return false;
+    }
+
+    const rootSvg = svgComponent.value?.$el || document.querySelector('svg');
+    const zoomWidth = 500;
+    const zoomHeight = 500;
+
+    let targetX = bbox.x + bbox.width / 2;
+    let targetY = bbox.y + bbox.height / 2;
+
+    if (rootSvg) {
+      const elementCTM = targetElement.getScreenCTM();
+      const svgCTM = rootSvg.getScreenCTM();
+      if (elementCTM && svgCTM) {
+        const localPoint = rootSvg.createSVGPoint();
+        localPoint.x = bbox.x + bbox.width / 2;
+        localPoint.y = bbox.y + bbox.height / 2;
+
+        const matrix = svgCTM.inverse().multiply(elementCTM);
+        const transformedPoint = localPoint.matrixTransform(matrix);
+        targetX = transformedPoint.x;
+        targetY = transformedPoint.y;
+      }
+    }
+
+    viewBox.width = zoomWidth;
+    viewBox.height = zoomHeight;
+    viewBox.x = targetX - zoomWidth / 2;
+    viewBox.y = targetY - zoomHeight / 2;
+
+    return true;
+  } catch (e) {
+    console.error("Error going to room:", e);
+    return false;
+  }
+}
+
 defineExpose({
   svgComponent,
-  viewBox
+  viewBox,
+  goToRoom
 });
 </script>
 

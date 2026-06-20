@@ -10,10 +10,16 @@
       <Transition name="slide">
          <MapInfoPanel v-if="showInfo" :conteudo="conteudo" :simulatedDate="simulatedDate" @close="showInfo = false"></MapInfoPanel>
       </Transition>
-      <AppSearch class="t"></AppSearch>
+      <AppSearch 
+         class="t"
+         :search-results="searchResults"
+         :simulated-date="simulatedDate"
+         @search-change="handleSearchChange"
+         @select-result="handleSelectResult"
+      />
    </div>
 
-   <MapControls @change="handleTimeChange" @change-floor="handleChangeFloor" />
+   <MapControls :simulated-date="simulatedDate" @change="handleTimeChange" @change-floor="handleChangeFloor" />
 </template>
 
 <script setup>
@@ -27,6 +33,7 @@ import AppSearch from './AppSearch.vue'
 const simulatedDate = ref(new Date());
 const showInfo = ref(false);
 const mapManager = ref(null);
+const searchResults = ref([]);
 const conteudo = ref({
    img: '',
    build: '',
@@ -52,6 +59,32 @@ function handleMouseMove() {
 
 function handleChangeFloor() {
    mapManager.value?.changeFloor();
+}
+
+function handleSearchChange({ query, onlyNow }) {
+   if (!query.trim()) {
+      searchResults.value = [];
+      return;
+   }
+   searchResults.value = mapManager.value?.search(query, onlyNow) || [];
+}
+
+function handleSelectResult(result) {
+   if (result.type === 'class') {
+      const newDate = new Date();
+      const currentDay = newDate.getDay();
+      const diff = result.dayIndex - currentDay;
+      newDate.setDate(newDate.getDate() + diff);
+
+      const [startStr] = result.horario.split(' - ');
+      if (startStr) {
+         const [hours, mins] = startStr.split(':').map(Number);
+         newDate.setHours(hours, mins, 0, 0);
+      }
+      simulatedDate.value = newDate;
+   }
+
+   mapManager.value?.goToRoom(result.label);
 }
 
 </script>

@@ -22,6 +22,7 @@ watch(() => props.simulatedDate, changeInfosByDate)
 
 const mapData = ref(mapDataRaw);
 const alocacao = ref(alocacaoData);
+const mapNavigator = ref(null);
 
 function getCurrentSlot(alocacaoInfo) {
   const date = props.simulatedDate;
@@ -126,12 +127,132 @@ function changeFloor() {
   updateLayers();
 }
 
+function goToRoom(label) {
+  const element = document.querySelector(`[inkscape\\:label="${label}"]`);
+  if (element) {
+    let parent = element.parentElement;
+    let layerLabel = '';
+    while (parent) {
+      if (parent.tagName === 'g' && parent.getAttribute('inkscape:groupmode') === 'layer') {
+        layerLabel = parent.getAttribute('inkscape:label') || '';
+        break;
+      }
+      parent = parent.parentElement;
+    }
+
+    if (layerLabel.endsWith('C') && !isFloorC.value) {
+      changeFloor();
+    } else if (layerLabel.endsWith('T') && isFloorC.value) {
+      changeFloor();
+    }
+  }
+
+  setTimeout(() => {
+    mapNavigator.value?.goToRoom(label);
+    handleElementClick({ label });
+  }, 50);
+}
+
+function search(query, onlyNow) {
+  const q = query.toLowerCase().trim();
+  if (!q) return [];
+
+  const results = [];
+  const dayNames = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado'];
+
+  const date = props.simulatedDate;
+  const dayIndex = date.getDay();
+  const currentTime = date.getHours() * 60 + date.getMinutes();
+
+  // 1. Search for classes in alocacao
+  for (let label in alocacao.value) {
+    const salaInfo = alocacao.value[label];
+    const displayName = mapData.value[1][label] || label;
+    
+    // Check if the room name/description itself matches the query
+    const basicInfo = mapData.value[0][label] || '';
+    const description = typeof basicInfo === 'string' ? basicInfo : (basicInfo.description || '');
+    
+    const labelMatch = label.toLowerCase().includes(q) || 
+                       displayName.toLowerCase().includes(q) || 
+                       description.toLowerCase().includes(q);
+
+    if (salaInfo.grade_horaria) {
+      salaInfo.grade_horaria.forEach(slot => {
+        const [startStr, endStr] = slot.horario.split(' - ');
+        if (!startStr || !endStr) return;
+        const [startH, startM] = startStr.split(':').map(Number);
+        const [endH, endM] = endStr.split(':').map(Number);
+        const startTime = startH * 60 + startM;
+        const endTime = endH * 60 + endM;
+
+        const isTimeNow = currentTime >= startTime && currentTime < endTime;
+
+        slot.semana.forEach((classInfo, index) => {
+          if (!classInfo) return;
+
+          const isDayNow = index === dayIndex;
+          const isHappeningNow = isTimeNow && isDayNow;
+
+          if (onlyNow && !isHappeningNow) return;
+
+          const matchDisciplina = classInfo.disciplina.toLowerCase().includes(q);
+          const matchSigla = classInfo.sigla?.toLowerCase().includes(q);
+          const matchProfessor = classInfo.professor?.toLowerCase().includes(q);
+
+          if (matchDisciplina || matchSigla || matchProfessor || labelMatch) {
+            results.push({
+              type: 'class',
+              label: label,
+              roomName: displayName,
+              disciplina: classInfo.disciplina,
+              sigla: classInfo.sigla,
+              professor: classInfo.professor,
+              horario: slot.horario,
+              dayIndex: index,
+              dayName: dayNames[index],
+              isNow: isHappeningNow
+            });
+          }
+        });
+      });
+    }
+  }
+
+  // 2. Search for rooms/buildings in mapData.value[1] (from map.json)
+  if (!onlyNow) {
+    for (let label in mapData.value[1]) {
+      const displayName = mapData.value[1][label];
+      const basicInfo = mapData.value[0][label] || '';
+      const description = typeof basicInfo === 'string' ? basicInfo : (basicInfo.description || '');
+
+      const labelMatch = label.toLowerCase().includes(q) || 
+                         displayName.toLowerCase().includes(q) || 
+                         description.toLowerCase().includes(q);
+
+      if (labelMatch) {
+        results.push({
+          type: 'room',
+          label: label,
+          roomName: displayName,
+          description: description,
+          isNow: false
+        });
+      }
+    }
+  }
+
+  return results;
+}
+
 onMounted(() => {
   updateLayers();
 });
 
 defineExpose({
-  changeFloor
+  changeFloor,
+  goToRoom,
+  search
 });
 
 </script>

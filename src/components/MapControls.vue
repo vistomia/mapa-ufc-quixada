@@ -38,19 +38,38 @@
 </template>
 
 <script setup>
-import { ref, watch, defineEmits } from 'vue';
+import { ref, watch, defineEmits, defineProps } from 'vue';
+
+const props = defineProps({
+   simulatedDate: {
+      type: Date,
+      default: () => new Date()
+   }
+});
 
 const emit = defineEmits(['change', 'change-floor']);
 
-const nowInitial = new Date();
-const selectedDay = ref(nowInitial.getDay());
-const selectedTimeMinutes = ref(nowInitial.getHours() * 60 + nowInitial.getMinutes());
+const selectedDay = ref(props.simulatedDate.getDay());
+const selectedTimeMinutes = ref(props.simulatedDate.getHours() * 60 + props.simulatedDate.getMinutes());
 
 function formatTime(minutes) {
    const h = Math.floor(minutes / 60).toString().padStart(2, '0');
    const m = (minutes % 60).toString().padStart(2, '0');
    return `${h}:${m}`;
 }
+
+watch(() => props.simulatedDate, (newDate) => {
+   if (!newDate) return;
+   const day = newDate.getDay();
+   const timeMin = newDate.getHours() * 60 + newDate.getMinutes();
+   
+   if (selectedDay.value !== day) {
+      selectedDay.value = day;
+   }
+   if (selectedTimeMinutes.value !== timeMin) {
+      selectedTimeMinutes.value = timeMin;
+   }
+});
 
 watch([selectedDay, selectedTimeMinutes], () => {
    const newDate = new Date();
